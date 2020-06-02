@@ -3163,7 +3163,7 @@ status open
 \noindent
 \align center
 \begin_inset Graphics
-	filename pose_graphics/rightturn/step0.svg
+	filename pose_graphics/leftturn/step0.svg
 	lyxscale 10
 	scale 7
 
@@ -3171,7 +3171,7 @@ status open
 
 
 \begin_inset Graphics
-	filename pose_graphics/rightturn/step1.svg
+	filename pose_graphics/leftturn/step1.svg
 	lyxscale 10
 	scale 7
 
@@ -3179,7 +3179,7 @@ status open
 
 
 \begin_inset Graphics
-	filename pose_graphics/rightturn/step2.svg
+	filename pose_graphics/leftturn/step2.svg
 	lyxscale 10
 	scale 7
 
@@ -3187,7 +3187,7 @@ status open
 
 
 \begin_inset Graphics
-	filename pose_graphics/rightturn/step3.svg
+	filename pose_graphics/leftturn/step3.svg
 	lyxscale 10
 	scale 7
 
@@ -3195,7 +3195,7 @@ status open
 
 
 \begin_inset Graphics
-	filename pose_graphics/rightturn/step4.svg
+	filename pose_graphics/leftturn/step4.svg
 	lyxscale 10
 	scale 7
 
