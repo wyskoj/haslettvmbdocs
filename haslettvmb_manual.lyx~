@@ -257,8 +257,8 @@ Field Anatomy
 \begin_layout Standard
 Most marching that happens while being a member of the band will occur on
  a football field.
- This chapter will demonstrate how to understand the layout of the field
- to be most familiar with it.
+ This chapter will demonstrate how to understand the field to be most familiar
+ with it.
 \end_layout
 
 \begin_layout Subsection
@@ -1440,6 +1440,54 @@ imaginary trumpet
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pose_graphics/attention/attention_hands.svg
+	lyxscale 10
+	scale 10
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+The proper hand position when at 
+\begin_inset Quotes eld
+\end_inset
+
+imaginary trumpet
+\begin_inset Quotes erd
+\end_inset
+
+ Attention.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \noindent
 For each instrument:
 \end_layout
@@ -1448,7 +1496,7 @@ For each instrument:
 \labelwidthstring 00.00.0000
 Flute/Piccolo/Clarinet The horn should be held vertically, with the hands
  positioned in normal playing position, arms extended outwards.
- The mouthpiece should be close to eye level.
+ The mouthpiece should be just above eye level.
 \end_layout
 
 \begin_layout Labeling
@@ -3163,7 +3211,7 @@ status open
 \noindent
 \align center
 \begin_inset Graphics
-	filename pose_graphics/leftturn/step0.svg
+	filename pose_graphics/rightturn/step0.svg
 	lyxscale 10
 	scale 7
 
@@ -3171,7 +3219,7 @@ status open
 
 
 \begin_inset Graphics
-	filename pose_graphics/leftturn/step1.svg
+	filename pose_graphics/rightturn/step1.svg
 	lyxscale 10
 	scale 7
 
@@ -3179,7 +3227,7 @@ status open
 
 
 \begin_inset Graphics
-	filename pose_graphics/leftturn/step2.svg
+	filename pose_graphics/rightturn/step2.svg
 	lyxscale 10
 	scale 7
 
@@ -3187,7 +3235,7 @@ status open
 
 
 \begin_inset Graphics
-	filename pose_graphics/leftturn/step3.svg
+	filename pose_graphics/rightturn/step3.svg
 	lyxscale 10
 	scale 7
 
@@ -3195,7 +3243,7 @@ status open
 
 
 \begin_inset Graphics
-	filename pose_graphics/leftturn/step4.svg
+	filename pose_graphics/rightturn/step4.svg
 	lyxscale 10
 	scale 7
 
@@ -6790,7 +6838,7 @@ Fundamental Block
 \end_layout
 
 \begin_layout Standard
-This section will cover the technicalities and details of 
+This chapter will cover the technicalities and details of 
 \noun on
 Fundamental Block
 \noun default
