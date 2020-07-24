@@ -1409,6 +1409,14 @@ status open
 \end_inset
 
 
+\begin_inset Graphics
+	filename pose_graphics/attention/attention_hands.svg
+	lyxscale 10
+	scale 10
+
+\end_inset
+
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -1431,54 +1439,6 @@ imaginary trumpet
 
 \end_inset
 
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename pose_graphics/attention/attention_hands.svg
-	lyxscale 10
-	scale 10
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-The proper hand position when at 
-\begin_inset Quotes eld
-\end_inset
-
-imaginary trumpet
-\begin_inset Quotes erd
-\end_inset
-
- Attention.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
