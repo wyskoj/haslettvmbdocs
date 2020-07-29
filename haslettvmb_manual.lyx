@@ -5389,11 +5389,67 @@ Lock Prep Step
 \end_inset
 
  when beginning a backwards march, similar to the Lock-Push when forwards
- marching:
+ marching (this is demonstrated in 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "fig:lock-prep-step"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+):
 \end_layout
 
 \begin_layout Quote
 LOCK PREP STEP!
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pose_graphics/prep_step.svg
+	lyxscale 20
+	scale 30
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:lock-prep-step"
+
+\end_inset
+
+The proper 
+\begin_inset Quotes eld
+\end_inset
+
+Lock Prep Step
+\begin_inset Quotes erd
+\end_inset
+
+ movement, as notated.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -5425,7 +5481,7 @@ To switch to going backwards from marching forwards, at the time of the
 \begin_deeper
 \begin_layout Itemize
 It is important to roll all the way through the right foot.
- You can imagine an imaginary pane of plexiglass positioned vertically at
+ You can imagine an imaginary pane of Plexiglas positioned vertically at
  the point where you want to rock and roll: roll all the way through the
  right foot so you can kiss the pane of glass.
 \end_layout
