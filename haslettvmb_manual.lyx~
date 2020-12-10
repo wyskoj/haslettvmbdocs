@@ -69,7 +69,7 @@ fixltx2e
 \rightmargin 1.5in
 \bottommargin 1.5in
 \secnumdepth 3
-\tocdepth 3
+\tocdepth 2
 \paragraph_separation indent
 \paragraph_indentation default
 \is_math_indent 0
@@ -1928,16 +1928,7 @@ line The arms rest to the side holding the sticks, feet apart.
 
 \begin_layout Labeling
 \labelwidthstring 00.00.0000
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-What does guard do???
-\end_layout
-
-\end_inset
-
-
+Flag The flag is held parallel to the ground, feet apart.
 \end_layout
 
 \begin_layout Standard
@@ -2332,8 +2323,8 @@ add more here
 It is important to note that for wind instruments, the mouthpiece of the
  instrument should not be in contact with the mouth; it only makes contact
  when playing.
- Trying to bring the horn up directly to your face in a short, snappy move
- may not be good for the health of your mouth! 
+ Trying to bring the horn up and directly into your mouth in a short, snappy
+ move may not be good for the health of your mouth! 
 \end_layout
 
 \begin_layout Subsubsection
@@ -3807,7 +3798,7 @@ status open
 \begin_inset Graphics
 	filename pose_graphics/lockpush.svg
 	lyxscale 25
-	scale 10
+	scale 20
 
 \end_inset
 
@@ -4027,7 +4018,7 @@ The way to fix this is to guide.
 status open
 
 \begin_layout Plain Layout
-There may be some rare exception to this rule where you guide left.
+There are exceptions to this but they are less common.
 \end_layout
 
 \end_inset
@@ -5389,7 +5380,7 @@ Lock Prep Step
 \end_inset
 
  when beginning a backwards march, similar to the Lock-Push when forwards
- marching (this is demonstrated in 
+ marching (this is demonstrated in Figure 
 \begin_inset CommandInset ref
 LatexCommand vref
 reference "fig:lock-prep-step"
@@ -5417,7 +5408,7 @@ status open
 \begin_inset Graphics
 	filename pose_graphics/prep_step.svg
 	lyxscale 20
-	scale 30
+	scale 20
 
 \end_inset
 
@@ -5765,7 +5756,7 @@ Adjusted Step Size
 .
  This means that the distance in between each step will change.
  In an 8:5, the step distance is 22.5 in.
- For a 16:5 (16 steps for every 5 yards), the step distance 11.25 in.
+ For a 16:5 (16 steps for every 5 yards), the step distance is 11.25 in.
 \end_layout
 
 \begin_layout Standard
@@ -6850,19 +6841,31 @@ Congrats! If you are able to perform all the above fundamentals at any given
 \end_layout
 
 \begin_layout Chapter
+Blocks
+\end_layout
+
+\begin_layout Standard
+This chapter will cover the technicalities and details of the several blocks
+ the band forms, including Fundamental Block and Parade Block.
+\end_layout
+
+\begin_layout Section
 Fundamental Block
 \end_layout
 
 \begin_layout Standard
-This chapter will cover the technicalities and details of 
+
 \noun on
 Fundamental Block
 \noun default
-: the form the band stands in when practicing and learning fundamentals.
+ is used to group all the members of the band together on the field.
+ The purpose of Fundamental Block is to allow for the teaching and practicing
+ of fundamentals.
+ 
 \end_layout
 
-\begin_layout Section
-Fundamental Block Position
+\begin_layout Subsection
+Setup
 \end_layout
 
 \begin_layout Standard
@@ -6917,6 +6920,28 @@ lines.
  so that the general accuracy of the line is maximized.
  For each performer in each line, there is typically 4 steps of distance
  in between (an orange tick).
+\end_layout
+
+\begin_layout Section
+Parade Block
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+Parade Block
+\noun default
+ is used to allow the band to move together in a standardized position.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+TK
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Chapter
@@ -7126,8 +7151,7 @@ Ian's I
 
 \begin_layout Standard
 This drill was presented by former Michigan State's Spartan Marching Band
- Drum Major Ian McNabb during the 2019 Drum Major Clinic, named by Jacob
- Wysko.
+ Drum Major Ian McNabb during the 2019 Drum Major Clinic.
 \begin_inset Foot
 status open
 
