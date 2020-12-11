@@ -240,9 +240,8 @@ Who wrote this book?
 \end_layout
 
 \begin_layout Standard
-The first edition of this book was written by Jacob Wysko in 2020 using
- \SpecialChar LyX
-, with review from 
+The first edition of this book was written by Jacob Wysko in 2020, with
+ review from 
 \begin_inset Note Note
 status open
 
@@ -329,19 +328,11 @@ a member of the band
 \begin_inset Quotes erd
 \end_inset
 
- an 
+ or simply an 
 \begin_inset Quotes eld
 \end_inset
 
 individual
-\begin_inset Quotes erd
-\end_inset
-
- or a 
-\begin_inset Quotes eld
-\end_inset
-
-performer
 \begin_inset Quotes erd
 \end_inset
 
@@ -7220,62 +7211,39 @@ Setup
 
 \begin_layout Standard
 The band has mostly kept sections in the same place from year to year.
- The general layout is found in Figure 
-\begin_inset CommandInset ref
-LatexCommand vref
-reference "fig:fundamental-block-general-layout"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-.
+ Here's generally where each section is located on the field:
 \end_layout
 
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways true
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename graphics/fundamental_block_layout.svg
-	lyxscale 30
-	scale 18
-
-\end_inset
-
-
+\begin_layout Itemize
+L15 & L20 — Color Guard
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:fundamental-block-general-layout"
-
-\end_inset
-
-The general layout of Fundamental Block.
+\begin_layout Itemize
+L25 & L30 — Clarinets
 \end_layout
 
-\end_inset
-
-
+\begin_layout Itemize
+L35 — Flutes
 \end_layout
 
-\begin_layout Plain Layout
-
+\begin_layout Itemize
+L40 & L45 — Alto & Tenor Saxes
 \end_layout
 
-\end_inset
+\begin_layout Itemize
+50 & R45 — Trumpets
+\end_layout
 
+\begin_layout Itemize
+R40 — Mellophones
+\end_layout
 
+\begin_layout Itemize
+R35 & R30 — Trombones
+\end_layout
+
+\begin_layout Itemize
+R25 & R20 — Baritones & Sousaphones
 \end_layout
 
 \begin_layout Standard
@@ -7805,67 +7773,10 @@ BX, RF, BX, RR, FX, RF, FX
 \end_layout
 
 \begin_layout Subsection
-Rockin' Divisors of 2
+Rockin' Powers of 2
 \end_layout
 
 \begin_layout Standard
-This drill helps performers practice Rock & Rolls by marching forwards,
- then backwards, decreasing the march distance each time.
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "100col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status open
-
-\begin_layout Plain Layout
-
-\family typewriter
-F8, RR, B8
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-F6, RR, B6
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-F4, RR, B4
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-F2, RR, B2
-\end_layout
-
-\end_inset
-
 
 \end_layout
 

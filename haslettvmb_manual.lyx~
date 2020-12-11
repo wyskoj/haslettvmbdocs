@@ -5,6 +5,13 @@
 \save_transient_properties true
 \origin unavailable
 \textclass book
+\begin_preamble
+\IfFileExists{lmodern.sty}{\usepackage{lmodern}}{}
+
+\newenvironment{dedication}
+     {\vspace{6ex}\begin{quotation}\begin{center}\begin{em}}
+     {\par\end{em}\end{center}\end{quotation}}
+\end_preamble
 \use_default_options true
 \begin_modules
 lilypond
@@ -68,8 +75,8 @@ fixltx2e
 \topmargin 1.5in
 \rightmargin 1.5in
 \bottommargin 1.5in
-\secnumdepth 3
-\tocdepth 2
+\secnumdepth 5
+\tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
 \is_math_indent 0
@@ -111,7 +118,7 @@ Master Handbook
 
 
 \noun on
-2020 EDITION
+2021 EDITION
 \end_layout
 
 \begin_layout Author
@@ -121,7 +128,7 @@ Wysko et al.
 \end_layout
 
 \begin_layout Date
-July 2020
+December 2020
 \end_layout
 
 \begin_layout Standard
@@ -193,7 +200,8 @@ Fun with Fundamentals
 
  document, you are familiar with the intention of this chapter.
  This chapter aims to be a revamped, updated, formalized version with full,
- complete information for every fundamental and marching maneuver.
+ complete information for every fundamental and marching maneuver, fleshed
+ with figures and diagrams.
  This chapter should ideally be updated from year to year to adjust for
  additions or changes.
 \end_layout
@@ -232,13 +240,151 @@ Who wrote this book?
 \end_layout
 
 \begin_layout Standard
-The first edition of this book was written by Jacob Wysko in 2020, with
- review from 
+The first edition of this book was written by Jacob Wysko in 2020 using
+ \SpecialChar LyX
+, with review from 
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
 add people who help
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+TERMINOLOGY
+\series default
+ 
+\series bold
+RULES
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+Eight to five
+\begin_inset Quotes erd
+\end_inset
+
+ is always written as 
+\begin_inset Quotes eld
+\end_inset
+
+8:5
+\begin_inset Quotes erd
+\end_inset
+
+ with single exception of explanation.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+Yard line
+\begin_inset Quotes erd
+\end_inset
+
+ has a space.
+\end_layout
+
+\begin_layout Itemize
+The musicians, directors, drum majors, and color guard that make up our
+ group is 
+\begin_inset Quotes eld
+\end_inset
+
+the band.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Someone who participates in the band is a 
+\begin_inset Quotes eld
+\end_inset
+
+band member
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+a member of the band
+\begin_inset Quotes erd
+\end_inset
+
+ an 
+\begin_inset Quotes eld
+\end_inset
+
+individual
+\begin_inset Quotes erd
+\end_inset
+
+ or a 
+\begin_inset Quotes eld
+\end_inset
+
+performer
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The correct way to punctuate 
+\begin_inset Quotes eld
+\end_inset
+
+exempli gratia
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+id est
+\begin_inset Quotes erd
+\end_inset
+
+: (e.g., an example, etc.) // (i.e., rewording)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+SHIT TO DO
+\end_layout
+
+\begin_layout Itemize
+Index everything!
 \end_layout
 
 \end_inset
@@ -256,7 +402,17 @@ Field Anatomy
 
 \begin_layout Standard
 Most marching that happens while being a member of the band will occur on
- a football field.
+ a football field
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Field
+\end_layout
+
+\end_inset
+
+.
  This chapter will demonstrate how to understand the field to be most familiar
  with it.
 \end_layout
@@ -298,30 +454,31 @@ Yard
 \begin_inset space ~
 \end_inset
 
-line A physical, vertical line that runs across the entire height of the
- field.
-\end_layout
-
-\begin_layout Description
-Hash An imaginary,
-\begin_inset Foot
+line 
+\begin_inset Index idx
 status open
 
 \begin_layout Plain Layout
-There are typically small horizontal sections of this 
-\begin_inset Quotes eld
-\end_inset
-
-full
-\begin_inset Quotes erd
-\end_inset
-
- line where the hash meets the yard line, so it's not 100% imaginary.
+Yard line
 \end_layout
 
 \end_inset
 
- horizontal line that runs across the entire width of the field, dividing
+A physical, vertical line that runs across the entire height of the field.
+\end_layout
+
+\begin_layout Description
+Hash 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Hash
+\end_layout
+
+\end_inset
+
+A horizontal line that runs across the entire width of the field, dividing
  the field into thirds.
  The 
 \series bold
@@ -332,11 +489,33 @@ is closest to the home sideline, and the
 away/visitor hash 
 \series default
 is closest to the away sideline.
+ There are physical, small, horizontal sections of this line where the hash
+ meets the yard line (see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:field-markings"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
 \end_layout
 
 \begin_layout Description
-Sideline A physical, horizontal line that runs across the entire width of
- the field, defining the upper and lower edges of the field.
+Sideline 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Sideline
+\end_layout
+
+\end_inset
+
+A physical, horizontal line that runs across the entire width of the field,
+ defining the upper and lower edges of the field.
  The sideline next to the press box or tower is the 
 \series bold
 home sideline
@@ -353,8 +532,18 @@ End
 \begin_inset space ~
 \end_inset
 
-zone A physical, vertical line that runs across the entire height of the
- field, defining the left and right edges of the field.
+zone 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+End zone
+\end_layout
+
+\end_inset
+
+A physical, vertical line that runs across the entire height of the field,
+ defining the left and right edges of the field.
  When facing the press box from the field, the right and left end zones
  are defined by the right and left sides of the person.
 \begin_inset Foot
@@ -368,6 +557,22 @@ If the home sideline is north, then the right end zone is east and the left
 \end_inset
 
 
+\end_layout
+
+\begin_layout Description
+Tick 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Tick
+\end_layout
+
+\end_inset
+
+A mark on the practice field, usually orange, spaced 90 inches apart spanning
+ the height of each yard line.
+ These marks are only found on the practice field for reference.
 \end_layout
 
 \begin_layout Itemize
@@ -493,7 +698,7 @@ Markings
 
 \begin_layout Standard
 The field is marked in several ways to help performers find their location
- on the field (a colored diagram is available in Figure 
+ on the field (a diagram is available in Figure 
 \begin_inset CommandInset ref
 LatexCommand vref
 reference "fig:field-markings"
@@ -576,10 +781,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Graphics
@@ -600,6 +801,10 @@ name "fig:field-markings"
 \end_inset
 
 A small section of the practice football field, with the markings displayed.
+ Gray lines represent orange tick marks.
+ Solid ticks represent hash lines.
+ Solid horizontal line represents sideline.
+ Solid vertical lines represent yard lines.
 \end_layout
 
 \end_inset
@@ -624,6 +829,18 @@ Interpreting Your Dotsheet
 The 
 \noun on
 Dotsheet
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\noun off
+Dotsheet
+\end_layout
+
+\end_inset
+
+
 \noun default
  is a personalized slip of paper that defines where you are in each set
  of the show.
@@ -637,23 +854,72 @@ Terminology
 \end_layout
 
 \begin_layout Description
-Show The performance that you will be presenting this year!
+Show 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Show
+\end_layout
+
+\end_inset
+
+The performance that you will be presenting this year!
 \end_layout
 
 \begin_layout Description
-Drill A show consists of drills.
+Drill 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Drill
+\end_layout
+
+\end_inset
+
+A show consists of drills.
  Usually each song in the show correlates to each drill.
 \end_layout
 
 \begin_layout Description
-Set A specific point in time in the show that defines where each performer
- is.
+Set 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Set
+\end_layout
+
+\end_inset
+
+A specific point in time in the show that defines where each performer is.
  A show can consist of many sets, usually close 20.
  You will have to know where you need to be for each set!
 \end_layout
 
 \begin_layout Description
-Coordinate/Dot The specific 
+Coordinate/Dot 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Dot
+\end_layout
+
+\end_inset
+
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Coordinate
+\end_layout
+
+\end_inset
+
+The specific 
 \begin_inset Quotes eld
 \end_inset
 
@@ -665,7 +931,17 @@ x/y
 \end_layout
 
 \begin_layout Description
-Form A loose term to define a group of performers on the field.
+Form 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Form
+\end_layout
+
+\end_inset
+
+A loose term to define a group of performers on the field.
  Forms can last throughout the whole show, or may only last for a set.
 \end_layout
 
@@ -1269,6 +1545,18 @@ Attention
 
 \noun on
 Attention
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\noun off
+Attention
+\end_layout
+
+\end_inset
+
+
 \noun default
  is the most rudimentary fundamental of any, since the band will be holding
  this position for the majority of the time.
@@ -1286,6 +1574,16 @@ holding Attention
 \emph on
 Attention Walk
 \emph default
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Attention ! Attention Walk
+\end_layout
+
+\end_inset
+
 , or marching in 
 \emph on
 Parade Block
@@ -1542,18 +1840,8 @@ imaginary trumpet
 \begin_layout Itemize
 Absolutely NO TALKING.
  How can you pay attention to your leader if you are talking to the people
- around you? The obvious exceptions to this rule are when shouting responses,
- when section leaders are pointing out things to their sections, like 
-\begin_inset Quotes eld
-\end_inset
-
-horn angles!
-\begin_inset Quotes erd
-\end_inset
-
-, and when speaking to a leader or to resolve conflict, etc.
- The main point of not talking is to maintain a mental attention to the
- leader.
+ around you? The main point of not talking is to maintain a mental attention
+ to the leader.
 \end_layout
 
 \begin_layout Standard
@@ -1756,6 +2044,32 @@ Legal commands while at Attention
 \begin_layout Standard
 Attention is the most basic state the band can be in, so any other command
  can be called while the band is at Attention.
+\end_layout
+
+\begin_layout Subsubsection
+Attention Walk
+\end_layout
+
+\begin_layout Standard
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Attention ! Attention Walk
+\end_layout
+
+\end_inset
+
+When the band can't be in step due to reasons, the band can 
+\noun on
+Attention Walk.
+ 
+\noun default
+To attention walk, simply walk at attention.
+ This means every part of the body should appear to be holding Attention
+ except for the legs.
+ This also means the head should remain forward with the chin up, just as
+ it is in Attention.
 \end_layout
 
 \begin_layout Subsection
@@ -2102,8 +2416,8 @@ Transitioning
 \begin_layout Standard
 To transition from Attention to Parade Rest, the left arm should quickly
  snap from its position in Attention to Parade Rest.
- The left foot should also moved out the left, landing just under the armpit/sho
-ulder.
+ The left foot should also move out the left, landing just under the armpit/shou
+lder.
  The right foot never moves! By doing this, your center of mass will move
  to the left.
 \end_layout
@@ -5609,6 +5923,18 @@ Traversing
 
 \noun on
 Traversing
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\noun off
+Traversing
+\end_layout
+
+\end_inset
+
+
 \noun default
  is marching one direction while having the upper body face a different
  direction, up to 90° left or right.
@@ -5696,8 +6022,32 @@ Hip Switch
 Performers perform a 
 \noun on
 Hip Switch
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Hip Switch
+\end_layout
+
+\end_inset
+
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+To the rear
+\end_layout
+
+\end_inset
+
+
 \noun default
- when alternating from forwards marching to backwards marching (and vice
+ (also known by it's response 
+\noun on
+To the Rear) 
+\noun default
+when alternating from forwards marching to backwards marching (and vice
  versa) without changing velocity (heading in same direction).
  An example of when this may be used is traverse marching in a circle.
  If the performer is must always face towards the home sideline and march
@@ -6870,39 +7220,62 @@ Setup
 
 \begin_layout Standard
 The band has mostly kept sections in the same place from year to year.
- Here's generally where each section is located on the field:
+ The general layout is found in Figure 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "fig:fundamental-block-general-layout"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
 \end_layout
 
-\begin_layout Itemize
-L15 & L20 — Color Guard
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways true
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename graphics/fundamental_block_layout.svg
+	lyxscale 20
+	scale 18
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Itemize
-L25 & L30 — Clarinets
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:fundamental-block-general-layout"
+
+\end_inset
+
+The general layout of Fundamental Block.
 \end_layout
 
-\begin_layout Itemize
-L35 — Flutes
+\end_inset
+
+
 \end_layout
 
-\begin_layout Itemize
-L40 & L45 — Alto & Tenor Saxes
+\begin_layout Plain Layout
+
 \end_layout
 
-\begin_layout Itemize
-50 & R45 — Trumpets
-\end_layout
+\end_inset
 
-\begin_layout Itemize
-R40 — Mellophones
-\end_layout
 
-\begin_layout Itemize
-R35 & R30 — Trombones
-\end_layout
-
-\begin_layout Itemize
-R25 & R20 — Baritones & Sousaphones
 \end_layout
 
 \begin_layout Standard
@@ -6932,16 +7305,215 @@ Parade Block
 Parade Block
 \noun default
  is used to allow the band to move together in a standardized position.
-\begin_inset Note Note
+ This position is commonly used to travel to a stadium, during Homecoming
+ Parade, etc.
+ 
+\end_layout
+
+\begin_layout Subsection
+Layout
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways true
 status open
 
 \begin_layout Plain Layout
-TK
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename graphics/parade_block_layout.svg
+	lyxscale 30
+	width 100col%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:parade-block-general-layout"
+
+\end_inset
+
+The general layout of Parade Block.
 \end_layout
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The instruments in Parade Block are typically in the same sections from
+ year to year.
+ The general layout is found in Figure 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "fig:parade-block-general-layout"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Some things are to be noted:
+\end_layout
+
+\begin_layout Itemize
+The Figure only represents a general layout.
+ Year to year, adjustments are made to preserve symmetry with variable section
+ sizes.
+\end_layout
+
+\begin_layout Itemize
+Tenor Saxes are often merged with Alto Saxes if the section is not large
+ enough.
+\end_layout
+
+\begin_layout Subsubsection
+\begin_inset Quotes eld
+\end_inset
+
+Squish
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Marching
+\end_layout
+
+\begin_layout Standard
+Most of the time while in Parade Block, the band will be marching in time
+ because the cadence is playing (see Section 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "subsec:Cadences"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ for more information).
+ The band should march in time with the current song or cadence.
+ Remember, even though we may not be on the field, this should still be
+ a roll step to ensure a good playing quality.
+\end_layout
+
+\begin_layout Subsubsection
+Turns
+\end_layout
+
+\begin_layout Standard
+Turning in Parade Block requires special attention to maintain the form.
+ Because the block consists of 
+\begin_inset Quotes eld
+\end_inset
+
+rows
+\begin_inset Quotes erd
+\end_inset
+
+ the whole row must maintain a row shape throughout the entire turn.
+ To do this, special marching is done:
+\end_layout
+
+\begin_layout Standard
+The individual on the inside will march the least distance while turning,
+ while the individual on the outside of the turn will march the most? Why
+ is this? Imagine each band member is marching on quarter circles (this
+ is demonstrated in Figure 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "fig:parade-block-turn"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ Since the circle furthest away from the epicenter of the circle has a larger
+ circumference, the member that follows that path must march proportionately
+ further.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename graphics/parade_block_turn.svg
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:parade-block-turn"
+
+\end_inset
+
+Members on the inside of a turn in Parade Block have a shorter distance
+ to march compared to those further away from the epicenter (star) of the
+ turn.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Cadences"
+
+\end_inset
+
+Cadences
+\end_layout
+
+\begin_layout Subsection
+Flashes
 \end_layout
 
 \begin_layout Chapter
@@ -7226,6 +7798,86 @@ BX, LF, BX, RR, FX, LF, FX
 \family typewriter
 BX, RF, BX, RR, FX, RF, FX
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Rockin' Divisors of 2
+\end_layout
+
+\begin_layout Standard
+This drill helps performers practice Rock & Rolls by marching forwards,
+ then backwards, decreasing the march distance each time.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+F8, RR, B8
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+F6, RR, B6
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+F4, RR, B4
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+F2, RR, B2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Index
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset index_print
+LatexCommand printindex
+type "idx"
+name "Index"
 
 \end_inset
 
