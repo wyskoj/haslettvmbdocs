@@ -7215,7 +7215,7 @@ Fundamental Block
 \end_layout
 
 \begin_layout Subsection
-Setup
+Layout
 \end_layout
 
 \begin_layout Standard
@@ -7397,6 +7397,22 @@ Squish
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Sometimes while in Parade Block, the band has to fit within a restricted
+ width.
+ Examples of this include doorways, sidewalks, etc.
+ In 
+\begin_inset Quotes eld
+\end_inset
+
+Squish
+\begin_inset Quotes erd
+\end_inset
+
+ rows are divided and stacked, effectively making the parade longer, but
+ more narrow.
 \end_layout
 
 \begin_layout Subsection
