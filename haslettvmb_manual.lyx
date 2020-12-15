@@ -7785,6 +7785,14 @@ Generated
 \begin_layout Standard
 The generated drills are at various difficulties, getting increasingly harder
  with difficulty.
+ 
+\emph on
+Note: the generated drills asume an infinite field, so make sure there is
+ enough space to complete the drill (or don't and throw off the band for
+ elimination block since the band should respond AS YOU WERE if they cannot
+ complete the drill!)
+\emph default
+.
 \end_layout
 
 \begin_layout Subsection
@@ -7793,19 +7801,64 @@ Beginner
 
 \begin_layout Standard
 To complete these drills, the band should be familiar with the following
- fundamentals (and previous if applicable):
+ fundamentals:
 \end_layout
 
 \begin_layout Itemize
-Attention
+Forwards/Backwards march
 \end_layout
 
 \begin_layout Itemize
-Forwards march
+8:5
 \end_layout
 
-\begin_layout Itemize
-Backwards march
+\begin_layout Standard
+\noindent
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+FX, LF, FX, RR, BX, LF, BX
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+FX, RF, FX, RR, BX, RF, BX
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+BX, LF, BX, RR, FX, LF, FX
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+BX, RF, BX, RR, FX, RF, FX
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Chapter

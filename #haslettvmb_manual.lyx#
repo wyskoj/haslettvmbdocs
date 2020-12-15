@@ -240,8 +240,9 @@ Who wrote this book?
 \end_layout
 
 \begin_layout Standard
-The first edition of this book was written by Jacob Wysko in 2020, with
- review from 
+The first edition of this book was written by Jacob Wysko in 2020 using
+ \SpecialChar LyX
+, with review from 
 \begin_inset Note Note
 status open
 
@@ -312,33 +313,66 @@ the band.
 \end_layout
 
 \begin_layout Itemize
-Someone who participates in the band is a 
+Someone who participates in the band can be referred to as:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
 \begin_inset Quotes eld
 \end_inset
 
-band member
-\begin_inset Quotes erd
-\end_inset
-
- or 
-\begin_inset Quotes eld
-\end_inset
-
-a member of the band
-\begin_inset Quotes erd
-\end_inset
-
- or simply an 
-\begin_inset Quotes eld
-\end_inset
-
-individual
+Band member
 \begin_inset Quotes erd
 \end_inset
 
 
 \end_layout
 
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+Member of the band
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+Member
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+Individual
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+Performer
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 The correct way to punctuate 
 \begin_inset Quotes eld
@@ -356,7 +390,7 @@ id est
 \begin_inset Quotes erd
 \end_inset
 
-: (e.g., an example, etc.) // (i.e., rewording)
+ are as follows —> (e.g., an example, etc.) || (i.e., rewording)
 \end_layout
 
 \end_inset
@@ -393,17 +427,7 @@ Field Anatomy
 
 \begin_layout Standard
 Most marching that happens while being a member of the band will occur on
- a football field
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Field
-\end_layout
-
-\end_inset
-
-.
+ a football field.
  This chapter will demonstrate how to understand the field to be most familiar
  with it.
 \end_layout
@@ -445,31 +469,12 @@ Yard
 \begin_inset space ~
 \end_inset
 
-line 
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Yard line
-\end_layout
-
-\end_inset
-
-A physical, vertical line that runs across the entire height of the field.
+line A physical, vertical line that runs across the entire height of the
+ field.
 \end_layout
 
 \begin_layout Description
-Hash 
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Hash
-\end_layout
-
-\end_inset
-
-A horizontal line that runs across the entire width of the field, dividing
+Hash A horizontal line that runs across the entire width of the field, dividing
  the field into thirds.
  The 
 \series bold
@@ -495,18 +500,8 @@ noprefix "false"
 \end_layout
 
 \begin_layout Description
-Sideline 
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Sideline
-\end_layout
-
-\end_inset
-
-A physical, horizontal line that runs across the entire width of the field,
- defining the upper and lower edges of the field.
+Sideline A physical, horizontal line that runs across the entire width of
+ the field, defining the upper and lower edges of the field.
  The sideline next to the press box or tower is the 
 \series bold
 home sideline
@@ -523,18 +518,8 @@ End
 \begin_inset space ~
 \end_inset
 
-zone 
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-End zone
-\end_layout
-
-\end_inset
-
-A physical, vertical line that runs across the entire height of the field,
- defining the left and right edges of the field.
+zone A physical, vertical line that runs across the entire height of the
+ field, defining the left and right edges of the field.
  When facing the press box from the field, the right and left end zones
  are defined by the right and left sides of the person.
 \begin_inset Foot
@@ -551,18 +536,8 @@ If the home sideline is north, then the right end zone is east and the left
 \end_layout
 
 \begin_layout Description
-Tick 
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Tick
-\end_layout
-
-\end_inset
-
-A mark on the practice field, usually orange, spaced 90 inches apart spanning
- the height of each yard line.
+Tick A mark on the practice field, usually orange, spaced 90 inches apart
+ spanning the height of each yard line.
  These marks are only found on the practice field for reference.
 \end_layout
 
@@ -820,18 +795,6 @@ Interpreting Your Dotsheet
 The 
 \noun on
 Dotsheet
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-
-\noun off
-Dotsheet
-\end_layout
-
-\end_inset
-
-
 \noun default
  is a personalized slip of paper that defines where you are in each set
  of the show.
@@ -845,72 +808,23 @@ Terminology
 \end_layout
 
 \begin_layout Description
-Show 
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Show
-\end_layout
-
-\end_inset
-
-The performance that you will be presenting this year!
+Show The performance that you will be presenting this year!
 \end_layout
 
 \begin_layout Description
-Drill 
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Drill
-\end_layout
-
-\end_inset
-
-A show consists of drills.
+Drill A show consists of drills.
  Usually each song in the show correlates to each drill.
 \end_layout
 
 \begin_layout Description
-Set 
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Set
-\end_layout
-
-\end_inset
-
-A specific point in time in the show that defines where each performer is.
+Set A specific point in time in the show that defines where each performer
+ is.
  A show can consist of many sets, usually close 20.
  You will have to know where you need to be for each set!
 \end_layout
 
 \begin_layout Description
-Coordinate/Dot 
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Dot
-\end_layout
-
-\end_inset
-
-
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Coordinate
-\end_layout
-
-\end_inset
-
-The specific 
+Coordinate/Dot The specific 
 \begin_inset Quotes eld
 \end_inset
 
@@ -922,17 +836,7 @@ x/y
 \end_layout
 
 \begin_layout Description
-Form 
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Form
-\end_layout
-
-\end_inset
-
-A loose term to define a group of performers on the field.
+Form A loose term to define a group of performers on the field.
  Forms can last throughout the whole show, or may only last for a set.
 \end_layout
 
@@ -1536,18 +1440,6 @@ Attention
 
 \noun on
 Attention
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-
-\noun off
-Attention
-\end_layout
-
-\end_inset
-
-
 \noun default
  is the most rudimentary fundamental of any, since the band will be holding
  this position for the majority of the time.
@@ -1565,16 +1457,6 @@ holding Attention
 \emph on
 Attention Walk
 \emph default
-
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Attention ! Attention Walk
-\end_layout
-
-\end_inset
-
 , or marching in 
 \emph on
 Parade Block
@@ -2042,15 +1924,6 @@ Attention Walk
 \end_layout
 
 \begin_layout Standard
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Attention ! Attention Walk
-\end_layout
-
-\end_inset
-
 When the band can't be in step due to reasons, the band can 
 \noun on
 Attention Walk.
@@ -4294,7 +4167,7 @@ It is vital that your upper body remain motionless while marching because
  you are also playing an instrument while doing this! Imagine if you were
  to march a show while bouncing up and down, your tone would go up and down
  too! Multiply that by 100 people in the band and now we can't agree that
- A4 = 440hz.
+ A4 = 440 Hz.
 \end_layout
 
 \begin_layout Subsubsection
@@ -5914,21 +5787,9 @@ Traversing
 
 \noun on
 Traversing
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-
-\noun off
-Traversing
-\end_layout
-
-\end_inset
-
-
 \noun default
  is marching one direction while having the upper body face a different
- direction, up to 90° left or right.
+ direction, up to 90º left or right.
  It is common to 
 \begin_inset Quotes eld
 \end_inset
@@ -5937,7 +5798,7 @@ traverse home
 \begin_inset Quotes erd
 \end_inset
 
- to allow the band to march one direction, put point the instruments towards
+ to allow the band to march one direction and point the instruments towards
  the home sideline for best audio quality.
 \end_layout
 
@@ -5962,7 +5823,7 @@ facing direction
  This could be forwards, backwards, or any angle in between.
  The facing direction is the direction the upper body is facing while marching.
  It is possible for the facing direction to be anywhere within the range
- of -90° to +90° from the direction of the marching direction.
+ of –90º to +90º from the direction of the marching direction.
  
 \begin_inset CommandInset label
 LatexCommand label
@@ -5971,7 +5832,7 @@ name "traversing-never-backwards-at-90"
 \end_inset
 
 It should be noted that performers will never march backwards when the facing
- angle is 90° of the marching angle (they will forwards march instead).
+ angle is 90º of the marching angle (they will forwards march instead).
 \end_layout
 
 \begin_layout Itemize
@@ -5979,8 +5840,8 @@ To rotate the body to the desired facing direction, the hips should rotate
  half way to the desired angle, then the upper torso should rotate another
  half, resulting in the shoulders above having a net rotation of the desired
  facing rotation.
- For example, if you needed to traverse 90°, your hips will rotate 45°,
- and the upper body will rotate another 45°, resulting in a 90° rotation
+ For example, if you needed to traverse 90º, your hips will rotate 45º,
+ and the upper body will rotate another 45º, resulting in a 90º rotation
  of the upper body.
 \end_layout
 
@@ -6003,6 +5864,8 @@ drift
  or march oblique to their intended marching path if they are traversing.
  It is simple as just practicing to overcome this habit and remain on track.
  Extra attention must be given to the feet to achieve this.
+ It may be helpful to overcompensate when first learning traversing to effective
+ly remain the correct path.
 \end_layout
 
 \begin_layout Subsection
@@ -6013,42 +5876,22 @@ Hip Switch
 Performers perform a 
 \noun on
 Hip Switch
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Hip Switch
-\end_layout
-
-\end_inset
-
-
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-To the rear
-\end_layout
-
-\end_inset
-
-
 \noun default
- (also known by it's response 
+ (also known by its response 
 \noun on
 To the Rear) 
 \noun default
 when alternating from forwards marching to backwards marching (and vice
  versa) without changing velocity (heading in same direction).
  An example of when this may be used is traverse marching in a circle.
- If the performer is must always face towards the home sideline and march
- in a circle, they will have to hip switch on either side of the circle
- so that they can remain marching in the correct direction without turning
- the upper body more than 90°.
+ If the performer must always face towards the home sideline and march in
+ a circle, they will have to hip switch on either side of the circle so
+ that they can remain marching in the correct direction without turning
+ the upper body more than 90º.
 \end_layout
 
 \begin_layout Itemize
-The hip switch can be thought of as a 180° flank.
+The hip switch can be thought of as a 180º flank.
  When doing a hip switch, you will always pivot on your right foot, and
  your left foot will swing around.
  The movement, like all others, is short and snappy.
@@ -6084,7 +5927,7 @@ status open
 
 \begin_layout Plain Layout
 Given the performer remains in normal step time (does not move to half time
- or double time).
+ or double time) and the tempo is constant, etc.
 \end_layout
 
 \end_inset
@@ -6997,7 +6840,7 @@ A good way to practice flankings and roll stepping is with a
 Box
 \noun default
 .
- A box consists of three turns, and be in variable size and direction.
+ A box consists of three turns, and can be in variable size and direction.
  For example, some valid boxes:
 \begin_inset Foot
 status open
@@ -7125,7 +6968,7 @@ noprefix "false"
 
 \end_inset
 
-, performers will never march backwards when traversing at a 90°.
+, performers will never march backwards when traversing at a 90º.
  They will forwards march while traversing the appropriate direction.
 \end_layout
 
@@ -7171,14 +7014,44 @@ Just like how traverse boxes are good for practicing traversing, having
  have the band do another box at a different step size.
 \end_layout
 
+\begin_layout Standard
+Examples of how adjusted boxes are labeled:
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+BoxR6@6:5 
+\begin_inset Quotes eld
+\end_inset
+
+Box Right 6 at a 6:5
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+RoxL18@12:5 
+\begin_inset Quotes eld
+\end_inset
+
+Box Left 18 at a 12:5
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Conclusion
 \end_layout
 
 \begin_layout Standard
 Congrats! If you are able to perform all the above fundamentals at any given
- tempo, consider yourself an experienced marcher! The entire band should
- be able to execute all fundamentals while playing.
+ tempo while playing your instrument, consider yourself an experienced marcher!
+ The entire band should be able to execute all fundamentals while playing.
 \end_layout
 
 \begin_layout Chapter
@@ -7206,44 +7079,67 @@ Fundamental Block
 \end_layout
 
 \begin_layout Subsection
-Setup
+Layout
 \end_layout
 
 \begin_layout Standard
 The band has mostly kept sections in the same place from year to year.
- Here's generally where each section is located on the field:
+ The general layout is found in Figure 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "fig:fundamental-block-general-layout"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
 \end_layout
 
-\begin_layout Itemize
-L15 & L20 — Color Guard
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways true
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename graphics/fundamental_block_layout.svg
+	lyxscale 30
+	scale 18
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Itemize
-L25 & L30 — Clarinets
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:fundamental-block-general-layout"
+
+\end_inset
+
+The general layout of Fundamental Block.
 \end_layout
 
-\begin_layout Itemize
-L35 — Flutes
+\end_inset
+
+
 \end_layout
 
-\begin_layout Itemize
-L40 & L45 — Alto & Tenor Saxes
+\begin_layout Plain Layout
+
 \end_layout
 
-\begin_layout Itemize
-50 & R45 — Trumpets
-\end_layout
+\end_inset
 
-\begin_layout Itemize
-R40 — Mellophones
-\end_layout
 
-\begin_layout Itemize
-R35 & R30 — Trombones
-\end_layout
-
-\begin_layout Itemize
-R25 & R20 — Baritones & Sousaphones
 \end_layout
 
 \begin_layout Standard
@@ -7352,8 +7248,8 @@ The Figure only represents a general layout.
 \end_layout
 
 \begin_layout Itemize
-Tenor Saxes are often merged with Alto Saxes if the section is not large
- enough.
+Tenor Saxes are often merged with Alto Saxes if the section is small enough
+ to merge.
 \end_layout
 
 \begin_layout Subsubsection
@@ -7365,6 +7261,37 @@ Squish
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Sometimes while in Parade Block, the band has to fit within a restricted
+ width.
+ Examples of this include doorways, sidewalks, etc.
+ When 
+\begin_inset Quotes eld
+\end_inset
+
+squished,
+\begin_inset Quotes erd
+\end_inset
+
+ rows are divided and stacked, effectively making the parade longer, but
+ more narrow.
+\end_layout
+
+\begin_layout Standard
+Those near the front of the parade will be the first to know that the parade
+ must squish.
+ They commonly will yell 
+\begin_inset Quotes eld
+\end_inset
+
+squish!
+\begin_inset Quotes erd
+\end_inset
+
+ and those behind them yell it subsequently, effectively sending the message
+ to the very back of the parade.
 \end_layout
 
 \begin_layout Subsection
@@ -7480,8 +7407,22 @@ name "subsec:Cadences"
 Cadences
 \end_layout
 
+\begin_layout Standard
+While in Parade Block, there are several cadences that the band recites
+ while marching.
+\end_layout
+
 \begin_layout Subsection
 Flashes
+\end_layout
+
+\begin_layout Standard
+While in Parade Block, instruments are held a special way and are flashed
+ during the cadences.
+\end_layout
+
+\begin_layout Chapter
+Drum Majors
 \end_layout
 
 \begin_layout Chapter
@@ -7773,22 +7714,164 @@ BX, RF, BX, RR, FX, RF, FX
 \end_layout
 
 \begin_layout Subsection
-Rockin' Powers of 2
+Rockin' Divisors of 2
 \end_layout
 
 \begin_layout Standard
+This drill helps performers practice Rock & Rolls by marching forwards,
+ then backwards, decreasing the march distance each time.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+F8, RR, B8
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+F6, RR, B6
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+F4, RR, B4
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+F2, RR, B2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Generated
+\end_layout
+
+\begin_layout Standard
+The generated drills are at various difficulties, getting increasingly harder
+ with difficulty.
+ 
+\emph on
+Note: the generated drills asume an infinite field, so make sure there is
+ enough space to complete the drill (or don't and throw off the band for
+ elimination block since the band should respond AS YOU WERE if they cannot
+ complete the drill!)
+\emph default
+.
+\end_layout
+
+\begin_layout Subsection
+Beginner
+\end_layout
+
+\begin_layout Standard
+To complete these drills, the band should be familiar with the following
+ fundamentals:
+\end_layout
+
+\begin_layout Itemize
+Forwards/Backwards march
+\end_layout
+
+\begin_layout Itemize
+8:5
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+FX, LF, FX, RR, BX, LF, BX
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+FX, RF, FX, RR, BX, RF, BX
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+BX, LF, BX, RR, FX, LF, FX
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+BX, RF, BX, RR, FX, RF, FX
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
 \begin_layout Chapter
-Index
+Cadences
 \end_layout
 
 \begin_layout Standard
-\begin_inset CommandInset index_print
-LatexCommand printindex
-type "idx"
-name "Index"
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Add Lilypond sheet music here
+\end_layout
 
 \end_inset
 

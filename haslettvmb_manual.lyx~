@@ -7782,6 +7782,28 @@ F2, RR, B2
 Generated
 \end_layout
 
+\begin_layout Standard
+The generated drills are at various difficulties, getting increasingly harder
+ with difficulty.
+ 
+\emph on
+Note: the generated drills asume an infinite field, so make sure there is
+ enough space to complete the drill (or don't and throw off the band for
+ elimination block since the band should respond AS YOU WERE if they cannot
+ complete the drill!)
+\emph default
+.
+\end_layout
+
+\begin_layout Subsection
+Beginner
+\end_layout
+
+\begin_layout Standard
+To complete these drills, the band should be familiar with the following
+ fundamentals (and previous if applicable):
+\end_layout
+
 \begin_layout Chapter
 Cadences
 \end_layout
