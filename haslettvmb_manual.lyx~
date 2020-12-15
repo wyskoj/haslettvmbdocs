@@ -427,17 +427,7 @@ Field Anatomy
 
 \begin_layout Standard
 Most marching that happens while being a member of the band will occur on
- a football field
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Field
-\end_layout
-
-\end_inset
-
-.
+ a football field.
  This chapter will demonstrate how to understand the field to be most familiar
  with it.
 \end_layout
@@ -479,31 +469,12 @@ Yard
 \begin_inset space ~
 \end_inset
 
-line 
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Yard line
-\end_layout
-
-\end_inset
-
-A physical, vertical line that runs across the entire height of the field.
+line A physical, vertical line that runs across the entire height of the
+ field.
 \end_layout
 
 \begin_layout Description
-Hash 
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Hash
-\end_layout
-
-\end_inset
-
-A horizontal line that runs across the entire width of the field, dividing
+Hash A horizontal line that runs across the entire width of the field, dividing
  the field into thirds.
  The 
 \series bold
@@ -529,18 +500,8 @@ noprefix "false"
 \end_layout
 
 \begin_layout Description
-Sideline 
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Sideline
-\end_layout
-
-\end_inset
-
-A physical, horizontal line that runs across the entire width of the field,
- defining the upper and lower edges of the field.
+Sideline A physical, horizontal line that runs across the entire width of
+ the field, defining the upper and lower edges of the field.
  The sideline next to the press box or tower is the 
 \series bold
 home sideline
@@ -557,18 +518,8 @@ End
 \begin_inset space ~
 \end_inset
 
-zone 
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-End zone
-\end_layout
-
-\end_inset
-
-A physical, vertical line that runs across the entire height of the field,
- defining the left and right edges of the field.
+zone A physical, vertical line that runs across the entire height of the
+ field, defining the left and right edges of the field.
  When facing the press box from the field, the right and left end zones
  are defined by the right and left sides of the person.
 \begin_inset Foot
@@ -585,18 +536,8 @@ If the home sideline is north, then the right end zone is east and the left
 \end_layout
 
 \begin_layout Description
-Tick 
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Tick
-\end_layout
-
-\end_inset
-
-A mark on the practice field, usually orange, spaced 90 inches apart spanning
- the height of each yard line.
+Tick A mark on the practice field, usually orange, spaced 90 inches apart
+ spanning the height of each yard line.
  These marks are only found on the practice field for reference.
 \end_layout
 
@@ -854,18 +795,6 @@ Interpreting Your Dotsheet
 The 
 \noun on
 Dotsheet
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-
-\noun off
-Dotsheet
-\end_layout
-
-\end_inset
-
-
 \noun default
  is a personalized slip of paper that defines where you are in each set
  of the show.
@@ -879,72 +808,23 @@ Terminology
 \end_layout
 
 \begin_layout Description
-Show 
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Show
-\end_layout
-
-\end_inset
-
-The performance that you will be presenting this year!
+Show The performance that you will be presenting this year!
 \end_layout
 
 \begin_layout Description
-Drill 
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Drill
-\end_layout
-
-\end_inset
-
-A show consists of drills.
+Drill A show consists of drills.
  Usually each song in the show correlates to each drill.
 \end_layout
 
 \begin_layout Description
-Set 
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Set
-\end_layout
-
-\end_inset
-
-A specific point in time in the show that defines where each performer is.
+Set A specific point in time in the show that defines where each performer
+ is.
  A show can consist of many sets, usually close 20.
  You will have to know where you need to be for each set!
 \end_layout
 
 \begin_layout Description
-Coordinate/Dot 
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Dot
-\end_layout
-
-\end_inset
-
-
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Coordinate
-\end_layout
-
-\end_inset
-
-The specific 
+Coordinate/Dot The specific 
 \begin_inset Quotes eld
 \end_inset
 
@@ -956,17 +836,7 @@ x/y
 \end_layout
 
 \begin_layout Description
-Form 
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Form
-\end_layout
-
-\end_inset
-
-A loose term to define a group of performers on the field.
+Form A loose term to define a group of performers on the field.
  Forms can last throughout the whole show, or may only last for a set.
 \end_layout
 
@@ -1570,18 +1440,6 @@ Attention
 
 \noun on
 Attention
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-
-\noun off
-Attention
-\end_layout
-
-\end_inset
-
-
 \noun default
  is the most rudimentary fundamental of any, since the band will be holding
  this position for the majority of the time.
@@ -1599,16 +1457,6 @@ holding Attention
 \emph on
 Attention Walk
 \emph default
-
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Attention ! Attention Walk
-\end_layout
-
-\end_inset
-
 , or marching in 
 \emph on
 Parade Block
@@ -2076,15 +1924,6 @@ Attention Walk
 \end_layout
 
 \begin_layout Standard
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Attention ! Attention Walk
-\end_layout
-
-\end_inset
-
 When the band can't be in step due to reasons, the band can 
 \noun on
 Attention Walk.
@@ -5948,18 +5787,6 @@ Traversing
 
 \noun on
 Traversing
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-
-\noun off
-Traversing
-\end_layout
-
-\end_inset
-
-
 \noun default
  is marching one direction while having the upper body face a different
  direction, up to 90º left or right.
@@ -6049,26 +5876,6 @@ Hip Switch
 Performers perform a 
 \noun on
 Hip Switch
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Hip Switch
-\end_layout
-
-\end_inset
-
-
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-To the rear
-\end_layout
-
-\end_inset
-
-
 \noun default
  (also known by its response 
 \noun on
@@ -7600,8 +7407,22 @@ name "subsec:Cadences"
 Cadences
 \end_layout
 
+\begin_layout Standard
+While in Parade Block, there are several cadences that the band recites
+ while marching.
+\end_layout
+
 \begin_layout Subsection
 Flashes
+\end_layout
+
+\begin_layout Standard
+While in Parade Block, instruments are held a special way and are flashed
+ during the cadences.
+\end_layout
+
+\begin_layout Chapter
+Drum Majors
 \end_layout
 
 \begin_layout Chapter
@@ -7962,14 +7783,16 @@ Generated
 \end_layout
 
 \begin_layout Chapter
-Index
+Cadences
 \end_layout
 
 \begin_layout Standard
-\begin_inset CommandInset index_print
-LatexCommand printindex
-type "idx"
-name "Index"
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Add Lilypond sheet music here
+\end_layout
 
 \end_inset
 
