@@ -313,41 +313,66 @@ the band.
 \end_layout
 
 \begin_layout Itemize
-Someone who participates in the band is a 
+Someone who participates in the band can be referred to as:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
 \begin_inset Quotes eld
 \end_inset
 
-band member
-\begin_inset Quotes erd
-\end_inset
-
- or 
-\begin_inset Quotes eld
-\end_inset
-
-a member of the band
-\begin_inset Quotes erd
-\end_inset
-
- an 
-\begin_inset Quotes eld
-\end_inset
-
-individual
-\begin_inset Quotes erd
-\end_inset
-
- or a 
-\begin_inset Quotes eld
-\end_inset
-
-performer
+Band member
 \begin_inset Quotes erd
 \end_inset
 
 
 \end_layout
 
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+Member of the band
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+Member
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+Individual
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+Performer
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 The correct way to punctuate 
 \begin_inset Quotes eld
@@ -365,7 +390,7 @@ id est
 \begin_inset Quotes erd
 \end_inset
 
-: (e.g., an example, etc.) // (i.e., rewording)
+ are as follows —> (e.g., an example, etc.) || (i.e., rewording)
 \end_layout
 
 \end_inset
@@ -4303,7 +4328,7 @@ It is vital that your upper body remain motionless while marching because
  you are also playing an instrument while doing this! Imagine if you were
  to march a show while bouncing up and down, your tone would go up and down
  too! Multiply that by 100 people in the band and now we can't agree that
- A4 = 440hz.
+ A4 = 440 Hz.
 \end_layout
 
 \begin_layout Subsubsection
@@ -5937,7 +5962,7 @@ Traversing
 
 \noun default
  is marching one direction while having the upper body face a different
- direction, up to 90° left or right.
+ direction, up to 90º left or right.
  It is common to 
 \begin_inset Quotes eld
 \end_inset
@@ -5946,7 +5971,7 @@ traverse home
 \begin_inset Quotes erd
 \end_inset
 
- to allow the band to march one direction, put point the instruments towards
+ to allow the band to march one direction and point the instruments towards
  the home sideline for best audio quality.
 \end_layout
 
@@ -5971,7 +5996,7 @@ facing direction
  This could be forwards, backwards, or any angle in between.
  The facing direction is the direction the upper body is facing while marching.
  It is possible for the facing direction to be anywhere within the range
- of -90° to +90° from the direction of the marching direction.
+ of –90º to +90º from the direction of the marching direction.
  
 \begin_inset CommandInset label
 LatexCommand label
@@ -5980,7 +6005,7 @@ name "traversing-never-backwards-at-90"
 \end_inset
 
 It should be noted that performers will never march backwards when the facing
- angle is 90° of the marching angle (they will forwards march instead).
+ angle is 90º of the marching angle (they will forwards march instead).
 \end_layout
 
 \begin_layout Itemize
@@ -5988,8 +6013,8 @@ To rotate the body to the desired facing direction, the hips should rotate
  half way to the desired angle, then the upper torso should rotate another
  half, resulting in the shoulders above having a net rotation of the desired
  facing rotation.
- For example, if you needed to traverse 90°, your hips will rotate 45°,
- and the upper body will rotate another 45°, resulting in a 90° rotation
+ For example, if you needed to traverse 90º, your hips will rotate 45º,
+ and the upper body will rotate another 45º, resulting in a 90º rotation
  of the upper body.
 \end_layout
 
@@ -6012,6 +6037,8 @@ drift
  or march oblique to their intended marching path if they are traversing.
  It is simple as just practicing to overcome this habit and remain on track.
  Extra attention must be given to the feet to achieve this.
+ It may be helpful to overcompensate when first learning traversing to effective
+ly remain the correct path.
 \end_layout
 
 \begin_layout Subsection
@@ -6043,21 +6070,21 @@ To the rear
 
 
 \noun default
- (also known by it's response 
+ (also known by its response 
 \noun on
 To the Rear) 
 \noun default
 when alternating from forwards marching to backwards marching (and vice
  versa) without changing velocity (heading in same direction).
  An example of when this may be used is traverse marching in a circle.
- If the performer is must always face towards the home sideline and march
- in a circle, they will have to hip switch on either side of the circle
- so that they can remain marching in the correct direction without turning
- the upper body more than 90°.
+ If the performer must always face towards the home sideline and march in
+ a circle, they will have to hip switch on either side of the circle so
+ that they can remain marching in the correct direction without turning
+ the upper body more than 90º.
 \end_layout
 
 \begin_layout Itemize
-The hip switch can be thought of as a 180° flank.
+The hip switch can be thought of as a 180º flank.
  When doing a hip switch, you will always pivot on your right foot, and
  your left foot will swing around.
  The movement, like all others, is short and snappy.
@@ -6093,7 +6120,7 @@ status open
 
 \begin_layout Plain Layout
 Given the performer remains in normal step time (does not move to half time
- or double time).
+ or double time) and the tempo is constant, etc.
 \end_layout
 
 \end_inset
@@ -7006,7 +7033,7 @@ A good way to practice flankings and roll stepping is with a
 Box
 \noun default
 .
- A box consists of three turns, and be in variable size and direction.
+ A box consists of three turns, and can be in variable size and direction.
  For example, some valid boxes:
 \begin_inset Foot
 status open
@@ -7134,7 +7161,7 @@ noprefix "false"
 
 \end_inset
 
-, performers will never march backwards when traversing at a 90°.
+, performers will never march backwards when traversing at a 90º.
  They will forwards march while traversing the appropriate direction.
 \end_layout
 
@@ -7180,14 +7207,44 @@ Just like how traverse boxes are good for practicing traversing, having
  have the band do another box at a different step size.
 \end_layout
 
+\begin_layout Standard
+Examples of how adjusted boxes are labeled:
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+BoxR6@6:5 
+\begin_inset Quotes eld
+\end_inset
+
+Box Right 6 at a 6:5
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+RoxL18@12:5 
+\begin_inset Quotes eld
+\end_inset
+
+Box Left 18 at a 12:5
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Conclusion
 \end_layout
 
 \begin_layout Standard
 Congrats! If you are able to perform all the above fundamentals at any given
- tempo, consider yourself an experienced marcher! The entire band should
- be able to execute all fundamentals while playing.
+ tempo while playing your instrument, consider yourself an experienced marcher!
+ The entire band should be able to execute all fundamentals while playing.
 \end_layout
 
 \begin_layout Chapter
@@ -7384,8 +7441,8 @@ The Figure only represents a general layout.
 \end_layout
 
 \begin_layout Itemize
-Tenor Saxes are often merged with Alto Saxes if the section is not large
- enough.
+Tenor Saxes are often merged with Alto Saxes if the section is small enough
+ to merge.
 \end_layout
 
 \begin_layout Subsubsection
@@ -7403,16 +7460,31 @@ Squish
 Sometimes while in Parade Block, the band has to fit within a restricted
  width.
  Examples of this include doorways, sidewalks, etc.
- In 
+ When 
 \begin_inset Quotes eld
 \end_inset
 
-Squish
+squished,
 \begin_inset Quotes erd
 \end_inset
 
  rows are divided and stacked, effectively making the parade longer, but
  more narrow.
+\end_layout
+
+\begin_layout Standard
+Those near the front of the parade will be the first to know that the parade
+ must squish.
+ They commonly will yell 
+\begin_inset Quotes eld
+\end_inset
+
+squish!
+\begin_inset Quotes erd
+\end_inset
+
+ and those behind them yell it subsequently, effectively sending the message
+ to the very back of the parade.
 \end_layout
 
 \begin_layout Subsection
@@ -7530,6 +7602,10 @@ Cadences
 
 \begin_layout Subsection
 Flashes
+\end_layout
+
+\begin_layout Chapter
+Drum Majors
 \end_layout
 
 \begin_layout Chapter
@@ -7883,6 +7959,10 @@ F2, RR, B2
 \end_inset
 
 
+\end_layout
+
+\begin_layout Section
+Generated
 \end_layout
 
 \begin_layout Chapter
