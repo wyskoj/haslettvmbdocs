@@ -7,7 +7,7 @@
 \textclass book
 \begin_preamble
 \IfFileExists{lmodern.sty}{\usepackage{lmodern}}{}
-
+\usepackage{multicol}
 \newenvironment{dedication}
      {\vspace{6ex}\begin{quotation}\begin{center}\begin{em}}
      {\par\end{em}\end{center}\end{quotation}}
@@ -7451,7 +7451,7 @@ Here are the definitions for abbreviations used in these drills:
 
 \begin_layout Standard
 \begin_inset Tabular
-<lyxtabular version="3" rows="8" columns="2">
+<lyxtabular version="3" rows="10" columns="2">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -7541,6 +7541,16 @@ Mark time
 
 \begin_layout Plain Layout
 RR
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Rock and roll is assumed and not written in computer generated drills.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -7596,7 +7606,7 @@ Right flank
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7605,11 +7615,51 @@ X
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 Arbitrary number
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Box[L/R]X
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Box
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+@X:5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Step size
 \end_layout
 
 \end_inset
@@ -7714,7 +7764,7 @@ BX, RF, BX, RR, FX, RF, FX
 \end_layout
 
 \begin_layout Subsection
-Rockin' Divisors of 2
+Rockin' Multiples of 2
 \end_layout
 
 \begin_layout Standard
@@ -7788,11 +7838,20 @@ The generated drills are at various difficulties, getting increasingly harder
  
 \emph on
 Note: the generated drills asume an infinite field, so make sure there is
- enough space to complete the drill (or don't and throw off the band for
- elimination block since the band should respond AS YOU WERE if they cannot
- complete the drill!)
+ enough space to complete the drill
 \emph default
 .
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Or, don't and throw off the band for elimination block (since the band should
+ respond AS YOU WERE if they cannot complete the drill)!
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -7800,21 +7859,44 @@ Beginner
 \end_layout
 
 \begin_layout Standard
-To complete these drills, the band should be familiar with the following
- fundamentals:
+The list of drills in Table 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "tab:beginner-drills"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ lists every possible drill that follows the following set of rules:
 \end_layout
 
 \begin_layout Itemize
-Forwards/Backwards march
+Possible fundamentals: March
 \end_layout
 
 \begin_layout Itemize
-8:5
+Possible step sizes: 8:5
+\end_layout
+
+\begin_layout Itemize
+No double forwards/backwards marches
+\end_layout
+
+\begin_layout Itemize
+1–2 fundamentals
 \end_layout
 
 \begin_layout Standard
-\noindent
-\begin_inset Box Frameless
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Box Boxed
 position "t"
 hor_pos "c"
 has_inner_box 1
@@ -7833,27 +7915,470 @@ backgroundcolor "none"
 status open
 
 \begin_layout Plain Layout
+\begin_inset ERT
+status open
 
-\family typewriter
-FX, LF, FX, RR, BX, LF, BX
+\begin_layout Plain Layout
+
+
+\backslash
+begin{multicols}{2}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-FX, RF, FX, RR, BX, RF, BX
+[FM8@8:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-BX, LF, BX, RR, FX, LF, FX
+[FM4@8:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-BX, RF, BX, RR, FX, RF, FX
+[BM8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+[BM4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+[FM8@8:5, BM4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+[BM8@8:5, FM8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+[BM8@8:5, FM4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+[FM4@8:5, BM4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+[FM8@8:5, BM8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+[BM4@8:5, FM4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+[FM4@8:5, BM8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+[BM4@8:5, FM8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{multicols}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:beginner-drills"
+
+\end_inset
+
+
+\emph on
+Beginner 
+\emph default
+drills.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Easy
+\end_layout
+
+\begin_layout Standard
+The list of drills in Table 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "tab:Easy-drills"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ lists every possible drill that follows the following set of rules:
+\end_layout
+
+\begin_layout Itemize
+Possible fundamentals: March, flank
+\end_layout
+
+\begin_layout Itemize
+Possible step sizes: 8:5
+\end_layout
+
+\begin_layout Itemize
+No flanks coming from or going into a backwards march
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+This is doable and is allowed in 
+\emph on
+Hard 
+\emph default
+and 
+\emph on
+Expert 
+\emph default
+difficulties.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+No double forwards/backwards marches
+\end_layout
+
+\begin_layout Itemize
+2–3 fundamentals
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{multicols}{2}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+[BM4@8:5, FM8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+[FM4@8:5, LF, FM8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+[FM4@8:5, BM8@8:5, FM8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+[FM8@8:5, RF, FM8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+[FM4@8:5, BM4@8:5, FM4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+[FM8@8:5, LF, FM4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+[FM8@8:5, BM4@8:5, FM8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+[FM4@8:5, BM8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+[FM4@8:5, BM4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+[FM8@8:5, LF, FM8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+[BM8@8:5, FM8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+[BM8@8:5, FM4@8:5, BM4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+[FM4@8:5, LF, FM4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+[BM4@8:5, FM8@8:5, BM4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+[FM4@8:5, RF, FM4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+[BM8@8:5, FM4@8:5, BM8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+[FM4@8:5, RF, FM8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+[BM8@8:5, FM4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+[BM4@8:5, FM4@8:5, BM8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+[BM4@8:5, FM4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+[FM4@8:5, BM4@8:5, FM8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+[FM8@8:5, BM4@8:5, FM4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+[FM8@8:5, BM8@8:5, FM8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+[FM8@8:5, BM4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+[FM8@8:5, BM8@8:5, FM4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+[FM4@8:5, BM8@8:5, FM4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+[BM4@8:5, FM4@8:5, BM4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+[BM8@8:5, FM8@8:5, BM4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+[BM8@8:5, FM8@8:5, BM8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+[BM4@8:5, FM8@8:5, BM8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+[FM8@8:5, RF, FM4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+[FM8@8:5, BM8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{multicols}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Easy-drills"
+
+\end_inset
+
+
+\emph on
+Easy
+\emph default
+ drills.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -7862,16 +8387,15 @@ BX, RF, BX, RR, FX, RF, FX
 \end_layout
 
 \begin_layout Chapter
-Cadences
+Scores
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Add Lilypond sheet music here
-\end_layout
+\begin_inset External
+	template PDFPages
+	filename scores/cadence.pdf
+	lyxscale 40
+	extra LaTeX "pages=-"
 
 \end_inset
 
