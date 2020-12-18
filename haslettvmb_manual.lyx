@@ -420,9 +420,15 @@ SHIT TO DO
 \end_layout
 
 \begin_layout Itemize
-Index everything!
+Normalize capitalization of fundamentals
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+Write the rule that that should follow
+\end_layout
+
+\end_deeper
 \end_inset
 
 
@@ -1690,8 +1696,8 @@ Drum The mallets should be held against the rim of the drum on the side
 
 \begin_layout Labeling
 \labelwidthstring 00.00.0000
-Flag The flag should be held with the left hand near eye level, grabbing
- the cloth of the flag and holding it to the rod.
+Flag The flag should be held vertically with the left hand near eye level,
+ grabbing the cloth of the flag and holding it to the rod.
  The right hand should hold the rod near waist level.
 \end_layout
 
@@ -1766,6 +1772,8 @@ status open
 I can't recommend using the tree method, since your distance to a tree can
  affect the angle, and you probably won't have a tree to reference when
  you are marching a show on the field.
+ However, if you can perfect the angle while on the the practice field and
+ memorize that angle, it may just work for you.
 \end_layout
 
 \end_inset
@@ -1945,6 +1953,33 @@ To attention walk, simply walk at attention.
  except for the legs.
  This also means the head should remain forward with the chin up, just as
  it is in Attention.
+\end_layout
+
+\begin_layout Subsubsection
+Relaxed Attention
+\end_layout
+
+\begin_layout Standard
+Very rarely does the band ever hold a 
+\noun on
+Relaxed Attention
+\noun default
+, but when it is done, it is used for extended periods of time of holding
+ attention.
+ Times upwards of 10–15 minutes and more warrant Relaxed Attention.
+ The most prominent example of this is during Homecoming as the couples
+ walk through the aisle the band forms in Jamie Jent Stadium.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Add instrument specifics here
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -2337,6 +2372,16 @@ AS YOU WERE!
 \begin_layout Standard
 The timing of the syllables forms a dotted eighth, a sixteenth, followed
  by a quarter, starting on beat 4.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+This often becomes simplified to two eighths, followed by a quarter.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2746,8 +2791,7 @@ The band can
 Mark Time 
 \noun default
 while in place to establish a maintenance of rhythm.
- It can also be visually appealing if the entire band is in sync and marking
- time all at the same time.
+ It is visually appealing if the entire band is marking time synchronized.
 \end_layout
 
 \begin_layout Subsubsection
@@ -4026,8 +4070,7 @@ LOCK PUSH!
 
 \begin_layout Standard
 The response is two even quarter notes.
- 
-\begin_inset Note Note
+\begin_inset Note Comment
 status open
 
 \begin_layout Plain Layout
@@ -5559,6 +5602,14 @@ As you move your feet back for each step, imagine tickling the blades of
  lines in the sand where your toes dragged.
 \end_layout
 
+\begin_layout Itemize
+It is common for those who are first beginning learning how to backwards
+ march to undershoot the distance and fall short of the destination behind
+ them.
+ It is important to take bigger steps—bigger than you probably think you
+ need to—to reach your destination.
+\end_layout
+
 \begin_layout Standard
 The band does a 
 \begin_inset Quotes eld
@@ -5810,7 +5861,7 @@ traverse home
 \end_inset
 
  to allow the band to march one direction and point the instruments towards
- the home sideline for best audio quality.
+ the home sideline for best sound quality.
 \end_layout
 
 \begin_layout Standard
@@ -5892,8 +5943,8 @@ Hip Switch
 \noun on
 To the Rear) 
 \noun default
-when alternating from forwards marching to backwards marching (and vice
- versa) without changing velocity (heading in same direction).
+when alternating from forwards marching to backwards marching—and vice versa—wit
+hout changing velocity (i.e., heading in the same direction).
  An example of when this may be used is traverse marching in a circle.
  If the performer must always face towards the home sideline and march in
  a circle, they will have to hip switch on either side of the circle so
@@ -5924,13 +5975,26 @@ TO THE REAR!
 The response forms two eighth notes, followed by a quarter.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Put a diagram here.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Adjusted Step Size
 \end_layout
 
 \begin_layout Standard
-A performer's step size will not always be a perfect 8:5 (8 steps every
- 5 yards).
+A performer's step size will not always be a perfect 8:5 (i.e., 8 steps for
+ every 5 yards).
  Certain forms in the show's chart may have performers moving at a different
  speed (by changing step size, the performer's speed is inherently changed
 \begin_inset Foot
@@ -5958,6 +6022,18 @@ Adjusted Step Size
 To adjust from marching in one step size to another, simply begin taking
  smaller/larger steps at the time of adjustment to begin marching at the
  new step size.
+\end_layout
+
+\begin_layout Standard
+It should be noted that step sizes may not always be 
+\begin_inset Quotes eld
+\end_inset
+
+neat;
+\begin_inset Quotes erd
+\end_inset
+
+ step sizes of 6.28:5 and 31.415:5 are perfectly valid step sizes.
 \end_layout
 
 \begin_layout Subsubsection
@@ -6851,7 +6927,8 @@ A good way to practice flankings and roll stepping is with a
 Box
 \noun default
 .
- A box consists of three turns, and can be in variable size and direction.
+ A box consists of three turns, four sides, and can be in variable size
+ and direction.
  For example, some valid boxes:
 \begin_inset Foot
 status open
@@ -7050,6 +7127,33 @@ RoxL18@12:5
 
 Box Left 18 at a 12:5
 \begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Diagonal Boxes
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+Diagonal Boxes
+\noun default
+ are an exotic form of Boxes are not typically practiced during Fundamental
+ Block nor seen in a show.
+ Essentially, a Diagonal Box is a normal box, but scaled and rotated 45º.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Finish this section
+\end_layout
+
 \end_inset
 
 

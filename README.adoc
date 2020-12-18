@@ -1,0 +1,30 @@
+= Haslett Viking Marching Band Master Handbook
+
+_This book is a work in progress. https://app.gitkraken.com/glo/board/X9xDELw5GgAS33PP[View the GitKraken board here.]_
+
+This book is written and designed by Jacob Wysko, former Drum Major of the Viking Marching Band for the 2019 season. The book aims to stand as a guide for information related to the band.
+
+The fundamentals section of this book provides an enumeration of styles; the descriptors and text provided in the section shall be treated as definition. If definition changes, the book shall change to reflect this.
+
+While the book aims to provide definition, it also contains general useful knowledge applicable to any individual related to the band, from member to drum major.
+
+== Contributing to this book
+
+This book is written using the program LyX, an open source document processor based on the LaTeX typesetting system.
+
+There are a few ways you can contribute changes to this book:
+
+* Open a pull request with the desired changes
+* Commit directly to the master branch with Lyx reviews
+* Just email me with the information/changes you'd like
+
+The first option is easiest. If you wish to use Lyx reviews, email me, and I will enable push rights for you.
+
+I assume you are working on Windows. Install the latest versions of MiKTeX/TeXLive, LilyPond, and LyX, preferably in that order. Detailed steps can be found https://wiki.lyx.org/Windows/TeXLive[on the LyX wiki]. Instructions are also available on the LyX website for any OS.
+
+== Authors
+
+Authors listed here are notated with their affiliation (instrument and graduating year for students), then credits.
+
+* Jacob Wysko -- D.M., A.S. '20 -- Lead Author, Graphics Design, Score Engraving
+* Simon Kwilinski -- Clr. '20 -- Section specific info (Clarinet)
