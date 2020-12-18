@@ -45,8 +45,19 @@ fixltx2e
 \paperfontsize default
 \spacing single
 \use_hyperref false
-\papersize default
-\use_geometry false
+\pdf_title "Haslett Viking Marching Band Master Handbook"
+\pdf_author "Wysko et al."
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref page
+\pdf_pdfusetitle true
+\papersize letterpaper
+\use_geometry true
 \use_package amsmath 1
 \use_package amssymb 1
 \use_package cancel 1
@@ -75,7 +86,7 @@ fixltx2e
 \topmargin 1.5in
 \rightmargin 1.5in
 \bottommargin 1.5in
-\secnumdepth 5
+\secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
@@ -7410,6 +7421,17 @@ Cadences
 \begin_layout Standard
 While in Parade Block, there are several cadences that the band recites
  while marching.
+ These are found in Appendix 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "chap:Scores"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsection
@@ -7419,6 +7441,129 @@ Flashes
 \begin_layout Standard
 While in Parade Block, instruments are held a special way and are flashed
  during the cadences.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Add content
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Taps
+\end_layout
+
+\begin_layout Standard
+While in Parade Block, the Center Snare will play 
+\noun on
+Taps
+\noun default
+.
+ These are played so that every member in the band is marching at the same
+ time.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Flex LilyPond
+status open
+
+\begin_layout Plain Layout
+
+<<   
+\backslash
+relative c'
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+time 4/4
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+clef "percussion" 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+repeat volta 2 {
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+stemUp d4 -> r8 
+\backslash
+stemUp d16 :32 [ 
+\backslash
+stemUp d16 :32 ] 
+\backslash
+stemUp d4     -> r8 
+\backslash
+stemUp d16 :32 [ 
+\backslash
+stemUp d16 :32 ] |
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+stemUp d8 -> [ 
+\backslash
+stemUp d8 ] 
+\backslash
+stemUp d16 -> [ 
+\backslash
+stemUp d8 
+\backslash
+stemUp     d16 ] 
+\backslash
+stemUp d4 -> r8 
+\backslash
+stemUp d16 :32 [ 
+\backslash
+stemUp d16 :32 ]
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+
+>>
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Chapter
@@ -8387,6 +8532,12 @@ Easy
 \end_layout
 
 \begin_layout Chapter
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:Scores"
+
+\end_inset
+
 Scores
 \end_layout
 
