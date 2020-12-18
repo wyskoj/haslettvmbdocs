@@ -6029,11 +6029,11 @@ It should be noted that step sizes may not always be
 \begin_inset Quotes eld
 \end_inset
 
-neat;
+neat
 \begin_inset Quotes erd
 \end_inset
 
- step sizes of 6.28:5 and 31.415:5 are perfectly valid step sizes.
+; step sizes of 6.28:5 and 31.415:5 are perfectly valid step sizes.
 \end_layout
 
 \begin_layout Subsubsection
