@@ -44,11 +44,11 @@ fixltx2e
 \index_command default
 \paperfontsize default
 \spacing single
-\use_hyperref false
+\use_hyperref true
 \pdf_title "Haslett Viking Marching Band Master Handbook"
 \pdf_author "Wysko et al."
 \pdf_bookmarks true
-\pdf_bookmarksnumbered false
+\pdf_bookmarksnumbered true
 \pdf_bookmarksopen false
 \pdf_bookmarksopenlevel 1
 \pdf_breaklinks false
@@ -215,6 +215,20 @@ Fun with Fundamentals
  with figures and diagrams.
  This chapter should ideally be updated from year to year to adjust for
  additions or changes.
+\end_layout
+
+\begin_layout Standard
+The source code for this book—including instructions for contribution and
+ credits—is available at 
+\begin_inset CommandInset href
+LatexCommand href
+name "github.com/wyskoj/haslettvmbdocs"
+target "https://github.com/wyskoj/haslettvmbdocs"
+literal "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Section*
@@ -451,13 +465,6 @@ Most marching that happens while being a member of the band will occur on
 
 \begin_layout Subsection
 Terminology and Layout
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace defskip
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -1374,6 +1381,10 @@ name "chap:Fundamentals"
 \end_layout
 
 \begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 In this main part of the book, each fundamental, in ideal chronological
  teaching order, is presented in full detail.
  Before we begin, I want to provide a definition for 
@@ -1435,9 +1446,51 @@ diamond cutters
  which took advantage of several fundamentals.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 This book will focus more on fundamentals than marching maneuvers, since
  they are more common and can apply to most all marching shows.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This chapter of the book will present each fundamental in ideal chronological
+ teaching order, in full detail.
+\end_layout
+
+\begin_layout Standard
+The Wiktionary definition of 
+\begin_inset Quotes eld
+\end_inset
+
+fundamental
+\begin_inset Quotes erd
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Quote
+
+A leading or primary principle, rule, law, or article, which serves as the
+ groundwork of a system; an essential part
+\end_layout
+
+\begin_layout Standard
+
+As such, the fundamentals of our marching band 
+\lang english
+are the skills demonstrated on the marching field that is used in complex
+ maneuvers and is found in a marching show.
+\end_layout
+
+\begin_layout Standard
+This chapter of the book provides an enumeration of styles; the descriptors
+ and text provided in the section shall be treated as definition.
+ If definition changes, the book shall change to reflect this.
 \end_layout
 
 \begin_layout Section
@@ -5832,6 +5885,67 @@ AND ONE!
 The response forms two eighth notes.
 \end_layout
 
+\begin_layout Subsubsection
+Backwards Flanks
+\end_layout
+
+\begin_layout Standard
+Sometimes the band with have to perform a 
+\noun on
+Backwards Flank
+\noun default
+, where performers must change direction from or to a backwards march.
+\end_layout
+
+\begin_layout Standard
+For example, when marching field left, parallel to the sideline, traversed
+ home (traversing explained in 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "subsec:Traversing"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+), a backwards flank to the left would put the performer's body facing the
+ sideline, marching backwards (back field).
+ It is a backwards flank because the march direction after the flank was
+ backwards.
+\end_layout
+
+\begin_layout Standard
+The other type example is starting with a backwards march.
+ For example, when marching backwards perpendicular to the sideline, a backwards
+ flank to the right would put the performer's direction of travel field
+ right in a forwards march.
+ It is a backwards flank because the march direction before the flank was
+ backwards.
+\end_layout
+
+\begin_layout Standard
+It is not common for a backwards march backwards flank into a backwards
+ march, but can be seen (for example in Appendix 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "subsec:Ian's-I"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+To backwards flank, simply place the left foot in the new direction of travel
+ on the downbeat of the flank.
+ There is no spinning on the heels and balls like there is in a normal flank.
+ 
+\end_layout
+
 \begin_layout Section
 Final Steps
 \end_layout
@@ -5842,6 +5956,12 @@ These fundamentals are the final icing on the cake and allow performers
 \end_layout
 
 \begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Traversing"
+
+\end_inset
+
 Traversing
 \end_layout
 
@@ -7141,7 +7261,7 @@ Diagonal Boxes
 \noun on
 Diagonal Boxes
 \noun default
- are an exotic form of Boxes are not typically practiced during Fundamental
+ are an exotic form of Boxes and are not typically practiced during Fundamental
  Block nor seen in a show.
  Essentially, a Diagonal Box is a normal box, but scaled and rotated 45º.
 \end_layout
@@ -7674,6 +7794,22 @@ stemUp d16 :32 ]
 Drum Majors
 \end_layout
 
+\begin_layout Section
+Leadership
+\end_layout
+
+\begin_layout Section
+Conducting
+\end_layout
+
+\begin_layout Chapter
+Color Guard
+\end_layout
+
+\begin_layout Chapter
+Drum Line
+\end_layout
+
 \begin_layout Chapter
 \start_of_appendix
 Drill Repository
@@ -7926,6 +8062,12 @@ Designed
 \end_layout
 
 \begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Ian's-I"
+
+\end_inset
+
 Ian's I
 \end_layout
 
@@ -8103,6 +8245,369 @@ Or, don't and throw off the band for elimination block (since the band should
 
 \end_layout
 
+\begin_layout Standard
+Generated drills were made using a custom program written by Jacob Wysko.
+ The source code is available at 
+\begin_inset CommandInset href
+LatexCommand href
+name "github.com/wyskoj/DrillGen"
+target "https://github.com/wyskoj/DrillGen"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The lengths of each fundamental in each drill is dependent on the step size
+ and difficulty.
+ The generation rules are in Table 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "tab:lengths"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="6">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Step Size
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Beginner
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Easy
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Medium
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Hard
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Expert
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8:5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4, 8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4, 8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4, 8, 16
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2, 4, 8, 16
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2, 4, 6, 8, 16
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+16:5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8, 16
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8, 16
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4, 8, 16
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6:5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6, 12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3, 6, 12
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12:5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6, 12
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:lengths"
+
+\end_inset
+
+The allowed lengths for drills.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Beginner
 \end_layout
@@ -8137,6 +8642,20 @@ No double forwards/backwards marches
 1–2 fundamentals
 \end_layout
 
+\begin_layout Itemize
+Adheres to Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:lengths"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 \begin_inset Float table
 placement H
@@ -8161,7 +8680,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -8341,7 +8860,7 @@ difficulties.
 
 \end_inset
 
-
+, no starting or ending with a flank
 \end_layout
 
 \begin_layout Itemize
@@ -8350,6 +8869,20 @@ No double forwards/backwards marches
 
 \begin_layout Itemize
 2–3 fundamentals
+\end_layout
+
+\begin_layout Itemize
+Adheres to Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:lengths"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -8380,7 +8913,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -8635,6 +9168,2514 @@ Easy
 
 \end_layout
 
+\begin_layout Subsection
+Medium
+\end_layout
+
+\begin_layout Standard
+The list of drills in Table 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "tab:Medium-drills"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ lists 100 unique drills that follows the following set of rules:
+\end_layout
+
+\begin_layout Itemize
+Possible fundamentals: March, flank, box
+\end_layout
+
+\begin_layout Itemize
+Possible step sizes: 8:5, 16:5
+\end_layout
+
+\begin_layout Itemize
+No flanks coming from or going into a backwards march, coming out of a box,
+ no starting or ending with a flank
+\end_layout
+
+\begin_layout Itemize
+No double forwards/backwards marches
+\end_layout
+
+\begin_layout Itemize
+2–4 fundamentals
+\end_layout
+
+\begin_layout Itemize
+Adheres to Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:lengths"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{multicols}{3}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR8@8:5, BM16@8:5, FM16@8:5, BM16@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[FM8@8:5, BM8@16:5, BoxR8@16:5, BM8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[FM4@8:5, LF, BoxL16@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM16@8:5, BoxL4@8:5, BoxR16@8:5, BoxR8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM16@16:5, FM8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM8@16:5, FM8@16:5, BM16@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM16@16:5, FM8@16:5, BM4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR16@8:5, BoxL4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL16@16:5, FM16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL8@16:5, BoxL4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM8@16:5, FM8@16:5, BoxR16@16:5, BoxR8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR4@8:5, BoxL4@8:5, BoxR16@8:5, BM8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM16@8:5, FM8@16:5, BM16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL8@16:5, FM8@16:5, BoxR16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL16@16:5, FM16@16:5, LF, FM8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[FM16@16:5, LF, BoxR16@16:5, BoxR4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM4@8:5, BoxL16@8:5, FM8@8:5, BoxL8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR4@8:5, BoxL16@8:5, BM4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM8@16:5, BoxL4@8:5, FM4@8:5, BoxL16@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL8@16:5, BoxR8@8:5, BoxL16@8:5, BoxR16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL8@8:5, BM8@16:5, BoxL16@16:5, FM8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM4@8:5, FM4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM8@16:5, FM8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM4@8:5, FM16@8:5, BoxL8@16:5, FM8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR4@8:5, BM4@8:5, FM8@16:5, BM8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR8@16:5, BM16@16:5, FM8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR16@8:5, BM16@8:5, FM16@8:5, BM8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR16@16:5, BoxR16@16:5, BM16@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL4@8:5, BoxR8@8:5, FM16@16:5, BM8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR4@8:5, FM16@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM16@16:5, FM16@16:5, BM8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[FM8@8:5, BM8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR8@8:5, BoxL8@8:5, FM8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR4@8:5, BM8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR8@16:5, BM16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[FM8@8:5, BoxR8@16:5, FM8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR16@8:5, FM4@8:5, BM8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[FM4@8:5, RF, BM16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM16@16:5, BoxL8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[FM8@16:5, RF, BoxR16@16:5, BM16@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[FM16@8:5, BoxR8@16:5, FM16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL16@16:5, FM4@8:5, LF, BoxR16@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM4@8:5, BoxR8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR16@16:5, BM16@16:5, FM16@16:5, BoxL8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM8@8:5, BoxL4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM16@16:5, FM16@16:5, BoxL8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR16@16:5, FM4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[FM8@8:5, BM4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL16@16:5, BoxL8@8:5, BM16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL8@8:5, BoxL8@16:5, BM8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[FM8@16:5, LF, BoxR16@16:5, BM4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM16@16:5, FM16@8:5, BM16@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR4@8:5, FM8@16:5, BoxR16@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[FM8@16:5, BM8@8:5, FM8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM16@16:5, FM16@8:5, BoxR16@16:5, BoxR4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM8@16:5, BoxL8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[FM16@16:5, BM16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR16@16:5, BM8@16:5, FM4@8:5, BM8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL16@8:5, FM8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM16@8:5, BoxL16@16:5, BoxR8@8:5, BoxR16@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL8@16:5, FM4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[FM8@8:5, BM16@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR8@16:5, FM16@16:5, BoxR8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR4@8:5, FM16@8:5, BM16@8:5, BoxL8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR16@16:5, BoxR16@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR8@16:5, BM8@16:5, BoxL4@8:5, BoxR16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL8@16:5, BoxR8@8:5, BM8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[FM4@8:5, BM4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[FM16@16:5, BoxR16@16:5, BM8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR16@16:5, BoxR8@8:5, BoxR16@16:5, BM4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[FM16@8:5, BM16@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[FM16@8:5, BM16@16:5, BoxL4@8:5, BM8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR8@16:5, BoxR16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL4@8:5, FM16@16:5, BM16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR16@16:5, BoxR16@16:5, BoxL8@16:5, BoxL4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[FM8@16:5, BM16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM16@16:5, BoxR16@16:5, FM16@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR8@8:5, BoxR8@16:5, BoxR16@16:5, FM16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR8@8:5, BoxL16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR4@8:5, BoxR8@16:5, BoxL16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[FM8@8:5, BM4@8:5, BoxR8@16:5, BoxR4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR4@8:5, BoxL16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM4@8:5, BoxR4@8:5, BoxR16@8:5, BM8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL8@8:5, BoxR16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL8@16:5, BoxL8@8:5, BM8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM16@8:5, FM16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR8@16:5, BoxR4@8:5, BoxL16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL8@16:5, BoxL16@8:5, BoxL16@8:5, FM16@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM16@16:5, FM8@16:5, BoxL16@16:5, BoxL4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR8@16:5, BoxL8@16:5, BoxR8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR16@16:5, FM16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[FM16@16:5, BM8@16:5, BoxL16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR8@16:5, BoxR16@8:5, BoxL4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM16@8:5, FM16@16:5, BoxR16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR8@16:5, BM16@8:5, BoxR8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[FM8@16:5, BoxR8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR8@16:5, BoxL8@8:5, BoxR8@8:5, BM8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR16@16:5, BoxL16@16:5, FM8@16:5, BM16@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR16@8:5, FM8@16:5, BoxL16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{multicols}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Medium-drills"
+
+\end_inset
+
+Medium
+\emph default
+ drills.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Hard
+\end_layout
+
+\begin_layout Standard
+The list of drills in Table 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "tab:hard-drills"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ lists 100 unique drills that follows the following set of rules:
+\end_layout
+
+\begin_layout Itemize
+Possible fundamentals: March, flank, box
+\end_layout
+
+\begin_layout Itemize
+Possible step sizes: 8:5, 16:5, 6:5
+\end_layout
+
+\begin_layout Itemize
+No flanks coming out of a box, no starting or ending with a flank
+\end_layout
+
+\begin_layout Itemize
+No double forwards/backwards marches
+\end_layout
+
+\begin_layout Itemize
+3–4 fundamentals
+\end_layout
+
+\begin_layout Itemize
+Adheres to Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:lengths"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{multicols}{3}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL12@6:5, BM12@6:5, FM6@6:5, BM6@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR8@16:5, FM6@6:5, BoxL8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[FM16@16:5, BoxR16@16:5, BoxL12@6:5, BM8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL16@8:5, FM6@6:5, BM16@8:5, BoxL6@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM16@16:5, FM8@8:5, LF, BoxR8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL12@6:5, BoxL16@16:5, BM16@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL8@8:5, BoxL6@6:5, FM6@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR8@16:5, FM4@8:5, BoxR16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR8@8:5, BoxR16@16:5, BoxL12@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL8@16:5, BoxR6@6:5, BM8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR8@8:5, BM16@8:5, BoxR4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL8@8:5, BoxR16@8:5, BoxR8@8:5, BM6@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM12@6:5, FM16@16:5, BoxL12@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL16@16:5, BoxR2@8:5, BoxL6@6:5, BoxL16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[FM16@8:5, LF, BM2@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL8@16:5, BoxR12@6:5, BoxL16@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL12@6:5, BM16@16:5, LF, BoxR16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[FM8@8:5, BM16@16:5, FM12@6:5, BM8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM8@16:5, BoxR12@6:5, BM4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM2@8:5, BoxR2@8:5, FM8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM8@8:5, FM8@8:5, BM6@6:5, BoxR6@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[FM8@16:5, BoxR2@8:5, FM8@16:5, BM4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[FM16@16:5, BM8@8:5, BoxR16@16:5, BoxL12@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR6@6:5, BM12@6:5, BoxR12@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[FM8@16:5, BM4@8:5, FM2@8:5, BoxL16@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR12@6:5, BoxL6@6:5, BoxL6@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL8@8:5, FM8@16:5, BoxL16@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL8@16:5, BoxR8@16:5, BoxR2@8:5, BoxL16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR4@8:5, FM16@8:5, BoxR8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR8@16:5, BoxL6@6:5, BoxR8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM6@6:5, RF, BoxR16@16:5, BoxL16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR8@8:5, FM4@8:5, BM6@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[FM12@6:5, BoxR2@8:5, BM16@8:5, FM16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM8@16:5, FM6@6:5, BM2@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM8@16:5, BoxL12@6:5, BoxR6@6:5, FM6@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM8@16:5, RF, BM12@6:5, FM12@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR4@8:5, BoxR6@6:5, BoxL6@6:5, FM16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL12@6:5, BM8@8:5, BoxL2@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR8@16:5, BoxL16@8:5, BM6@6:5, BoxL6@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[FM8@8:5, LF, FM16@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR8@8:5, FM6@6:5, BM16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM8@16:5, BoxL16@16:5, FM16@8:5, BoxL6@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM8@16:5, BoxL16@16:5, FM6@6:5, BoxR16@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR8@16:5, BoxL8@8:5, FM12@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM16@16:5, BoxL16@16:5, FM6@6:5, BM6@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR16@16:5, BoxL4@8:5, BoxL16@16:5, BoxR2@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL16@16:5, FM12@6:5, BM6@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR6@6:5, BoxL16@8:5, BoxR12@6:5, FM8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL16@16:5, FM16@16:5, BoxR4@8:5, BoxL6@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL2@8:5, BoxR16@16:5, BoxR12@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR12@6:5, FM12@6:5, BM12@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[FM4@8:5, LF, BoxR4@8:5, BoxR6@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL4@8:5, BoxR8@16:5, BoxL16@16:5, BoxR4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL2@8:5, BM4@8:5, RF, FM6@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL8@16:5, BoxL12@6:5, BoxL16@16:5, BM8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL16@16:5, BoxR16@8:5, FM16@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[FM6@6:5, BM16@16:5, FM16@8:5, BoxL8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL6@6:5, BM6@6:5, FM2@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL12@6:5, BM12@6:5, FM16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR6@6:5, FM6@6:5, BM2@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM2@8:5, BoxL16@8:5, BM16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL12@6:5, BoxR16@8:5, BM2@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR6@6:5, FM2@8:5, BM12@6:5, FM8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR8@16:5, BM2@8:5, FM6@6:5, BoxR12@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM6@6:5, LF, FM16@16:5, BoxL16@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[FM6@6:5, BM16@8:5, FM2@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR2@8:5, BoxL4@8:5, BoxR12@6:5, BoxR8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR8@16:5, BoxL6@6:5, BM16@16:5, FM16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM12@6:5, RF, BoxR12@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM16@16:5, FM16@16:5, BoxL8@8:5, BoxL12@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR2@8:5, BM8@16:5, FM16@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[FM12@6:5, RF, FM16@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[FM4@8:5, LF, BM6@6:5, BoxL6@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR4@8:5, BM8@8:5, RF, BoxR16@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL16@16:5, BM12@6:5, FM16@16:5, BM8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR16@8:5, BM12@6:5, FM8@8:5, BoxR12@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM8@16:5, LF, BoxR8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM8@16:5, LF, BoxR16@16:5, FM16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL8@16:5, BoxR2@8:5, BoxL16@16:5, FM4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR6@6:5, BM6@6:5, FM8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR16@16:5, BM12@6:5, LF, BM6@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR16@16:5, BoxR4@8:5, FM16@16:5, BoxR8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[FM16@16:5, BM16@16:5, BoxR4@8:5, BoxL8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR8@16:5, FM4@8:5, BM12@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[FM2@8:5, RF, BoxL6@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL16@16:5, BoxR6@6:5, BM12@6:5, BoxL12@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR16@16:5, BoxR6@6:5, BoxR6@6:5, BoxL8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[FM2@8:5, BM12@6:5, BoxL12@6:5, FM16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[FM16@16:5, BM8@16:5, FM16@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[FM8@8:5, LF, BoxR16@16:5, BoxR12@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM2@8:5, BoxL12@6:5, BM6@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL8@16:5, BoxR12@6:5, FM2@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR8@16:5, FM8@16:5, BM8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[FM16@16:5, BoxR12@6:5, BoxL16@8:5, FM16@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxR8@16:5, BoxL6@6:5, BoxR6@6:5, FM16@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BM8@16:5, FM2@8:5, LF, BoxR8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[FM8@8:5, BM8@8:5, FM8@8:5, BM16@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL12@6:5, BoxR6@6:5, FM4@8:5, BM2@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL8@8:5, FM8@8:5, BoxL8@16:5, FM2@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+[BoxL16@16:5, BoxR6@6:5, BM4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{multicols}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:hard-drills"
+
+\end_inset
+
+Hard
+\emph default
+ drills.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Expert
+\end_layout
+
+\begin_layout Standard
+For the toughest nuts to crack!! The list of drills in Table 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "tab:expert-drills"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ lists 100 unique drills that follows the following set of rules:
+\end_layout
+
+\begin_layout Itemize
+Possible fundamentals: March, flank, box
+\end_layout
+
+\begin_layout Itemize
+Possible step sizes: 8:5, 16:5, 6:5, 12:5
+\end_layout
+
+\begin_layout Itemize
+No flanks coming out of a box, no starting or ending with a flank
+\end_layout
+
+\begin_layout Itemize
+No double forwards/backwards marches
+\end_layout
+
+\begin_layout Itemize
+4–5 fundamentals
+\end_layout
+
+\begin_layout Itemize
+Adheres to Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:lengths"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{multicols}{3}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxL8@16:5, BoxL6@8:5, FM12@12:5, BM12@12:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxL12@6:5, BoxL4@16:5, FM4@16:5, BoxL16@16:5, BM6@12:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[FM16@16:5, LF, BM12@12:5, RF, BM8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxL8@8:5, BoxR6@12:5, BoxL6@12:5, BoxL16@8:5, BoxL16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[FM6@12:5, BM12@12:5, FM12@6:5, RF, BM4@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[FM6@12:5, BoxL12@6:5, BM2@8:5, FM4@8:5, BM16@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxR4@16:5, BM12@6:5, LF, BM12@6:5, BoxR4@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[FM12@6:5, LF, FM8@16:5, BoxR16@16:5, BM4@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxL6@12:5, FM6@12:5, BoxR6@6:5, BM8@8:5, BoxL3@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BM4@8:5, FM6@6:5, RF, BoxR2@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[FM16@16:5, BM6@6:5, RF, FM2@8:5, BM12@12:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[FM16@16:5, BoxL6@12:5, BoxL8@8:5, BoxL8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BM2@8:5, FM6@12:5, BM12@12:5, BoxL12@6:5, BoxR12@12:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BM16@16:5, RF, BoxR8@16:5, BoxR4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[FM16@8:5, LF, FM3@6:5, BoxR6@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxR12@6:5, BM12@12:5, BoxL16@8:5, FM2@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxR12@12:5, BoxR16@16:5, BoxR8@16:5, BoxL16@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BM6@6:5, RF, BoxR12@6:5, BoxL16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxR4@8:5, BoxL4@16:5, BoxR8@8:5, FM6@12:5, BoxR8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxR16@8:5, FM3@6:5, RF, BoxL12@12:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxL4@16:5, BoxR4@16:5, BoxR12@12:5, BM2@8:5, BoxL8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BM6@12:5, RF, BM8@16:5, FM6@12:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxR6@6:5, BoxL4@8:5, FM6@12:5, BM2@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BM4@8:5, RF, BoxL12@12:5, BoxL6@12:5, FM6@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BM3@6:5, RF, FM6@6:5, BM16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[FM8@8:5, BoxR12@6:5, BoxR16@8:5, BoxL6@6:5, BoxR16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BM8@8:5, LF, BM12@12:5, FM6@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BM6@12:5, BoxR6@6:5, FM3@6:5, BoxR8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[FM2@8:5, BoxR16@16:5, BoxR12@6:5, FM16@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[FM8@8:5, BoxL8@16:5, BoxL6@12:5, BM12@6:5, FM8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BM6@8:5, LF, BoxR6@12:5, BoxL16@8:5, BoxL8@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[FM6@6:5, BoxL6@6:5, FM12@12:5, LF, BM2@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[FM12@6:5, LF, BoxR4@8:5, FM4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[FM3@6:5, RF, BM4@16:5, LF, BoxR8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxR4@16:5, BM3@6:5, LF, BM12@12:5, BoxR6@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxL16@16:5, BoxL12@6:5, FM8@16:5, LF, FM12@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[FM12@12:5, BM4@8:5, LF, BoxL6@6:5, BM4@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxL12@12:5, BoxR6@12:5, BM12@12:5, BoxR8@16:5, BoxL8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxL6@6:5, BoxL4@16:5, BoxL4@16:5, BoxR12@12:5, BM12@12:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BM6@12:5, BoxL12@6:5, FM4@16:5, BM6@12:5, FM16@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxL6@12:5, FM16@8:5, BM16@16:5, FM6@12:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxL12@12:5, BoxR12@6:5, FM3@6:5, BoxL8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxL6@8:5, BoxR6@8:5, BoxL16@16:5, BoxR6@12:5, BoxL2@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BM16@8:5, LF, FM16@16:5, BM12@12:5, FM6@12:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxR8@16:5, FM3@6:5, BoxL3@6:5, FM6@12:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxR12@12:5, BoxR6@12:5, FM6@6:5, BM2@8:5, BoxL16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxL3@6:5, FM6@6:5, RF, BoxL6@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[FM6@6:5, BM3@6:5, FM4@8:5, BoxL6@12:5, FM16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxR16@16:5, BM4@16:5, RF, BoxR12@12:5, BoxL16@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxL4@8:5, BoxR12@6:5, FM2@8:5, BM4@16:5, FM12@12:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BM12@6:5, FM4@16:5, BoxL4@8:5, FM4@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxR8@8:5, BoxR8@8:5, BoxR4@8:5, BM16@16:5, BoxL16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxL3@6:5, BM4@16:5, BoxL4@8:5, BM8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxR6@8:5, FM6@6:5, LF, FM2@8:5, BM6@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxR16@8:5, BoxL16@16:5, BoxR6@12:5, FM6@12:5, BoxR16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxR4@16:5, BM16@8:5, RF, BoxL16@8:5, BoxL8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BM3@6:5, BoxR2@8:5, FM6@12:5, BoxL3@6:5, BM4@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxR16@16:5, BoxR12@6:5, BM12@12:5, BoxL16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxR12@12:5, FM4@8:5, BM12@12:5, FM4@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BM6@8:5, RF, BoxR3@6:5, BM16@16:5, FM12@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[FM3@6:5, BoxR4@8:5, BoxR4@16:5, BoxL2@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BM3@6:5, FM12@12:5, BM12@12:5, LF, BM3@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxL3@6:5, BoxR8@16:5, BoxR6@6:5, FM6@6:5, BM12@12:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BM6@12:5, FM12@12:5, BoxL12@6:5, BoxR8@16:5, FM8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxL6@8:5, BoxR12@6:5, BoxL16@16:5, BM6@8:5, BoxL8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxL8@8:5, FM16@16:5, BoxR6@12:5, BoxR6@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxL4@16:5, BoxR6@6:5, BoxR8@16:5, BoxR6@12:5, BoxL3@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BM3@6:5, FM12@6:5, LF, FM6@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[FM3@6:5, BM12@6:5, BoxL6@12:5, BM6@6:5, BoxL6@12:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxL6@8:5, BoxL12@12:5, BM16@8:5, FM16@16:5, BM12@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxR4@16:5, BoxL12@6:5, BoxR12@12:5, BM8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[FM3@6:5, RF, FM6@12:5, BoxL12@12:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxL6@12:5, BoxL6@6:5, BoxR6@12:5, FM4@8:5, BM16@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxR4@16:5, BoxR8@16:5, BoxL4@8:5, FM4@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxR12@12:5, BoxL12@6:5, BoxR3@6:5, FM12@12:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxL12@6:5, BoxR12@12:5, FM8@8:5, BM8@16:5, FM12@12:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxL2@8:5, BoxL8@16:5, BoxL12@12:5, BoxR16@16:5, BM12@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BM12@12:5, FM16@8:5, LF, BoxR6@12:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[FM6@12:5, BM16@8:5, BoxR4@8:5, BoxL16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxL16@8:5, BM6@12:5, BoxL2@8:5, BoxR8@16:5, BoxR6@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxR6@6:5, FM6@12:5, BM3@6:5, RF, BM16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxR6@12:5, BoxL4@16:5, BoxR6@6:5, BoxR3@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BM3@6:5, BoxR2@8:5, FM12@12:5, BoxR12@12:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[FM6@12:5, BM16@16:5, BoxR3@6:5, FM6@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxL6@12:5, BoxL8@8:5, BoxR8@16:5, BoxL12@12:5, BoxL6@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxR16@8:5, BoxL16@8:5, BoxL6@6:5, BoxR16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[FM3@6:5, BM4@8:5, BoxR6@6:5, BoxR12@12:5, BoxL6@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BM16@8:5, RF, BoxR8@16:5, BoxL12@12:5, BoxR16@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BM16@16:5, LF, FM6@6:5, LF, BoxR6@12:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BM6@6:5, FM6@12:5, BoxR6@12:5, BoxR12@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BM6@12:5, LF, BM4@16:5, BoxR6@12:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxL12@12:5, BoxR6@12:5, BoxL2@8:5, BoxL6@12:5, BoxR16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[FM12@12:5, BM6@12:5, FM6@12:5, BoxR4@16:5, BM12@12:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxL8@8:5, BM4@16:5, BoxR2@8:5, FM6@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BM3@6:5, FM8@16:5, BoxL3@6:5, BM12@6:5, BoxL8@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxL3@6:5, BoxL8@16:5, BoxR3@6:5, BM16@16:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[FM8@8:5, BM12@6:5, LF, FM6@8:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[FM8@16:5, BM2@8:5, BoxL6@12:5, BoxL16@8:5, BoxL12@12:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[FM12@6:5, LF, BoxL6@12:5, FM8@8:5, BM6@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+[BoxL2@8:5, BM8@16:5, BoxL8@16:5, BoxL4@8:5, FM6@6:5]
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{multicols}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:expert-drills"
+
+\end_inset
+
+Expert
+\emph default
+ drills.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Chapter
 \begin_inset CommandInset label
 LatexCommand label
@@ -8651,6 +11692,18 @@ Scores
 	filename scores/cadence.pdf
 	lyxscale 40
 	extra LaTeX "pages=-"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintAll"
+bibfiles "references"
+options "bibtotoc,plainnat"
 
 \end_inset
 
