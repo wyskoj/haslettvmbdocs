@@ -1474,17 +1474,14 @@ fundamental
 \end_layout
 
 \begin_layout Quote
-
 A leading or primary principle, rule, law, or article, which serves as the
  groundwork of a system; an essential part
 \end_layout
 
 \begin_layout Standard
-
-As such, the fundamentals of our marching band 
-\lang english
-are the skills demonstrated on the marching field that is used in complex
- maneuvers and is found in a marching show.
+As such, the fundamentals of our marching band are the skills demonstrated
+ on the marching field that is used in complex maneuvers and are found in
+ a marching show.
 \end_layout
 
 \begin_layout Standard
@@ -2006,6 +2003,17 @@ To attention walk, simply walk at attention.
  except for the legs.
  This also means the head should remain forward with the chin up, just as
  it is in Attention.
+ Attention Walk is not a march, so the upper body will bounce (see 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "marching-upper-body"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ for details on the upper body while marching).
 \end_layout
 
 \begin_layout Subsubsection
@@ -2507,6 +2515,30 @@ What is the point of a marching band if our instruments are always down?
  The band always puts its horns up and down together.
 \end_layout
 
+\begin_layout Standard
+To put the 
+\noun on
+Horns Up
+\noun default
+ means to raise the instruments to the normal playing position
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Clarinets move down to reach playing position.
+ How antithetical.
+\end_layout
+
+\end_inset
+
+ to begin playing.
+ Likewise to put the 
+\noun on
+Horns Down 
+\noun default
+means to move back to Attention with the horns out of the face.
+\end_layout
+
 \begin_layout Subsubsection
 The horns up position
 \end_layout
@@ -2664,6 +2696,11 @@ status open
 rhythm = 
 \backslash
 relative c'' {
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 time 4/4
 \end_layout
@@ -2679,7 +2716,12 @@ override NoteHead.style = #'cross
 
 b4-.
  f-- b-.
- b |b}
+ b |b
+\end_layout
+
+\begin_layout Plain Layout
+
+}
 \end_layout
 
 \begin_layout Plain Layout
@@ -2703,17 +2745,47 @@ bold UP! }
 
 \begin_layout Plain Layout
 
-<<   
+<<
+\end_layout
+
+\begin_layout Plain Layout
+
+	
 \backslash
-new Voice = melody 
+new Voice = melody
+\end_layout
+
+\begin_layout Plain Layout
+
+	
 \backslash
-rhythm   
+rhythm  
+\end_layout
+
+\begin_layout Plain Layout
+
+	
 \backslash
-new Lyrics 
+new Lyrics
+\end_layout
+
+\begin_layout Plain Layout
+
+	
 \backslash
-lyricsto melody 
+lyricsto melody
+\end_layout
+
+\begin_layout Plain Layout
+
+	
 \backslash
-lyr >>
+lyr
+\end_layout
+
+\begin_layout Plain Layout
+
+>>
 \end_layout
 
 \end_inset
@@ -4241,6 +4313,12 @@ Important things to remember:
 \end_layout
 
 \begin_layout Itemize
+\begin_inset CommandInset label
+LatexCommand label
+name "marching-upper-body"
+
+\end_inset
+
 The entire upper body shall remain 
 \series bold
 motionless
@@ -7571,8 +7649,8 @@ rows
 
 \begin_layout Standard
 The individual on the inside will march the least distance while turning,
- while the individual on the outside of the turn will march the most? Why
- is this? Imagine each band member is marching on quarter circles (this
+ while the individual on the outside of the turn will march the most.
+ Why is this? Imagine each band member is marching on quarter circles (this
  is demonstrated in Figure 
 \begin_inset CommandInset ref
 LatexCommand vref
@@ -7768,6 +7846,83 @@ stemUp d4 -> r8
 stemUp d16 :32 [ 
 \backslash
 stemUp d16 :32 ]
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+
+>>
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Before Circa 2015, a different rhythm was used for the taps (we will refer
+ this rhythm as 
+\noun on
+Legacy Taps
+\noun default
+).
+ The Legacy Tap rhythm is sometimes used when in different situations or
+ when the Center Snare becomes fatigued from playing Taps for an extended
+ period of time.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Flex LilyPond
+status open
+
+\begin_layout Plain Layout
+
+<<   
+\backslash
+relative c'
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+time 4/4
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+clef "percussion" 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+repeat volta 2 {
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+stemUp d4 -> r4 d4 -> r8 d16 :32 d16 :32 | d4 -> r4 r2
 \end_layout
 
 \begin_layout Plain Layout
