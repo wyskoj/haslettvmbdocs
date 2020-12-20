@@ -11698,17 +11698,5 @@ Scores
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset CommandInset bibtex
-LatexCommand bibtex
-btprint "btPrintAll"
-bibfiles "references"
-options "bibtotoc,plainnat"
-
-\end_inset
-
-
-\end_layout
-
 \end_body
 \end_document
