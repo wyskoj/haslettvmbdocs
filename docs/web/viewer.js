@@ -1779,7 +1779,7 @@ const PDFViewerApplication = {
 exports.PDFViewerApplication = PDFViewerApplication;
 let validateFileURL;
 {
-  const HOSTED_VIEWER_ORIGINS = ["null", "http://mozilla.github.io", "https://mozilla.github.io", "https://github.com/", "https://github.com", "https://render.githubusercontent.com", "https://wyskoj.github.io"];
+  const HOSTED_VIEWER_ORIGINS = ["null", "http://mozilla.github.io", "https://mozilla.github.io", "https://github.com/", "https://github.com", "https://render.githubusercontent.com", "https://wyskoj.github.io", "http://urlreq.appspot.com"];
 
   validateFileURL = function (file) {
     if (file === undefined) {
@@ -3534,7 +3534,7 @@ const defaultOptions = {
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE
   },
   defaultUrl: {
-    value: "https://github.com/wyskoj/haslettvmbdocs/blob/dev/haslettvmb_manual.pdf",
+    value: "http://urlreq.appspot.com/req?method=GET&url=https://github.com/wyskoj/haslettvmbdocs/raw/dev/haslettvmb_manual.pdf",
     kind: OptionKind.VIEWER
   },
   defaultZoomValue: {
