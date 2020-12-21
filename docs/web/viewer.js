@@ -1797,8 +1797,6 @@ let validateFileURL;
         origin,
         protocol
       } = new URL(file, window.location.href);
-console.log('fileOrigin', fileOrigin);
-console.log('viewerOrigin', viewerOrigin);
       if (origin !== viewerOrigin && protocol !== "blob:") {
         throw new Error("file origin does not match viewer's");
       }
