@@ -1779,7 +1779,7 @@ const PDFViewerApplication = {
 exports.PDFViewerApplication = PDFViewerApplication;
 let validateFileURL;
 {
-  const HOSTED_VIEWER_ORIGINS = ["null", "http://mozilla.github.io", "https://mozilla.github.io", "https://github.com"];
+  const HOSTED_VIEWER_ORIGINS = ["null", "http://mozilla.github.io", "https://mozilla.github.io", "https://github.com/", "https://github.com", "https://render.githubusercontent.com", "https://wyskoj.github.io", "http://urlreq.appspot.com"];
 
   validateFileURL = function (file) {
     if (file === undefined) {
@@ -1797,11 +1797,10 @@ let validateFileURL;
         origin,
         protocol
       } = new URL(file, window.location.href);
-console.log('fileOrigin', fileOrigin);
-console.log('viewerOrigin', viewerOrigin);
-      if (origin !== viewerOrigin && protocol !== "blob:") {
-        throw new Error("file origin does not match viewer's");
-      }
+
+      //if (origin !== viewerOrigin && protocol !== "blob:") {
+      //  throw new Error("file origin does not match viewer's");
+      //}
     } catch (ex) {
       const message = ex && ex.message;
       PDFViewerApplication.l10n.get("loading_error", null, "An error occurred while loading the PDF.").then(loadingErrorMessage => {
@@ -3535,7 +3534,7 @@ const defaultOptions = {
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE
   },
   defaultUrl: {
-    value: "https://github.com/wyskoj/haslettvmbdocs/raw/master/haslettvmb_manual.pdf",
+    value: "https://urlreq.appspot.com/req?method=GET&url=https://github.com/wyskoj/haslettvmbdocs/raw/dev/haslettvmb_manual.pdf",
     kind: OptionKind.VIEWER
   },
   defaultZoomValue: {
