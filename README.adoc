@@ -2,6 +2,8 @@
 
 _This book is a work in progress. https://app.gitkraken.com/glo/board/X9xDELw5GgAS33PP[View the GitKraken board here.]_
 
+https://wyskoj.github.io/haslettvmbdocs/[View the PDF here.]
+
 This book is written and designed by Jacob Wysko, former Drum Major of the Viking Marching Band for the 2019 season. The book aims to stand as a guide for information related to the band.
 
 The fundamentals section of this book provides an enumeration of styles; the descriptors and text provided in the section shall be treated as definition. If definition changes, the book shall change to reflect this.
