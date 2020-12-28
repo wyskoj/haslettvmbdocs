@@ -1,0 +1,10 @@
+% Encoding: UTF-8
+
+@Misc{hollis,
+  author  = {Hollis, Ben},
+  title   = {Advanced Conducting},
+  journal = {The Method Behind The Music},
+  url     = {https://method-behind-the-music.com/conducting/advanced/},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

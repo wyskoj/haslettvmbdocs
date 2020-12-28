@@ -11,6 +11,7 @@
 \newenvironment{dedication}
      {\vspace{6ex}\begin{quotation}\begin{center}\begin{em}}
      {\par\end{em}\end{center}\end{quotation}}
+\usepackage{url}
 \end_preamble
 \use_default_options true
 \begin_modules
@@ -47,12 +48,14 @@ fixltx2e
 \use_hyperref true
 \pdf_title "Haslett Viking Marching Band Master Handbook"
 \pdf_author "Wysko et al."
+\pdf_subject "Enumeration of styles and repository of information related to the Haslett High School Viking Marching Band."
+\pdf_keywords "haslett, marching band, fundamentals"
 \pdf_bookmarks true
 \pdf_bookmarksnumbered true
 \pdf_bookmarksopen false
 \pdf_bookmarksopenlevel 1
 \pdf_breaklinks false
-\pdf_pdfborder false
+\pdf_pdfborder true
 \pdf_colorlinks false
 \pdf_backref page
 \pdf_pdfusetitle true
@@ -70,7 +73,7 @@ fixltx2e
 \use_package undertilde 1
 \cite_engine basic
 \cite_engine_type default
-\biblio_style plain
+\biblio_style ieeetr
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
@@ -212,7 +215,7 @@ Fun with Fundamentals
  document, you are familiar with the intention of this chapter.
  This chapter aims to be a revamped, updated, formalized version with full,
  complete information for every fundamental and marching maneuver, fleshed
- with figures and diagrams.
+ with figures and diagrams for full comprehension and definition.
  This chapter should ideally be updated from year to year to adjust for
  additions or changes.
 \end_layout
@@ -220,19 +223,32 @@ Fun with Fundamentals
 \begin_layout Standard
 The source code for this book—including instructions for contribution and
  credits—is available at 
-\begin_inset CommandInset href
-LatexCommand href
-name "github.com/wyskoj/haslettvmbdocs"
-target "https://github.com/wyskoj/haslettvmbdocs"
-literal "false"
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://github.com/wyskoj/haslettvmbdocs
+\end_layout
 
 \end_inset
 
 .
 \end_layout
 
-\begin_layout Section*
-How do I use this book?
+\begin_layout Standard
+The latest, most up to date version of this book is viewable at 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://wyskoj.github.io/haslettvmbdocs
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -261,23 +277,17 @@ Each fundamental is broken down into its most important components.
 \end_layout
 
 \begin_layout Section*
-Who wrote this book?
+Credits
 \end_layout
 
-\begin_layout Standard
-The first edition of this book was written by Jacob Wysko in 2020 using
- \SpecialChar LyX
-, with review from 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-add people who help
+\begin_layout Itemize
+Jacob Wysko — D.M., A.S.
+ '20 — Lead Author, Graphics Design, Score Engraving
 \end_layout
 
-\end_inset
-
-
+\begin_layout Itemize
+Simon Kwilinski — Clr.
+ '20 — Section specific info (Clarinet)
 \end_layout
 
 \begin_layout Standard
@@ -665,7 +675,7 @@ name "fig:field"
 \end_inset
 
 A standard football field.
- The grid represents 4 8:5 steps.
+ The grid represents four 8:5 steps.
 \end_layout
 
 \end_inset
@@ -953,7 +963,7 @@ Move
 \begin_layout Plain Layout
 
 \series bold
-right-left
+Right-left
 \end_layout
 
 \end_inset
@@ -1210,7 +1220,7 @@ Set — The current set number.
 \end_layout
 
 \begin_layout Itemize
-Move — The amount of beats that elapse since the last set.
+Move — The number of beats that elapse since the last set.
 \end_layout
 
 \begin_layout Itemize
@@ -2021,7 +2031,7 @@ Relaxed Attention
 \end_layout
 
 \begin_layout Standard
-Very rarely does the band ever hold a 
+Seldom does the band ever hold a 
 \noun on
 Relaxed Attention
 \noun default
@@ -3774,7 +3784,7 @@ Facings
 Facings 
 \noun default
 are only typically used in fundamental block.
- They allow the band to be rotated very quickly.
+ They allow the band to be rotated rapidly.
  They are similar to Flankings, which are much more common.
  Facings only occur with a given command:
 \end_layout
@@ -4325,7 +4335,7 @@ motionless
 \series default
  throughout the Step Off and Roll Stepping.
  Your core will need to be engaged to maintain this stability.
- Squeeze your glutes.
+ Squeeze your buttocks.
  Imagine there is a glass of water on your head and you can't spill any
  of it.
  You should not move your upper body at all!
@@ -7196,7 +7206,7 @@ and begin marching forwards for 8 steps.
  The band will Flank right again and take 8 more steps.
  Finally, the band will flank right again and take 8 more steps.
  The last step before finishing the box is a cheat step.
- The band finishes in the same direction as they started, so, the very last
+ The band finishes in the same direction as they started, so, the final
  step is a flank to rotate back to the initial direction.
  The cheat step helps achieve this.
 \end_layout
@@ -7220,18 +7230,6 @@ left,
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename graphics/box.svg
-	lyxscale 40
-	width 100col%
-
-\end_inset
-
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -7988,12 +7986,1963 @@ stemUp d4 -> r4 d4 -> r8 d16 :32 d16 :32 | d4 -> r4 r2
 Drum Majors
 \end_layout
 
+\begin_layout Standard
+Maybe you're a Drum Major who was recently appointed and you're looking
+ for all the knowledge you can get relevant to your new job title.
+ Great! Maybe you're an aspiring Drum Major who's looking to audition and
+ wants to know everything they can to successfully achieve the role and
+ be a kickass Drum Major.
+ Great! This section will cover everything I can possibly think of that
+ you'll need to know, all the way from before the audition, to appointing
+ next year's Drum Majors.
+\end_layout
+
+\begin_layout Standard
+There is a lot to know to and do while being Drum Major; the role is the
+ catalyst that allows the band to perform together.
+ Drum Majors are not everything for a successful band as Section Leaders
+ are also there to coach and lead the band.
+ It's important to heed the importance of Drum Majors, but they are not
+ the entirety of the leadership in the band.
+\end_layout
+
+\begin_layout Section
+The Audition
+\end_layout
+
+\begin_layout Standard
+To become a Drum Major, you have to go through 
+\noun on
+The Audition
+\noun default
+.
+ This step allows for only the best of the best
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+If you're in band, you're the cream of the crop! If you're a Drum Major,
+ you're the cream of the cream of the crop!!
+\end_layout
+
+\end_inset
+
+ to be appointed to the role.
+ The audition process typically takes place the Monday before the Spring
+ Concert in May.
+ Directors make their decision that night and the results are revealed publicly
+ at the end of the concert.
+ 
+\end_layout
+
+\begin_layout Standard
+It is common for freshmen and sophomores to audition for Drum Major to be
+ more prepared for their junior year audition, when they would be appointed
+ the role.
+\end_layout
+
+\begin_layout Subsection
+The Panel
+\end_layout
+
+\begin_layout Standard
+The Audition is moderated by 
+\noun on
+The Panel
+\noun default
+.
+
+\noun on
+ 
+\noun default
+The Panel usually consists of the following individuals:
+\end_layout
+
+\begin_layout Itemize
+Directors (Dave Gott and Mike Larsen)
+\end_layout
+
+\begin_layout Itemize
+Color Guard instructor (Jennifer Brooks)
+\end_layout
+
+\begin_layout Itemize
+Assistant principal
+\end_layout
+
+\begin_layout Itemize
+Current Drum Majors
+\end_layout
+
+\begin_layout Subsection
+The Audition Process
+\end_layout
+
+\begin_layout Standard
+The Audition is divided into four sections, each evaluating and testing
+ a different aspect and subject of being a Drum Major:
+\end_layout
+
+\begin_layout Enumerate
+Delivering commands for 60 seconds
+\end_layout
+
+\begin_layout Enumerate
+Teaching a drill in 60 seconds
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Due to the COVID-19 pandemic, 2020's audition was held on Zoom, and as such
+ this was replaced with teaching a fundamental for 60 seconds for that year's
+ audition.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Conducting the Star Spangled Banner
+\end_layout
+
+\begin_layout Enumerate
+Interview
+\end_layout
+
+\begin_layout Standard
+The Audition is typically divided by step, then by contestant.
+ So, all contestants will deliver commands for 60 seconds, back to back,
+ then they will teach a drill for 60 seconds, back to back, etc.
+\end_layout
+
+\begin_layout Subsubsection
+Delivering Commands
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+For 60 seconds, deliver commands (e.g., mark time, horns up, etc.).
+\end_layout
+
+\begin_layout Standard
+During this first section of The Audition, those who are auditioning for
+ section leader are lined up in several rows in the band room.
+ The Drum Major contestant will give commands to this section of the band
+ for 60 seconds while clapping, demonstrating their ability to confidently
+ deliver accurate and suitable commands, as well as their clapping ability.
+\end_layout
+
+\begin_layout Paragraph
+What will the panel be looking for?
+\end_layout
+
+\begin_layout Itemize
+Command variety
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If all you do in the 60 seconds is left and right turns, this isn't demonstratin
+g the full ability of your delivery.
+ Judges will be noting your variety of commands to see how comfortable you
+ are delivering them.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Confidence in delivery
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Stumbling over words, laughing and smiling, breaking the tempo of clapping,
+ and other insecurities are a sign of timidity.
+ Be confident in what you are about to deliver with strong vocals and clear
+ diction.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Good recovery if mistake is made
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Don't fret too much if you make a mistake, just keep clapping and deliver
+ the next one.
+ In the real world (on the field), you are likely to make a mistake, and
+ that's fine, as long as you can quickly recover and move on.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Consistent tempo
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Being able to keep a consistent tempo throughout the duration of your deliveries
+ is important since keeping tempo is vital for conducting.
+ Being able to keep a consistent tempo demonstrates your ability to keep
+ the beat.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Good tempo changes 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If you feel comfortable with clapping and delivery, you can stop halfway
+ through the duration, pick a new tempo, and begin clapping and giving deliverie
+s at the new tempo.
+ This shows that you are able to adjust and adapt to tempo changes which
+ are possible to happen in a show.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Strong claps
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+It's quite important that Drum Majors be able to give consistent, strong
+ claps to keep a tempo.
+ Being able to demonstrate that you can produce a loud, solid clap and repeat
+ it for a tempo is vital.
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection
+Teaching a Drill
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+Given a drill (e.g., forwards march, left flank, etc.), analyze and study the
+ drill for 30 seconds.
+ Then, for 60 seconds, teach the band how to execute the drill.
+ Finally, have the band execute the drill with no aid.
+\end_layout
+
+\begin_layout Standard
+During this section, the contestant will take 30 seconds and analyze the
+ drill given to them.
+ After this, they will teach the section leader contestants the drill and
+ have them perform it.
+\end_layout
+
+\begin_layout Paragraph
+What will the panel be looking for?
+\end_layout
+
+\begin_layout Itemize
+Confidence and clarity in teaching
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+It's important to know what you are going to say to the band to make sure
+ you teach it well.
+ Stumbling over words will only hinder your use of time.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Wise use of time (being efficient)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Use the full 30 seconds for analysis and 60 seconds for teaching and don't
+ waste time in those allotted seconds.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Being prepared for obstacles
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Often times in the band room, there will not be enough space to complete
+ the full drill.
+ Being prepared for this to find a solution is important if it arises.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+How well the band executes the drill after the elapsed time 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Ultimately, the main point of this exercise is to see how well you can teach
+ the information to the band and how well they can perform it at the end
+ of the allotted time.
+ Be efficient, be clear with your words, and use your time wisely.
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection
+Conducting the Banner
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+Conduct the Star Spangled Banner.
+\end_layout
+
+\begin_layout Standard
+In this section, contestants will conduct the Star Spangled Banner.
+ The section leader contestants will sit in the band room and sing their
+ part while the contestant stands and conducts the song.
+ The contestant is expected to have a proper entrance and exit, following
+ Drum Major fundamentals.
+\end_layout
+
+\begin_layout Paragraph
+What will the panel be looking for?
+\end_layout
+
+\begin_layout Itemize
+Perfect 3/4 conducting
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+It's important to master the 3/4 conducting pattern to conduct the banner.
+ Although it is not common that you will have to conduct 3/4 anywhere else,
+ it is important for this section of the audition.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Confidence Recovery when losing the beat
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+It can sometimes happen that you'll lose the beat and you'll need to get
+ back on track.
+ If this happens, keep circling your hands until you find beat 1, then continue
+ conducting.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Banner specific conducting
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+When conducting the Banner, there are several cues and motions that are
+ important to indicate: booms, crashes, and trumpet cues.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Facial expressions (laughing or smiling can indicate timidity) 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+When conducting, it's important to have the correct facial expression for
+ what you're conducting.
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection
+Interview
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+Answer questions from the panel.
+\end_layout
+
+\begin_layout Standard
+In this final section of The Audition, contestants will answer some questions
+ from the panel, usually one question per judge.
+ 
+\end_layout
+
+\begin_layout Standard
+The panel is not going to ask a specific question (e.g., what is this specific
+ value or date, it's not a quiz), but rather open-ended questions to gather
+ your thoughts and determine how you may react in a situation.
+\end_layout
+
+\begin_layout Standard
+There will be four seats that you can sit in during the interview.
+ Make sure you pick the correct one!...
+ well, I don't really know why Mr.
+ Gott likes to do this.
+ I think it's less about which seat you pick, and more about how quickly
+ you pick a seat.
+ Or maybe it's just to psych you out.
+\end_layout
+
+\begin_layout Subsection
+After the Audition
+\end_layout
+
+\begin_layout Standard
+The next day at 7 AM, all Drum Major contestants will meet with the directors
+ to learn the outcome of The Audition.
+ 
+\end_layout
+
+\begin_layout Standard
+If you're chosen, congratulate the other contestants and acknowledge their
+ hard work! Look forward to working with them throughout the season, and
+ accept any help they provide and be sure to delegate tasks to them throughout
+ the season.
+ You'll also be working with the current Drum Majors after the school day
+ to learn enough to conduct the fight song.
+\end_layout
+
+\begin_layout Standard
+If you weren't chosen, it's okay.
+ It wasn't meant to be.
+ Have a positive attitude moving forward and look for any way to help the
+ new Drum Majors.
+ They will be sure to delegate to you!
+\end_layout
+
+\begin_layout Standard
+Keep it a secret throughout the day until they announce it officially at
+ the concert!
+\end_layout
+
 \begin_layout Section
 Leadership
 \end_layout
 
+\begin_layout Quote
+
+\emph on
+\begin_inset Quotes eld
+\end_inset
+
+Leadership is the inspiring and encouraging of others to achieve their full
+ potential.
+\begin_inset Quotes erd
+\end_inset
+
+ – Dr.
+ Matthew Arau
+\end_layout
+
+\begin_layout Standard
+One of the most important aspects of being a Drum Major of the band is 
+\noun on
+Leadership
+\noun default
+.
+ Of course, this is important, but it's also easy to just say 
+\begin_inset Quotes eld
+\end_inset
+
+it's important
+\begin_inset Quotes erd
+\end_inset
+
+ and not go into detail on how to actually apply leadership to the experiences
+ the band will face during the season.
+\end_layout
+
+\begin_layout Standard
+Leadership is all about being the driving force to make change in a group.
+ Everything that you do as Drum Major that helps the band learn something
+ new, get better at something, or change their attitude is leadership.
+ It's what makes the group want to get together every day for the season
+ and keep striving to get better.
+\end_layout
+
+\begin_layout Standard
+In this section of this chapter, I want to talk about all the things you
+ want to specifically implement, as well as avoid.
+ Without great leadership, we can't have a great band.
+\end_layout
+
+\begin_layout Subsection
+Traits of Good Leaders
+\end_layout
+
+\begin_layout Standard
+There are ways to describe good leaders.
+ These traits should be applicable to good leaders that have a positive
+ impact on their band:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="50text%">
+<column alignment="center" valignment="top" width="50text%">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+\paragraph_spacing other 0.5
+\noindent
+Justice
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing other 0.5
+\noindent
+Judgment 
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing other 0.5
+\noindent
+Dependability
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing other 0.5
+\noindent
+Integrity
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing other 0.5
+\noindent
+Decisiveness
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing other 0.5
+\noindent
+Tact
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing other 0.5
+\noindent
+Initiative
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+\paragraph_spacing other 0.5
+\noindent
+Enthusiasm
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing other 0.5
+\noindent
+Bearing
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing other 0.5
+\noindent
+Unselfishness
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing other 0.5
+\noindent
+Courage
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing other 0.5
+\noindent
+Knowledge
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing other 0.5
+\noindent
+Loyalty
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing other 0.5
+\noindent
+Endurance
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I could sit here and tell you how I think each word applies to good leaders,
+ but that defeats a bit of the point.
+ If you yourself go through the above list and think about how you could
+ apply each trait to yourself, you set yourself up for success by planting
+ an image in your mind of yourself as a good leader.
+\end_layout
+
+\begin_layout Standard
+For example, I am a Libra, so I have a really tough time making decisions—especi
+ally over the stupidest, most minor stuff you could think of—and the role
+ of Drum Major really taught me how to make a quick decision and stick with
+ it.
+ Trying to make decisions on your own will be beneficial for the season
+ (since you'll be faced with many problems and situations).
+\end_layout
+
+\begin_layout Subsection
+Spheres of Influence
+\end_layout
+
+\begin_layout Standard
+While being a Drum Major of the band, there are inevitably going to be some
+ situations that you think you have no say or control in.
+ Sometimes this is absolutely true.
+ There are things that you will have direct control over, things you have
+ a say in or can influence, and things you absolutely have no say or control
+ over.
+\end_layout
+
+\begin_layout Standard
+There spheres are demonstrated in Figure 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "fig:spheres-of-influence"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "nhs"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename graphics/spheres_of_influence.svg
+	width 33text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:spheres-of-influence"
+
+\end_inset
+
+The Spheres of Influence
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Think now of a few things of each category.
+ I'll give an example for each sphere:
+\end_layout
+
+\begin_layout Description
+I
+\begin_inset space ~
+\end_inset
+
+can
+\begin_inset space ~
+\end_inset
+
+control How wisely I use my time
+\end_layout
+
+\begin_layout Description
+I
+\begin_inset space ~
+\end_inset
+
+can
+\begin_inset space ~
+\end_inset
+
+influence How others feel about something
+\end_layout
+
+\begin_layout Description
+I
+\begin_inset space ~
+\end_inset
+
+cannot
+\begin_inset space ~
+\end_inset
+
+control
+\begin_inset space ~
+\end_inset
+
+nor
+\begin_inset space ~
+\end_inset
+
+influence How many hours I have in the day
+\end_layout
+
+\begin_layout Standard
+You may find that it is easier to think of things that are in your control
+ or your influence.
+ This shows that your voice is powerful and can be used to help a situation.
+ 
+\end_layout
+
+\begin_layout Subsection
+Delegation and Support
+\end_layout
+
+\begin_layout Standard
+When you're in a leadership position, you're part of this hierarchy including
+ yourself and everyone else in the band.
+ There are people with a higher role and people with a lower role.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+A person's role shouldn't override how you treat them, though.
+ This is important to remember.
+\end_layout
+
+\end_inset
+
+ For example, as Drum Major, you are leading all the Section Leaders, the
+ band managers, as well as all band members.
+\end_layout
+
+\begin_layout Standard
+And, of course, the directors are at the top of the hierarchy.
+ They have the most say, but thinking back to the spheres of influence,
+ you still have influence of those who are above you.
+ 
+\end_layout
+
+\begin_layout Standard
+You will also get support from others in the band.
+ Whether it's a simple question or you need help resolving a complex situation,
+ you will typically look to someone above you for help and advice when you
+ are not able to form a decision yourself.
+\end_layout
+
+\begin_layout Standard
+You will also be delegating tasks.
+ If someone comes up to you and asks you do something that you know a Section
+ Leader or band manager can do, you might delegate the task to them.
+ I personally suck at delegating and ended up doing a lot of stuff, but
+ you might find it easier.
+ For example, as Drum Major, you might delegate tick painting to band managers
+ so you can focus on preparing for what you're going to cover in the next
+ section.
+\end_layout
+
+\begin_layout Standard
+It's actually super important to give others who don't have the “desk plaque”
+ tasks to do.
+ It helps give them a sense of leadership and makes them feel responsible
+ for a part of the band.
+\end_layout
+
+\begin_layout Standard
+Now, this isn't to say that you should be handing all tasks you have to
+ do to someone else.
+ It's important to realize which tasks are important to delegate and which
+ to take responsibility over.
+\end_layout
+
+\begin_layout Standard
+Another good person to delegate to is your co-Drum Major.
+ If they aren't immediately busy, give them tasks presented to you if you
+ are busy.
+\end_layout
+
+\begin_layout Standard
+A general hierarchy can demonstrate the order of leadership in the band
+ shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "fig:delegation-and-support"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename graphics/delegation_and_support.svg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:delegation-and-support"
+
+\end_inset
+
+The general hierarchy of leadership in the band.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Further Reading
+\end_layout
+
+\begin_layout Standard
+I'm not an expert on leadership\SpecialChar endofsentence
+ I can only provide to you what I have learned
+ throughout my tenure as Drum Major.
+ I can't prep you for every situation that may arise, unfortunately.
+ But, I hope the previous subsections in this section have helped a bit
+ in getting a good understanding of how leadership is important to 
+\emph on
+our
+\emph default
+ band specifically.
+\end_layout
+
+\begin_layout Standard
+If you want more leadership resources, I can recommend to you Dr.
+ Matthew Arau, Assistant Professor of Music at Lawrence University in Appleton,
+ Wisconsin.
+ During the summer of 2019, Ethan and I attended a leadership workshop presented
+ by him.
+ He gave us a ton of useful knowledge that helped me prepare for the season.
+ If you contact him looking for the resources he provides, I'm sure he'd
+ be more than happy to provide you as many resources as possible to help
+ you succeed.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Add other resources?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Conducting
+\end_layout
+
+\begin_layout Standard
+Another grave aspect of being a Drum Major is 
+\noun on
+Conducting
+\noun default
+.
+ To put simply, conducting is making sure everyone is on the correct beat
+ while playing and marching.
+ In this section, I hope to provide a start to finish walk-through on how
+ to become efficient at conducting.
+\end_layout
+
+\begin_layout Subsection
+Keeping the Beat
+\end_layout
+
+\begin_layout Standard
+There exist prerequisites to conducting that you must be comfortable with
+ before you will be able to conduct.
+ You must be able to count to four is a musical fashion (i.e., counting from
+ one to four to a given tempo).
+ This entails more than you may perceive at face value: the most important
+ part of this being able to do this while not having a metronome.
+\end_layout
+
+\begin_layout Standard
+Try this example to see what I'm poorly trying to say.
+ Get a metronome and set the tempo to ♩ = 100.
+ Snap your fingers, clap, or make some audible motion, in sync with the
+ metronome for about 4 bars (i.e., 16 beats).
+ Then, have someone mute the metronome, but leave it running.
+ Keep the beat for another 4 bars without being able to hear the metronome.
+ Have the person unmute the metronome when the metronome has clicked for
+ 4 bars.
+ Did your 17th clap line up with the 17th click of the metronome? Uh, oh.
+ Looks like you've got some work to do.
+\end_layout
+
+\begin_layout Standard
+That's okay.
+ Even the best and most experienced drummers can't 100% of the time keep
+ a tempo for an extended period of time.
+ But, there exists one simple trick that will allow you improve this ability.
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+Subdivide.
+\end_layout
+
+\begin_layout Standard
+Subdividing will allow you to remain the beat in your head for much longer
+ and more accurate than if you were not to.
+ Here's how you do it.
+\end_layout
+
+\begin_layout Standard
+Instead of counting 
+\begin_inset Quotes eld
+\end_inset
+
+one, two, three, four
+\begin_inset Quotes erd
+\end_inset
+
+ as quarter notes in your head, try counting 
+\begin_inset Quotes eld
+\end_inset
+
+one e and ah two e and ah three e and ah four e and ah
+\begin_inset Quotes erd
+\end_inset
+
+ as sixteenth notes in your head.
+ By subdividing and counting the sixteenth notes instead, your brain has
+ less discrepancy between each note and can therefore more reliably keep
+ the tempo constant.
+\end_layout
+
+\begin_layout Standard
+When you count 
+\begin_inset Quotes eld
+\end_inset
+
+one, two, three, four,
+\begin_inset Quotes erd
+\end_inset
+
+ your brain has to guess how much time to wait in between each word.
+ As this duration increases, the less accurate this is.
+ By reducing the amount of each time before you say the next word, you increase
+ that accuracy.
+\end_layout
+
+\begin_layout Standard
+If the tempo is rapid and counting sixteenths is not practical, count eighths
+ instead.
+\end_layout
+
+\begin_layout Subsection
+Getting Started
+\end_layout
+
+\begin_layout Standard
+To begin, we'll learn how to conduct a simple 4/4 pattern with no specific
+ Laban elements.
+\end_layout
+
+\begin_layout Standard
+When conducting, we indicate the beat by 
+\begin_inset Quotes eld
+\end_inset
+
+hitting
+\begin_inset Quotes erd
+\end_inset
+
+ a specific 3D coordinate on each beat with the hands.
+ In between each beat, we move the hands in a different direction, ultimately
+ looping as the measures repeat.
+\end_layout
+
+\begin_layout Standard
+Where do we 
+\begin_inset Quotes eld
+\end_inset
+
+hit
+\begin_inset Quotes erd
+\end_inset
+
+ on each beat? On a specific point on the 
+\noun on
+Ictus
+\noun default
+ (/ˈɪktuːs/; IK-toos
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+The Wiktionary entry for Ictus states that the singular pronunciation is
+ /ˈɪktəs/; IK-təs, but I've only ever learned it as defined in the prose.
+\end_layout
+
+\end_inset
+
+), a specific point in 3D space
+\noun on
+.
+ 
+\noun default
+Let's find out how to find this position.
+\end_layout
+
+\begin_layout Subsubsection
+Finding the Ictus
+\end_layout
+
+\begin_layout Standard
+This method will help you find your Ictus.
+\end_layout
+
+\begin_layout Standard
+First, extend your arms all the way forward, like a zombie.
+ Then, tuck them all the way back, like a T-Rex.
+ Then, find the sweet spot in the middle where they rest nicely.
+ You can imagine spreading a table cloth in front of you; the plane where
+ this feels natural is close to your ictus.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "fig:ictus"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ shows an example of an ictus.
+ Why don't I say just follow what's presented in the diagram? It's a little
+ bit different for everyone depending on their height and arm length.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pose_graphics/ictus/ictus_front.svg
+	lyxscale 30
+	width 25col%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename pose_graphics/ictus/ictus_side.svg
+	lyxscale 30
+	width 25col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:ictus"
+
+\end_inset
+
+An example of a good ictus.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+There are a few more important things to remember while holding the ictus
+ position.
+ The fingers should be held together; not clenched, but not spread apart
+ either.
+ The shoulders should be relaxed, back, and rested while the arms are parallel
+ to the ground.
+ The ictus shouldn't be too high or low, near chest height.
+ Also, the hands do not necessarily have to be close to each other.
+ They should extend forward from the shoulder and should not point in nor
+ out.
+\end_layout
+
+\begin_layout Subsubsection
+Adding the 4/4 Pattern
+\end_layout
+
+\begin_layout Standard
+All the motion that happens during conducting happens while not on the beat.
+ For example, if you were to take a picture on every beat, exactly on the
+ beat, of a Drum Major conducting, all of your pictures should look the
+ same\SpecialChar endofsentence
+ The arms and hands should be in the same position every time on the
+ down beats.
+\end_layout
+
+\begin_layout Standard
+I will teach you the the Down-In-Out-Up Pattern.
+ A diagram is shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "fig:The-Down-In-Out-Up-conducting"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Hollis"
+literal "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+The first beat is a simple down beat: raise the hands, then hit the ictus
+ using wrist motion.
+ The hands should bounce off this beat back upwards.
+\end_layout
+
+\begin_layout Standard
+The second beat hits the ictus again, but bounces away from the body, upwards
+ at a 45º angle.
+\end_layout
+
+\begin_layout Standard
+The third beat hits the ictus and bounces towards the center of the body,
+ again upwards at a 45º angle.
+\end_layout
+
+\begin_layout Standard
+The fourth and final beat again hits the ictus and bounces up vertically,
+ ready to hit the next beat, which is the first beat in the pattern.
+\end_layout
+
+\begin_layout Paragraph
+What parts of the arms move?
+\end_layout
+
+\begin_layout Standard
+It's important to define what parts of the arm move, and how much they should
+ move.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Shoulders There should be little motion here.
+ The shoulders may raise slightly when bringing the hands up high.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Elbows The elbows should not bend much, again only a little with extreme
+ motion.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+If this peaks your interest, you may want to study inverse kinematics.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Wrists 90% of the motion should happen here.
+ Optimal use of the wrist allows you to precisely define where your ictus
+ is.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Fingers Don't move or bend your fingers.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename graphics/down_in_out_up.svg
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:The-Down-In-Out-Up-conducting"
+
+\end_inset
+
+The Down-In-Out-Up conducting pattern.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Teaching
+\end_layout
+
+\begin_layout Standard
+When the freshmen step foot on the field for this first time, they will
+ know absolutely nothing about marching.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Well, they will probably know something about marching through sectionals,
+ but you should assume that they know nothing to begin with.
+\end_layout
+
+\end_inset
+
+ It is your job—alongside the section leaders and veterans—to teach them
+ how to be expert marchers by the end of the week of band camp.
+\end_layout
+
+\begin_layout Standard
+Therefore, it is vital to have effective teaching to ensure each member
+ of the band knows all fundamentals, including marching and playing.
+\end_layout
+
+\begin_layout Standard
+You don't have to do all the teaching; section leaders and veterans are
+ there to teach too.
+ But you have to be the initiative and lead for ensuring everyone knows
+ what needs to be known.
+\end_layout
+
+\begin_layout Standard
+In this section I will provide as many procedures, routines, and tips for
+ teaching topics to the band.
+\end_layout
+
+\begin_layout Subsection
+Gradual Release
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+Gradual Release
+\noun default
+ is a method for transferring information from yourself to the band, gradually
+ releasing aid as they progress (as the name suggests) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Fisher2008"
+literal "false"
+
+\end_inset
+
+.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "fig:Gradual-Release"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ demonstrates this through a diagram.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename graphics/gradual_release.svg
+	width 75col%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Gradual-Release"
+
+\end_inset
+
+The Gradual Release teaching strategy.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The two triangles show the amount of teacher support (which is you!) and
+ student responsibility.
+ You read this chart by going from top to bottom.
+ You'll notice that the triangles are divided into thirds.
+ Each third is “I DO,” WE DO”, and “YOU DO.” And those represent how you
+ will move your knowledge of the skill to the student.
+ 
+\end_layout
+
+\begin_layout Standard
+We start with “I DO.” You will begin by naming and demonstrating the fundamental.
+ You'll talk about what the fundamental is, as well as when you will use
+ this and giving some context.
+ Then you can do a demonstration (often, you'll want to use a veteran or
+ a Section Leader as the model).
+ Start with the end product.
+ So, if you're teaching how to stand at Attention, start by showing a proper
+ Attention, so that the learner knows approximately what they will look
+ like once they've learned it.
+\end_layout
+
+\begin_layout Standard
+Once you've shown what it should look like, then you'll want to break it
+ down step by step, piece by piece, to explain the details of the skill.
+ Go through and explain each part.
+ If you're teaching a stationary fundamental, break it down into the parts
+ of the body.
+ If it involves movement, like moving to Parade Rest, you'll want to do
+ this for each move.
+\end_layout
+
+\begin_layout Standard
+Once you've broken it down, let them try it.
+ Don't give any guidance yet.
+ Just let them try it on their own and start to get comfortable with it.
+ This is the most important step, and is also the most forgotten.
+ You can feel free to keep demonstrating it to help them try it.
+ 
+\end_layout
+
+\begin_layout Standard
+So by now, we've talked about what you're teaching, what it looks like,
+ each component of it, and now they're trying it on their own.
+\end_layout
+
+\begin_layout Standard
+While they're trying it, notice what they're doing right and wrong.
+ Pay attention to a few specific areas that you'll want to address.
+ Once they've had some time to get comfortable, give some feedback and talk
+ about what they're doing well, and what they need to fix to make it perfect!
+\end_layout
+
+\begin_layout Standard
+Ultimately, the step-by-step strategy is:
+\begin_inset CommandInset label
+LatexCommand label
+name "step-by-step-strat"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Name it
+\end_layout
+
+\begin_layout Enumerate
+Demonstrate it
+\end_layout
+
+\begin_layout Enumerate
+Break it down
+\end_layout
+
+\begin_layout Enumerate
+Let them try it
+\end_layout
+
+\begin_layout Enumerate
+Observe & analyze
+\end_layout
+
+\begin_layout Enumerate
+Give feedback
+\end_layout
+
+\begin_layout Subsection
+Giving and Receiving Feedback
+\end_layout
+
+\begin_layout Standard
+No teacher is perfect.
+ But, listening and interpreting feedback from the band is going to help
+ you a long ways.
+ Also, giving your feedback to those learning will increase their understanding.
+\end_layout
+
+\begin_layout Subsubsection
+Giving Feedback: The Feedback Sandwich
+\end_layout
+
+\begin_layout Standard
+Pointing out what others are doing well is helpful, but not all that helpful
+ because it does not address what is not well, and therefore needs to be
+ improved.
+ Using the 
+\noun on
+Feedback Sandwich
+\noun default
+ can allow you to provide both types of feedback while boosting the learner's
+ confidence 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Dohrenwend2002,docheff1990feedback,schartel2012giving"
+literal "false"
+
+\end_inset
+
+.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+The efficacy of the feedback sandwich is disputed 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "doi:10.1080/01608061.2015.1093057,VonBergen2014,Cohn2017"
+literal "false"
+
+\end_inset
+
+, but through personal experience I found it to be beneficial.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "VonBergen2014"
+literal "false"
+
+\end_inset
+
+ provides some good guidelines for correct correcting, but these procedures
+ are best suited for a more professional workplace environment where staff
+ have time to prepare what they are going to say.
+ But when you're on the field, you need to serve up that sandwich fast (you're
+ not going to create a meeting and schedule conferences with each member
+ and explain to them their feedback that way) and get the feedback to them
+ as soon as possible so they can learn most efficiently.
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+The concept is simple:
+\end_layout
+
+\begin_layout Enumerate
+Give feedback on something good they are doing
+\end_layout
+
+\begin_layout Enumerate
+Give feedback on something they could improve on
+\end_layout
+
+\begin_layout Enumerate
+Reinforce first good thing, or note something else they are doing good
+\end_layout
+
+\begin_layout Standard
+Here are a couple of examples of good feedback sandwiches:
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+Hey, great foot angle while marking time! Just make sure you aren't moving
+ your head while you do it.
+ Your mark time is getting better, keep it up!
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+Great job on the backwards march; your heels never touched the ground! But
+ make sure you're careful you're not undershooting the yard line, that can
+ be tricky.
+ Great job keeping your upper body stable as well.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Receiving Feedback
+\end_layout
+
+\begin_layout Standard
+Chances are you may have never taught a large group before.
+ Or maybe you have for a really long time and feel comfortable doing it.
+ Either way, you must be accepting of feedback as well.
+ The band will tell you if they don't understand.
+ It's up to you to interpret and parse that feedback and translate it into
+ action you will do to help the band learn better.
+\end_layout
+
+\begin_layout Subsection
+Teaching Fundamentals
+\end_layout
+
+\begin_layout Standard
+The majority of what you will be teaching is fundamentals.
+ Therefore, you absolutely must be 100% confident in fundamentals yourself!
+ Spend lots of time before camp practicing teaching your friends, family,
+ or anyone else who is willing to be your guinea pig and master delivering
+ information to them.
+ Pick someone who has no idea how to march and teach them everything you
+ know.
+\end_layout
+
+\begin_layout Subsubsection
+The Formula for Effective Teaching
+\end_layout
+
+\begin_layout Standard
+Much of what is presented in 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Price2017"
+literal "false"
+
+\end_inset
+
+ has nothing to do with the topic of teaching a marching band, but Price's
+ points of teaching are actually applicable and I will adapt what Price
+ presents and apply it to teaching a marching band.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{Effective~teaching}=\text{Result}+\text{Practice}+\text{Clarity}+\text{Delivery}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Let's discuss each component of this sum and how it applies in context.
+\end_layout
+
+\begin_layout Paragraph
+Result
+\end_layout
+
+\begin_layout Standard
+The 
+\noun on
+Result
+\noun default
+ is the end product.
+ It's the goal that you and the rest of the band want to achieve.
+ That's why whenever you start teaching fundamentals, you want to state
+ what that end goal is.
+ Teaching the band a bunch of fundamentals without really telling them why
+ you're teaching them them might not make a whole lot of sense in the mind
+ of a freshman.
+ You might explain why we learn and practice fundamentals, how they're used
+ in the show, and what the show actually is! You absolutely have to paint
+ this picture in the heads of the freshmen to begin the path.
+\end_layout
+
+\begin_layout Paragraph
+Practice
+\begin_inset CommandInset label
+LatexCommand label
+name "par:Practice"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Before you begin teaching the band, you have to 
+\noun on
+Practice 
+\noun default
+teaching the fundamentals to someone else.
+ Why? Let's imagine the scenario where you don't.
+ It's day 1 of band camp.
+ 100 people are standing on the field in front of you and you have no idea
+ what you are going to say.
+ You're making words up on the spot, making a ton of mistakes, and confusing
+ the freshmen.
+ Practice before camp so you know specific details you want to point out,
+ mistakes you want to avoid, and precise wording you want to say.
+\end_layout
+
+\begin_layout Paragraph
+Clarity
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+\begin_inset Quotes eld
+\end_inset
+
+Any fool can make something complicated.
+ It takes a genius to make it simple.
+\begin_inset Quotes erd
+\end_inset
+
+ – Woodie Guthrie
+\end_layout
+
+\begin_layout Standard
+Much like the statements in 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "par:Practice"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, wording is key.
+ If you can't properly state the thoughts you are trying to present, your
+ presentation is going to go off key.
+ You might start explaining something one way, then realize what you're
+ explaining is incorrect, effectively wasting time.
+ Plan and choose your words and thoughts carefully.
+ Try to explain the most amount of information in the simplest and fewest
+ words possible.
+\end_layout
+
+\begin_layout Paragraph
+Delivery
+\end_layout
+
+\begin_layout Standard
+As Price states, it's important to be yourself.
+ Have some fun while doing this! Make a joke here and there to make sure
+ you don't bore or scare your audience.
+ Keep it interesting and switch out Drum Majors teaching every once in a
+ while.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+You could do what me and Ethan did before camp and decide who was going
+ to teach which fundamentals.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+It's also important to teach each fundamental in 60 seconds.
+ This does not mean the band has to be an expert in 60 seconds, but the
+ initial information dump has to be done in 60 seconds (i.e., steps 1–3 from
+ 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "step-by-step-strat"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Subsubsection
+Giving Pushups
+\end_layout
+
+\begin_layout Standard
+There is a time and place for giving pushups.
+ Giving pushups right after teaching the freshmen a new fundamental is not
+ the time, nor place.
+ Don't.
+\end_layout
+
+\begin_layout Standard
+Give pushups when the band is expected to have a fundamental mastered and
+ fails to perfect it.
+ For example, if anyone breaks Attention on day 3 (since 
+\emph on
+everyone
+\emph default
+ knows the expectations for Attention), give them pushups.
+ The band should have Attention mastered by lunch on day 1.
+\end_layout
+
+\begin_layout Standard
+At the end of the day, follow the golden rule: 
+\emph on
+Don't be a dick.
+\end_layout
+
+\begin_layout Standard
+This may sound harsh, but I really mean it.
+ You're a Drum Major, not a boss.
+ If someone is struggling at mastering a fundamental, don't give them pushups.
+ Instead, work with them to improve it.
+ Give feedback, demonstrate examples, and employ other leaders to help the
+ individual master the fundamental.
+\end_layout
+
+\begin_layout Standard
+Remember, pushups are a form of discipline.
+ Use common sense when you need to discipline someone, and when you shouldn't.
+\end_layout
+
+\begin_layout Section
+Fundamentals for Drum Majors
+\end_layout
+
+\begin_layout Standard
+Drum Majors have specific poses for several fundamentals.
+ In this section, Drum Major specific fundamentals are defined.
+\end_layout
+
+\begin_layout Subsection
+Attention
+\end_layout
+
+\begin_layout Description
+Feet placed side by side, toes and heels together, toes pointing forwards.
+\end_layout
+
+\begin_layout Description
+Legs slightly bent, just enough that knees are not locked, pointing forwards.
+\end_layout
+
+\begin_layout Description
+Hips level and providing even weight distribution to both legs.
+\end_layout
+
+\begin_layout Description
+Torso straight and tall, core engaged.
+\end_layout
+
+\begin_layout Description
+Shoulders relaxed, but back, square, and even.
+\end_layout
+
+\begin_layout Description
+Elbows bent slightly at 15º so that hands rest just below waist.
+\end_layout
+
+\begin_layout Description
+Arms rested down to the sides.
+\end_layout
+
+\begin_layout Description
+Hands form fist, not super tight, but not relaxed, middle finger should
+ rest on the seam of pants, just below waist.
+\end_layout
+
+\begin_layout Description
+Head looking slightly up at 15º angle, neck relaxed.
+\end_layout
+
+\begin_layout Subsection
+Parade Block Strut
+\end_layout
+
+\begin_layout Standard
+The 
+\noun on
+Strut 
+\noun default
+Drum Majors do while leading Parade Block usually changes from year to year,
+ so I won't provide a specific description for any one strut.
+ But there are some guidelines to follow:
+\end_layout
+
+\begin_layout Itemize
+The mace should be slammed into the ground, on the right side of the Drum
+ Major, on every beat 1 of each measure while in the cadence.
+\end_layout
+
+\begin_layout Itemize
+Always be in sync with your co-Drum Major.
+ Switch mace movement styles at the same type.
+ There should be no more than 1 yoctosecond between the impact of your and
+ your co-Drum Major's mace!
+\end_layout
+
+\begin_layout Itemize
+At the end of the day, it doesn't really matter exactly what movements you
+ perform, just make sure it is the 
+\emph on
+exact
+\emph default
+ same thing your co-Drum Major is doing.
+ Follow these rules and you are fine!
+\end_layout
+
+\begin_layout Subsection
+180º Flank
+\end_layout
+
+\begin_layout Standard
+The 
+\noun on
+180º Flank 
+\noun default
+rotates the Drum Major around, facing the other direction.
+ The move for this is simple: on beat 4, place the toe of the left foot
+ behind the right foot.
+ On beat 1, pivot on both feet and turn the body 180º CCW.
+ The upper body should remain motionless relative to the spin.
 \end_layout
 
 \begin_layout Chapter
@@ -8422,8 +10371,8 @@ The generated drills are at various difficulties, getting increasingly harder
  with difficulty.
  
 \emph on
-Note: the generated drills asume an infinite field, so make sure there is
- enough space to complete the drill
+Note: the generated drills assume an infinite field, so make sure there
+ is enough space to complete the drill
 \emph default
 .
 \begin_inset Foot
@@ -11870,22 +13819,12 @@ Expert
 
 \end_layout
 
-\begin_layout Chapter
-\begin_inset CommandInset label
-LatexCommand label
-name "chap:Scores"
-
-\end_inset
-
-Scores
-\end_layout
-
 \begin_layout Standard
-\begin_inset External
-	template PDFPages
-	filename scores/cadence.pdf
-	lyxscale 40
-	extra LaTeX "pages=-"
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintCited"
+bibfiles "refs"
+options "bibtotoc,IEEEtran"
 
 \end_inset
 

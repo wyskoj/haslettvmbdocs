@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100.91057mm"
+   height="100.91057mm"
+   viewBox="0 0 100.91057 100.91057"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="spheres_of_influence.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="207.98238"
+     inkscape:cy="131.00759"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="968"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-17.996391,-38.965065)">
+    <circle
+       id="path10"
+       cx="68.451675"
+       cy="112.16135"
+       r="27.214285"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <circle
+       id="path10-3"
+       cx="68.451675"
+       cy="100.85734"
+       r="38.518291"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <circle
+       id="path10-3-6"
+       cx="68.451675"
+       cy="89.420349"
+       r="49.955284"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93888903px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15803193"
+       x="68.240051"
+       y="110.95441"
+       id="text849"
+       transform="scale(1.0025207,0.99748563)"><tspan
+         sodipodi:role="line"
+         id="tspan847"
+         x="69.185844"
+         y="110.95441"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93888903px;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Bold';text-align:center;text-anchor:middle;stroke-width:0.15803193">I CAN </tspan><tspan
+         sodipodi:role="line"
+         x="68.240051"
+         y="117.32673"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93888903px;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Bold';text-align:center;text-anchor:middle;stroke-width:0.15803193"
+         id="tspan851">CONTROL</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93888903px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15803191"
+       x="68.277092"
+       y="74.252991"
+       id="text849-7"
+       transform="scale(1.0025207,0.99748563)"><tspan
+         sodipodi:role="line"
+         x="68.277092"
+         y="74.252991"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93888903px;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Bold';text-align:center;text-anchor:middle;stroke-width:0.15803191"
+         id="tspan851-3">I CAN</tspan><tspan
+         sodipodi:role="line"
+         x="68.277092"
+         y="80.625313"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93888903px;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Bold';text-align:center;text-anchor:middle;stroke-width:0.15803191"
+         id="tspan876">INFLUENCE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93888903px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.1580319"
+       x="68.316605"
+       y="54.023273"
+       id="text849-7-5"
+       transform="scale(1.0025207,0.99748563)"><tspan
+         sodipodi:role="line"
+         x="68.316605"
+         y="54.023273"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93888903px;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Bold';text-align:center;text-anchor:middle;stroke-width:0.1580319"
+         id="tspan876-2">I CANNOT CONTROL</tspan><tspan
+         sodipodi:role="line"
+         x="68.316605"
+         y="60.395599"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93888903px;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Bold';text-align:center;text-anchor:middle;stroke-width:0.1580319"
+         id="tspan901">NOR INFLUENCE</tspan></text>
+  </g>
+</svg>
