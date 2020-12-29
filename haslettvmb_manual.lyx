@@ -8602,10 +8602,9 @@ I could sit here and tell you how I think each word applies to good leaders,
 \end_layout
 
 \begin_layout Standard
-For example, I am a Libra, so I have a really tough time making decisions—especi
-ally over the stupidest, most minor stuff you could think of—and the role
- of Drum Major really taught me how to make a quick decision and stick with
- it.
+For example, I have a really tough time making decisions—especially over
+ the stupidest, most minor stuff you could think of—and the role of Drum
+ Major really taught me how to make a quick decision and stick with it.
  Trying to make decisions on your own will be beneficial for the season
  (since you'll be faced with many problems and situations).
 \end_layout
@@ -9641,6 +9640,14 @@ The majority of what you will be teaching is fundamentals.
  know.
 \end_layout
 
+\begin_layout Standard
+Why should you practice teaching on someone who has no clue what marching
+ is prior to your practice? When you teach on someone who knows the subject
+ too (e.g., your co-Drum Major), they already know how to hold Attention,
+ etc., and cannot forcibly make themselves forget how to do something.
+ 
+\end_layout
+
 \begin_layout Subsubsection
 The Formula for Effective Teaching
 \end_layout
@@ -9943,6 +9950,112 @@ rotates the Drum Major around, facing the other direction.
  behind the right foot.
  On beat 1, pivot on both feet and turn the body 180º CCW.
  The upper body should remain motionless relative to the spin.
+\end_layout
+
+\begin_layout Section
+Keeping Time
+\end_layout
+
+\begin_layout Standard
+When in Fundamental Block with the drum line, the Center Snare is there
+ to assist you in keeping a metronome for the fundamentals.
+ However, not always this will be at your convenience and you will need
+ to keep the time yourself.
+ There are several strategies to doing this, including clapping.
+\end_layout
+
+\begin_layout Subsection
+Clapping
+\end_layout
+
+\begin_layout Standard
+It is important to clap correctly to maximize the amplitude of the sound
+ produced by striking the fingers and palms of your hands together.
+\end_layout
+
+\begin_layout Standard
+When clapping, you should not move your non-dominant hand.
+ Your dominant hand should always go to the non-dominant hand.
+ Slightly cup your non-dominant hand, as to make a small pocket of air when
+ striking the palm with the fingers of the dominant hand.
+ The thumb of the dominant hand should be slightly separated from the fingers
+ and will rest below the wrist of the non-dominant hand on impact.
+\end_layout
+
+\begin_layout Standard
+Note that the fingers of the dominant hand and part of the thumb are the
+ only parts that touch the non-dominant hand; with reference from the tips
+ of the fingers to the wrist, the last part to touch lie around the metacarpopha
+langeal joints.
+ 
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:clap-hands"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ demonstrates the ideal clap pose.
+\end_layout
+
+\begin_layout Standard
+Once you have a clear, crisp clap, practice clapping to a metronome and
+ keeping time.
+ Then, take the metronome away after a while and practice keeping the beat
+ without reference.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pose_graphics/clap.svg
+	lyxscale 20
+	width 75col%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:clap-hands"
+
+\end_inset
+
+The ideal placement of hands in a clap (assuming the right hand is the dominant
+ hand).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Chapter
