@@ -85,4 +85,62 @@
   year   = {2017},
 }
 
+@Electronic{Wikipedia2020,
+  author       = {{Wikipedia contributors}},
+  howpublished = {\url{https://en.wikipedia.org/w/index.php?title=Jam_block&oldid=994993050}},
+  note         = {[Online; accessed 29-December-2020]},
+  title        = {Jam block --- {Wikipedia}{,} The Free Encyclopedia},
+  year         = {2020},
+}
+
+@Article{Sio2013,
+  author    = {Sio, Ut Na and Monaghan, Padraic and Ormerod, Tom},
+  journal   = {Memory \& cognition},
+  title     = {Sleep on it, but only if it is difficult: effects of sleep on problem solving},
+  year      = {2013},
+  number    = {2},
+  pages     = {159--166},
+  volume    = {41},
+  publisher = {Springer},
+}
+
+@Article{Almojali2017,
+  author    = {Almojali, Abdullah I and Almalki, Sami A and Alothman, Ali S and Masuadi, Emad M and Alaqeel, Meshal K},
+  journal   = {Journal of epidemiology and global health},
+  title     = {The prevalence and association of stress with sleep quality among medical students},
+  year      = {2017},
+  number    = {3},
+  pages     = {169--174},
+  volume    = {7},
+  publisher = {Elsevier},
+}
+@article{jerath2015self,
+  title={Self-regulation of breathing as a primary treatment for anxiety},
+  author={Jerath, Ravinder and Crawford, Molly W and Barnes, Vernon A and Harden, Kyler},
+  journal={Applied psychophysiology and biofeedback},
+  volume={40},
+  number={2},
+  pages={107--115},
+  year={2015},
+  publisher={Springer}
+}
+
+@Article{UMC,
+  author = {{U.S Marine Corps}},
+  title  = {Marine Corps Values: A User's Guide for Discussion Leaders},
+  pages  = {{15-2}},
+}
+
+@Article{UniMichiganState2019,
+  author = {{Michigan State University}},
+  title  = {Performing Arts Camp Drum Majors},
+  year   = {2019},
+}
+
+@Article{,
+  author = {Arau, Matthew},
+  title  = {Upbeat! Leadership},
+  year   = {2019},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
