@@ -8,10 +8,8 @@
 \begin_preamble
 \IfFileExists{lmodern.sty}{\usepackage{lmodern}}{}
 \usepackage{multicol}
-\newenvironment{dedication}
-     {\vspace{6ex}\begin{quotation}\begin{center}\begin{em}}
-     {\par\end{em}\end{center}\end{quotation}}
 \usepackage{url}
+% \usepackage{tocbibind}
 \end_preamble
 \use_default_options true
 \begin_modules
@@ -8870,7 +8868,7 @@ stemUp d16 :32 ]
 
 \begin_layout Standard
 Before Circa 2015, a different rhythm was used for the taps (we will refer
- this rhythm as 
+ to this rhythm as 
 \noun on
 Legacy Taps
 \noun default
@@ -9513,28 +9511,6 @@ Leadership
 \end_inset
 
 
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-This section 
-\series bold
-heavily
-\series default
- adapts from 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Arau2019,UniMichiganState2019"
-literal "false"
-
-\end_inset
-
-.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Quote
@@ -9581,6 +9557,22 @@ Leadership is all about being the driving force to make change in a group.
 In this section of this chapter, I want to talk about all the things you
  want to specifically implement, as well as avoid.
  Without great leadership, we can't have a great band.
+\end_layout
+
+\begin_layout Standard
+This section 
+\series bold
+heavily
+\series default
+ adapts from 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Arau2019,UniMichiganState2019"
+literal "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsection
@@ -10580,24 +10572,6 @@ Laban elements & efforts
 \end_inset
 
 
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-Lists and tables in this subsection are approximately verbatim from 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "UniMichiganState2019"
-literal "false"
-
-\end_inset
-
-.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -10607,6 +10581,18 @@ Laban Elements
 \noun default
 .
  These are simply descriptors that define characteristics of conducting.
+\end_layout
+
+\begin_layout Standard
+Lists and tables in this subsection are approximately verbatim from 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "UniMichiganState2019"
+literal "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -14931,7 +14917,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -15209,7 +15195,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -15413,11 +15399,54 @@ Expert
 \end_layout
 
 \begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Bibliography}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 btprint "btPrintCited"
 bibfiles "refs"
-options "bibtotoc,IEEEtran"
+options "IEEEtran"
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Index}
+\end_layout
 
 \end_inset
 
