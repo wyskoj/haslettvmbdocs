@@ -49,7 +49,7 @@ fixltx2e
 \pdf_title "Haslett Viking Marching Band Master Handbook"
 \pdf_author "Wysko et al."
 \pdf_subject "Enumeration of styles and repository of information related to the Haslett High School Viking Marching Band."
-\pdf_keywords "haslett, marching band, fundamentals"
+\pdf_keywords "haslett high school, viking marching band, fundamentals, drum major"
 \pdf_bookmarks true
 \pdf_bookmarksnumbered true
 \pdf_bookmarksopen false
@@ -158,8 +158,44 @@ LatexCommand tableofcontents
 About this book
 \end_layout
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{
+\backslash
+numberline{0}About this book}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section*
 What is this book?
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{section}{
+\backslash
+numberline{0.1}What is this book?}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -176,8 +212,13 @@ Don't let the size of this book scare you!
 \end_layout
 
 \begin_layout Standard
+Chapter
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
-LatexCommand formatted
+LatexCommand ref
 reference "chap:Fundamentals"
 plural "false"
 caps "true"
@@ -252,6 +293,24 @@ https://wyskoj.github.io/haslettvmbdocs
 \end_layout
 
 \begin_layout Standard
+The first edition of this book, the 
+\noun on
+2021 Edition
+\noun default
+, was written from March 2020 to 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Add end time here
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Note Note
 status open
 
@@ -278,6 +337,24 @@ Each fundamental is broken down into its most important components.
 
 \begin_layout Section*
 Credits
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{section}{
+\backslash
+numberline{0.2}Credits}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -464,6 +541,16 @@ The Field & Where to Be
 
 \begin_layout Section
 Field Anatomy
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Field
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -474,13 +561,27 @@ Most marching that happens while being a member of the band will occur on
 \end_layout
 
 \begin_layout Subsection
-Terminology and Layout
+Terminology
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Field ! Terminology
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 \noindent
 The standard high school football field can be described using some vocabulary
- (a labeled football field is demonstrated in Figure 
+ (a labeled football field is demonstrated in Figure
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand vref
 reference "fig:field"
@@ -520,9 +621,13 @@ away/visitor hash
 \series default
 is closest to the away sideline.
  There are physical, small, horizontal sections of this line where the hash
- meets the yard line (see Figure 
+ meets the yard line (see Figure
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
-LatexCommand ref
+LatexCommand vref
 reference "fig:field-markings"
 plural "false"
 caps "false"
@@ -575,7 +680,21 @@ Tick A mark on the practice field, usually orange, spaced 90 inches apart
  These marks are only found on the practice field for reference.
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Subsection
+Layout
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Field ! Layout
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 The football field is 100 yards across and 52.5 yards tall.
  It is divided by 15 yard lines starting from the left end zone and moving
  towards the right end zone.
@@ -585,7 +704,7 @@ The football field is 100 yards across and 52.5 yards tall.
  The middle yard line is marked 50 yards.
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Standard
 The football field is divided into three sections vertically, making three
  
 \begin_inset Quotes eld
@@ -601,7 +720,7 @@ rows,
  making the distance in between hashes also 17.5 yards.
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Standard
 The term 
 \begin_inset Quotes eld
 \end_inset
@@ -624,7 +743,7 @@ front field
  not used as often.
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Standard
 The part of the field in between the left sideline and the 50 yard line
  is called 
 \begin_inset Quotes eld
@@ -644,6 +763,24 @@ field right.
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+A standard field is demonstrated in Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "fig:field"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -694,11 +831,25 @@ A standard football field.
 
 \begin_layout Subsection
 Markings
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Field ! Markings
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 The field is marked in several ways to help performers find their location
- on the field (a diagram is available in Figure 
+ on the field (a diagram is available in Figure
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand vref
 reference "fig:field-markings"
@@ -723,10 +874,14 @@ The sidelines are marked by solid, white horizontal lines spanning the entire
 
 \begin_layout Itemize
 Every 90 inches (7.5 ft), starting from the sidelines, (4 * 8:5 steps, see
- Section 
+ Subsection
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand vref
-reference "step-size"
+reference "subsec:roll-step"
 plural "false"
 caps "false"
 noprefix "false"
@@ -823,6 +978,16 @@ A small section of the practice football field, with the markings displayed.
 
 \begin_layout Section
 Interpreting Your Dotsheet
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Dotsheet
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -839,6 +1004,16 @@ Dotsheet
 
 \begin_layout Subsection
 Terminology
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Dotsheet ! Terminology
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Description
@@ -876,12 +1051,26 @@ Form A loose term to define a group of performers on the field.
 
 \begin_layout Subsection
 Dotsheet Layout
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Dotsheet ! Layout
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 \noindent
 \align left
-In Figure 
+In Figure
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand vref
 reference "fig:dotsheet-example"
@@ -1250,6 +1439,20 @@ The format for visitor-home notation:
  [in front of/behind] [Home sideline/Home hash/Visitor hash/Visitor Sideline]]
 \end_layout
 
+\begin_layout Subsubsection
+Examples of Notation
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Dotsheet ! Examples
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 Here are some examples of right-left notation:
 \end_layout
@@ -1388,6 +1591,16 @@ name "chap:Fundamentals"
 \end_inset
 
 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Fundamentals
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1511,6 +1724,16 @@ These are the most rudimentary fundamentals that the band should absolutely
 
 \begin_layout Subsection
 Attention
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Attention
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1568,6 +1791,16 @@ All commands and instructions will be performed when the band is holding
 
 \begin_layout Subsubsection
 The Attention pose
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Attention ! Holding
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1581,7 +1814,11 @@ imaginary trumpet
 \end_inset
 
  Attention).
- This pose is demonstrated in Figure 
+ This pose is demonstrated in Figure
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand vref
 reference "fig:attention"
@@ -1860,6 +2097,16 @@ only
 
 \begin_layout Subsubsection
 Falling into Attention
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Attention ! Commands
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2000,6 +2247,16 @@ Attention is the most basic state the band can be in, so any other command
 
 \begin_layout Subsubsection
 Attention Walk
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Attention ! Walk
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2013,10 +2270,14 @@ To attention walk, simply walk at attention.
  except for the legs.
  This also means the head should remain forward with the chin up, just as
  it is in Attention.
- Attention Walk is not a march, so the upper body will bounce (see 
+ Attention Walk is not a march, so the upper body will bounce (see Subsection
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand vref
-reference "marching-upper-body"
+reference "item:marching-upper-body"
 plural "false"
 caps "false"
 noprefix "false"
@@ -2028,6 +2289,16 @@ noprefix "false"
 
 \begin_layout Subsubsection
 Relaxed Attention
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Attention ! Relaxed
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2055,6 +2326,16 @@ Add instrument specifics here
 
 \begin_layout Subsection
 Parade Rest
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Parade Rest
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2079,6 +2360,16 @@ The goal of Parade Rest is to allow the band to remain uniform, while also
 
 \begin_layout Subsubsection
 The Parade Rest pose
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Parade Rest ! Holding
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2092,7 +2383,11 @@ imaginary trumpet
 \end_inset
 
  Parade Rest).
- This pose is demonstrated in Figure 
+ This pose is demonstrated in Figure
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand vref
 reference "fig:parade-rest"
@@ -2276,6 +2571,16 @@ shoulder-width.
 
 \begin_layout Subsubsection
 Going in and out of Parade Rest
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Parade Rest ! Commands
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2518,6 +2823,16 @@ bold WERE! } >>
 
 \begin_layout Subsection
 Horns Up/Down
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Horns up/down
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2530,7 +2845,8 @@ To put the
 \noun on
 Horns Up
 \noun default
- means to raise the instruments to the normal playing position
+ means to raise the instruments to the normal playing position to begin
+ playing.
 \begin_inset Foot
 status open
 
@@ -2541,8 +2857,7 @@ Clarinets move down to reach playing position.
 
 \end_inset
 
- to begin playing.
- Likewise to put the 
+ Likewise, to put the 
 \noun on
 Horns Down 
 \noun default
@@ -2658,6 +2973,16 @@ It is important to note that for wind instruments, the mouthpiece of the
 
 \begin_layout Subsubsection
 Moving the horns
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Horns up/down ! Commands
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2918,6 +3243,16 @@ Once the band has learned the basics, it is now possible to teach skills
 
 \begin_layout Subsection
 Mark Time
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Mark time
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2936,7 +3271,11 @@ Marking Time
 \begin_layout Standard
 Marking time involves one main motion: the bending of the knee.
  This motion will happen to both legs.
- This is demonstrated in Figure 
+ This is demonstrated in Figure
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand vref
 reference "fig:mark-time"
@@ -3027,6 +3366,16 @@ The raised leg position in a proper mark time.
 
 \begin_layout Subsubsection
 Starting and Stopping a Mark Time
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Mark time ! Commands
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3161,7 +3510,11 @@ LOCK AND CLOSE!
 The band's response begins on beat 4 and is two eighth notes, followed by
  a quarter, landing on beat 1 on the next measure.
  The left foot is finally placed down on beat 1.
- See Section 
+ See Subsection
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand vref
 reference "subsec:Lock-and-Close"
@@ -3247,6 +3600,48 @@ lyr >>
 
 \begin_layout Subsection
 Slow Turns
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Slow turns
+\end_layout
+
+\end_inset
+
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Turns|see
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+Slow turns
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3263,6 +3658,16 @@ Slow Turns
 
 \begin_layout Subsubsection
 Left Turn
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Slow turns ! Left
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3459,6 +3864,16 @@ The proper left turn maneuver.
 
 \begin_layout Subsubsection
 Right Turn
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Slow turns ! Right
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3653,6 +4068,16 @@ lyr >>
 
 \begin_layout Subsubsection
 About Turn
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Slow turns ! About
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3776,6 +4201,16 @@ lyr >>
 
 \begin_layout Subsection
 Facings
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Facings
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3911,6 +4346,16 @@ lyr >>
 
 \begin_layout Section
 Moving to new places
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Commencing drills
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -4050,6 +4495,16 @@ lyr >>
 
 \begin_layout Subsection
 Lock-Push
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Lock-Push
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -4063,7 +4518,11 @@ status open
 
 \begin_layout Plain Layout
 The band Lock-Prep-Steps when going backwards.
- See Section 
+ See Subsection
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand vref
 reference "subsec:Backwards-March"
@@ -4107,7 +4566,11 @@ push.
 \begin_inset Quotes erd
 \end_inset
 
- This is demonstrated in Figure 
+ This is demonstrated in Figure
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand vref
 reference "fig:lock-push"
@@ -4257,6 +4720,33 @@ After performing the Step-Off, you will move directly into a continued Roll
 
 \begin_layout Subsection
 Roll Step
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:roll-step"
+
+\end_inset
+
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Roll step
+\end_layout
+
+\end_inset
+
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+8:5
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -4285,12 +4775,6 @@ marching.
 
 \begin_layout Standard
 \noindent
-\begin_inset CommandInset label
-LatexCommand label
-name "step-size"
-
-\end_inset
-
 Once you have initiated a Step-Off and your left foot is in front of you,
  roll through the entire left foot as you pickup your right foot and place
  it 22.5 inches in front of your left foot, only placing down the heel.
@@ -4304,7 +4788,11 @@ Once you have initiated a Step-Off and your left foot is in front of you,
 We march with step sizes of 22.5 inches, because 8 of these specifically
  defined steps will allow you to travel exactly 5 yards.
  We can also march with different step sizes.
- See Section 
+ See Subsection
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand vref
 reference "subsec:adjusted-marching-responses"
@@ -4325,7 +4813,7 @@ Important things to remember:
 \begin_layout Itemize
 \begin_inset CommandInset label
 LatexCommand label
-name "marching-upper-body"
+name "item:marching-upper-body"
 
 \end_inset
 
@@ -4355,6 +4843,16 @@ The height of your toes must remain as high as possible, just like in the
 
 \begin_layout Paragraph
 Why should we keep our upper body still?
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Upper body, keeping it still
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -4367,6 +4865,16 @@ It is vital that your upper body remain motionless while marching because
 
 \begin_layout Subsubsection
 Guiding
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Guiding
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -5571,7 +6079,11 @@ CLOSE
 \begin_layout Standard
 \noindent
 Different responses vary depending on the step size.
- See Section 
+ See Subsection
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand vref
 reference "subsec:adjusted-marching-responses"
@@ -5589,6 +6101,16 @@ Lock and Close
 \begin_inset CommandInset label
 LatexCommand label
 name "subsec:Lock-and-Close"
+
+\end_inset
+
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Lock and close
+\end_layout
 
 \end_inset
 
@@ -5699,6 +6221,48 @@ name "subsec:Backwards-March"
 \end_inset
 
 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Backwards march
+\end_layout
+
+\end_inset
+
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Drag toes|see
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+Backwards march
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -5761,7 +6325,11 @@ Lock Prep Step
 \end_inset
 
  when beginning a backwards march, similar to the Lock-Push when forwards
- marching (this is demonstrated in Figure 
+ marching (this is demonstrated in Figure
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand vref
 reference "fig:lock-prep-step"
@@ -5830,6 +6398,16 @@ The response forms three even quarter notes.
 
 \begin_layout Subsection
 Rock and Roll
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Rock and roll
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -5897,6 +6475,16 @@ The response forms two eighth notes, followed by a quarter.
 
 \begin_layout Subsection
 Flankings
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Flankings
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -5911,6 +6499,16 @@ rotate performers from moving in one direction to another, but unlike Slow
 
 \begin_layout Subsubsection
 Flanking Left
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Flankings ! Left
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -5933,6 +6531,16 @@ and
 
 \begin_layout Subsubsection
 Flanking Right
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Flankings ! Right
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -5975,6 +6583,16 @@ The response forms two eighth notes.
 
 \begin_layout Subsubsection
 Backwards Flanks
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Flankings ! Backwards
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -5987,7 +6605,11 @@ Backwards Flank
 
 \begin_layout Standard
 For example, when marching field left, parallel to the sideline, traversed
- home (traversing explained in 
+ home (traversing explained in Subsection
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand vref
 reference "subsec:Traversing"
@@ -6014,7 +6636,11 @@ The other type example is starting with a backwards march.
 
 \begin_layout Standard
 It is not common for a backwards march backwards flank into a backwards
- march, but can be seen (for example in Appendix 
+ march, but can be seen (for example in Subsection
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand vref
 reference "subsec:Ian's-I"
@@ -6044,13 +6670,24 @@ These fundamentals are the final icing on the cake and allow performers
 \end_layout
 
 \begin_layout Subsection
+Traversing
 \begin_inset CommandInset label
 LatexCommand label
 name "subsec:Traversing"
 
 \end_inset
 
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
 Traversing
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -6140,6 +6777,80 @@ ly remain the correct path.
 
 \begin_layout Subsection
 Hip Switch
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Hip switch
+\end_layout
+
+\end_inset
+
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+To the rear|see
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+Hip switch
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Switch the hip|see
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+Hip switch
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -6177,6 +6888,24 @@ The band shouts when doing a hip switch:
 
 \begin_layout Quote
 TO THE REAR!
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Mandela effect?? Is this 
+\begin_inset Quotes eld
+\end_inset
+
+SWITCH THE HIP!
+\begin_inset Quotes erd
+\end_inset
+
+??
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -6198,6 +6927,78 @@ Put a diagram here.
 
 \begin_layout Subsection
 Adjusted Step Size
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Adjusted step size
+\end_layout
+
+\end_inset
+
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Floating|see
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+Adjusted step size
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+6:5
+\end_layout
+
+\end_inset
+
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+16:5
+\end_layout
+
+\end_inset
+
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+12:5
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -7127,6 +7928,16 @@ Making Shapes
 
 \begin_layout Subsection
 Box
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Box
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -7254,6 +8065,16 @@ A demonstration of the Box.
 
 \begin_layout Subsubsection
 Traverse Box
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Box ! Traverse
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -7281,7 +8102,11 @@ One side of the traverse box will be backwards marching, one side will be
 status open
 
 \begin_layout Plain Layout
-As mentioned in Section 
+As mentioned in Subsection
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand vref
 reference "traversing-never-backwards-at-90"
@@ -7328,6 +8153,16 @@ The final edge of the box will be a forwards march.
 
 \begin_layout Subsubsection
 Adjusted Boxes
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Box ! Adjusted
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -7369,6 +8204,16 @@ Box Left 18 at a 12:5
 
 \begin_layout Subsubsection
 Diagonal Boxes
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Box ! Diagonal
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -7394,16 +8239,6 @@ Finish this section
 
 \end_layout
 
-\begin_layout Section
-Conclusion
-\end_layout
-
-\begin_layout Standard
-Congrats! If you are able to perform all the above fundamentals at any given
- tempo while playing your instrument, consider yourself an experienced marcher!
- The entire band should be able to execute all fundamentals while playing.
-\end_layout
-
 \begin_layout Chapter
 Blocks
 \end_layout
@@ -7415,6 +8250,16 @@ This chapter will cover the technicalities and details of the several blocks
 
 \begin_layout Section
 Fundamental Block
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Fundamental block
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -7430,11 +8275,25 @@ Fundamental Block
 
 \begin_layout Subsection
 Layout
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Fundamental block ! Layout
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 The band has mostly kept sections in the same place from year to year.
- The general layout is found in Figure 
+ The general layout is found in Figure
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand vref
 reference "fig:fundamental-block-general-layout"
@@ -7511,6 +8370,16 @@ lines.
 
 \begin_layout Section
 Parade Block
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Parade block
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -7526,6 +8395,16 @@ Parade Block
 
 \begin_layout Subsection
 Layout
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Parade block ! Layout
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -7577,7 +8456,11 @@ The general layout of Parade Block.
 \begin_layout Standard
 The instruments in Parade Block are typically in the same sections from
  year to year.
- The general layout is found in Figure 
+ The general layout is found in Figure
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand vref
 reference "fig:parade-block-general-layout"
@@ -7608,6 +8491,16 @@ Tenor Saxes are often merged with Alto Saxes if the section is small enough
 
 Squish
 \begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Parade block ! Squish
+\end_layout
+
 \end_inset
 
 
@@ -7650,7 +8543,11 @@ Marching
 
 \begin_layout Standard
 Most of the time while in Parade Block, the band will be marching in time
- because the cadence is playing (see Section 
+ because the cadence is playing (see Subsection
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand vref
 reference "subsec:Cadences"
@@ -7668,6 +8565,16 @@ noprefix "false"
 
 \begin_layout Subsubsection
 Turns
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Parade block ! Turns
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -7688,7 +8595,11 @@ rows
 The individual on the inside will march the least distance while turning,
  while the individual on the outside of the turn will march the most.
  Why is this? Imagine each band member is marching on quarter circles (this
- is demonstrated in Figure 
+ is demonstrated in Figure
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand vref
 reference "fig:parade-block-turn"
@@ -7748,33 +8659,75 @@ Members on the inside of a turn in Parade Block have a shorter distance
 \end_layout
 
 \begin_layout Subsection
+Cadences
 \begin_inset CommandInset label
 LatexCommand label
 name "subsec:Cadences"
 
 \end_inset
 
-Cadences
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Parade block ! Cadences
+\end_layout
+
+\end_inset
+
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Cadences|see
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+Parade block
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 While in Parade Block, there are several cadences that the band recites
  while marching.
- These are found in Appendix 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "chap:Scores"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-.
 \end_layout
 
 \begin_layout Subsection
 Flashes
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Parade block ! Flashes
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -7797,6 +8750,16 @@ Add content
 
 \begin_layout Subsection
 Taps
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Parade block ! Taps
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -7984,6 +8947,16 @@ stemUp d4 -> r4 d4 -> r8 d16 :32 d16 :32 | d4 -> r4 r2
 
 \begin_layout Chapter
 Drum Majors
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Drum Majors
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -8028,6 +9001,16 @@ This chapter is meant to stand by side of the Performing Arts Clinic, Mace
 
 \begin_layout Section
 The Audition
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Drum Major audition
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -8074,10 +9057,20 @@ It is common for freshmen and sophomores to audition for Drum Major to be
 
 \begin_layout Subsection
 The Panel
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Drum Major audition ! Panel
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-The Audition is moderated by 
+The audition is moderated by 
 \noun on
 The Panel
 \noun default
@@ -8086,7 +9079,7 @@ The Panel
 \noun on
  
 \noun default
-The Panel usually consists of the following individuals:
+The panel usually consists of the following individuals:
 \end_layout
 
 \begin_layout Itemize
@@ -8107,10 +9100,20 @@ Current Drum Majors
 
 \begin_layout Subsection
 The Audition Process
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Drum Major audition ! Process
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-The Audition is divided into four sections, each evaluating and testing
+The audition is divided into four sections, each evaluating and testing
  a different aspect and subject of being a Drum Major:
 \end_layout
 
@@ -8150,6 +9153,16 @@ The Audition is typically divided by step, then by contestant.
 
 \begin_layout Subsubsection
 Delivering Commands
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Drum Major audition ! Process ! Delivering
+\end_layout
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Quote
@@ -8251,6 +9264,16 @@ It's quite important that Drum Majors be able to give consistent, strong
 \end_deeper
 \begin_layout Subsubsection
 Teaching a Drill
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Drum Major audition ! Process ! Teaching
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Quote
@@ -8323,6 +9346,16 @@ Ultimately, the main point of this exercise is to see how well you can teach
 \end_deeper
 \begin_layout Subsubsection
 Conducting the Banner
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Drum Major audition ! Process ! Conducting
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Quote
@@ -8396,6 +9429,16 @@ When conducting, it's important to have the correct facial expression for
 \end_deeper
 \begin_layout Subsubsection
 Interview
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Drum Major audition ! Process ! Interview
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Quote
@@ -8460,6 +9503,16 @@ Keep it a secret throughout the day until they announce it officially at
 
 \begin_layout Section
 Leadership
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Leadership
+\end_layout
+
+\end_inset
+
+
 \begin_inset Foot
 status open
 
@@ -8532,6 +9585,16 @@ In this section of this chapter, I want to talk about all the things you
 
 \begin_layout Subsection
 Traits of Good Leaders
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Leadership ! Traits of leaders
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -8680,6 +9743,16 @@ Decisiveness
 
 \begin_layout Subsection
 Spheres of Influence
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Spheres of influence
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -8692,7 +9765,11 @@ While being a Drum Major of the band, there are inevitably going to be some
 \end_layout
 
 \begin_layout Standard
-The spheres are demonstrated in Figure 
+The spheres are demonstrated in Figure
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand vref
 reference "fig:spheres-of-influence"
@@ -8812,6 +9889,16 @@ You may find that it is easier to think of things that are in your control
 
 \begin_layout Subsection
 Delegation and Support
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Delegation
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -8879,7 +9966,11 @@ Another good person to delegate to is your co-Drum Major.
 
 \begin_layout Standard
 A general hierarchy can demonstrate the order of leadership in the band
- shown in Figure 
+ shown in Figure
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand vref
 reference "fig:delegation-and-support"
@@ -8980,6 +10071,16 @@ Add other resources?
 
 \begin_layout Section
 Conducting
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Conducting
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -9139,6 +10240,16 @@ Let's find out how to find this position.
 
 \begin_layout Subsubsection
 Finding the Ictus
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Conducting ! Ictus
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -9151,7 +10262,11 @@ First, extend your arms all the way forward, like a zombie.
  Then, find the sweet spot in the middle where they rest nicely.
  You can imagine spreading a table cloth in front of you; the plane where
  this feels natural is close to your ictus.
- Figure 
+ Figure
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand vref
 reference "fig:ictus"
@@ -9233,13 +10348,24 @@ There are a few more important things to remember while holding the ictus
 \end_layout
 
 \begin_layout Subsubsection
+Adding the 4/4 Pattern
 \begin_inset CommandInset label
 LatexCommand label
 name "subsec:4/4 pattern"
 
 \end_inset
 
-Adding the 4/4 Pattern
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Conducting ! 4/4
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -9253,7 +10379,11 @@ All the motion that happens during conducting happens while not on the beat.
 
 \begin_layout Standard
 I will teach you the the Down-In-Out-Up Pattern.
- A diagram is shown in Figure 
+ A diagram is shown in Figure
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand vref
 reference "fig:The-Down-In-Out-Up-conducting"
@@ -9381,13 +10511,34 @@ The Down-In-Out-Up conducting pattern.
 
 \begin_layout Subsection
 3/4 Pattern
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:3/4-Pattern"
+
+\end_inset
+
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Conducting ! 3/4
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 The 3/4 pattern is seen in the Star Spangled Banner, the Haslett High School
  Alma Mater, and any other 3/4 song.
  The pattern is simple, simply remove beat two from the Down-In-Out-Up pattern
- from 
+ from Subsection
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand vref
 reference "subsec:4/4 pattern"
@@ -9419,6 +10570,16 @@ The third and final beat again hits the ictus and bounces up vertically,
 
 \begin_layout Subsection
 Laban Elements & Efforts
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Laban elements & efforts
+\end_layout
+
+\end_inset
+
+
 \begin_inset Foot
 status open
 
@@ -9563,7 +10724,7 @@ Bound
 
 \end_deeper
 \begin_layout Standard
-Using the laban elements, 
+Using the Laban elements, 
 \noun on
 Laban Efforts
 \noun default
@@ -9577,7 +10738,11 @@ feelings
 \end_inset
 
  when conducting, depending on the music.
- These are described in Table 
+ These are described in Table
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand vref
 reference "tab:Laban-Efforts"
@@ -9596,10 +10761,6 @@ noprefix "false"
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \align center
@@ -9681,7 +10842,7 @@ Flick
 \begin_layout Plain Layout
 
 \emph on
-Stacatto
+Staccato
 \end_layout
 
 \end_inset
@@ -10201,8 +11362,217 @@ Laban Efforts
 
 \end_layout
 
+\begin_layout Subsection
+The Star Spangled Banner
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Conducting ! The Banner
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Conducting the 
+\noun on
+Star Spangled Banner
+\noun default
+ involves knowing a successful 3/4 conduct and adding additional flairs
+ that correspond to certain times in the score.
+ Review Subsection
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "subsec:3/4-Pattern"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ for information on 3/4 conducting first.
+\end_layout
+
+\begin_layout Standard
+Conducting the Banner includes one special conducting technique, as well
+ as two generic techniques:
+\end_layout
+
+\begin_layout Itemize
+Boom-crash
+\end_layout
+
+\begin_layout Itemize
+Section (trumpet) cue
+\end_layout
+
+\begin_layout Itemize
+Fermatas
+\end_layout
+
+\begin_layout Subsubsection
+Boom-crash
+\end_layout
+
+\begin_layout Standard
+In the arrangement of the Star Spangled Banner played by our band, there
+ exist 
+\noun on
+Boom-Crashes
+\noun default
+ that are heard throughout the song.
+ Drum Majors conduct these sounds in the song specially.
+\end_layout
+
+\begin_layout Standard
+The boom-crash consists of two parts: the 
+\noun on
+Boom
+\noun default
+ and the 
+\noun on
+Crash
+\noun default
+.
+ They both correlate to two different moves done to indicate them.
+\end_layout
+
+\begin_layout Standard
+Boom-crashes are conducted on beats 1 and 2: boom on beat 1 and crash on
+ beat 2.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+When do we boom crash?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Boom
+\end_layout
+
+\begin_layout Standard
+The boom is a quick and firm—but not intense—punch to the conductor's chest
+ with the right hand.
+ On beat 1, instead of conducting the downbeat, the right hand makes a fist
+ and is placed on the chest.
+ This punch shouldn't knock back the conductor, but is firm and not floppy.
+ The fingers of the fist will rest on the upper chest, knuckles pointing
+ up and left.
+ This is demonstrated in Figure .
+\end_layout
+
+\begin_layout Paragraph
+Crash
+\end_layout
+
+\begin_layout Standard
+After 
+\begin_inset Quotes eld
+\end_inset
+
+booming,
+\begin_inset Quotes erd
+\end_inset
+
+ the right hand is quickly released and the hand is opened, extending outwards
+ and upwards, on beat 2.
+ The palm shall be face up at its final position.
+ Immediately after the crash, the right hand is brought back to the third-beat
+ position.
+ This is demonstrated in Figure .
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Make the damn figure!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Trumpet cue
+\end_layout
+
+\begin_layout Standard
+The 
+\noun on
+Trumpet Cue 
+\noun default
+cues the trumpet fanfare in the B section of the Banner.
+ This cue is simple and easy to perform.
+\end_layout
+
+\begin_layout Standard
+On beat 1, place the right hand outwards, palm up, fingers together, and
+ hold this for two beats.
+ On beat 3, bring the right hand back to the third-beat position.
+ This is demonstrated in Figure .
+\end_layout
+
+\begin_layout Subsubsection
+Fermata
+\end_layout
+
+\begin_layout Standard
+The 
+\noun on
+Fermata
+\noun default
+ is used to hold the band on one note for an extended period of time.
+ There are two parts to a fermata, the 
+\noun on
+Hold
+\noun default
+ and the 
+\noun on
+Sinch
+\noun default
+.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Keep going
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Teaching
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Teaching
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -10241,6 +11611,16 @@ In this section I will provide as many procedures, routines, and tips for
 
 \begin_layout Subsection
 Gradual Release
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Gradual release
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -10258,7 +11638,11 @@ literal "false"
 \end_inset
 
 .
- Figure 
+ Figure
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand vref
 reference "fig:Gradual-Release"
@@ -10476,6 +11860,16 @@ Ask rhetorical questions instead of directing
 \end_deeper
 \begin_layout Subsection
 Giving and Receiving Feedback
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Feedback
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -10487,6 +11881,16 @@ No teacher is perfect.
 
 \begin_layout Subsubsection
 Giving Feedback: The Feedback Sandwich
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Feedback ! Feedback sandwich
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -10620,6 +12024,16 @@ Follow up later to see how things have changed.
 
 \begin_layout Subsubsection
 Receiving Feedback
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Feedback ! Receiving sandwich
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -10650,6 +12064,16 @@ What can I do to help you be more effective and successful?
 
 \begin_layout Subsection
 Teaching Fundamentals
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Teaching ! Fundamentals
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -10672,6 +12096,16 @@ Why should you practice teaching on someone who has no clue what marching
 
 \begin_layout Subsubsection
 The Formula for Effective Teaching
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Teaching ! Effective teaching
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -10726,13 +12160,6 @@ Result
 
 \begin_layout Paragraph
 Practice
-\begin_inset CommandInset label
-LatexCommand label
-name "par:Practice"
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -10770,17 +12197,7 @@ Any fool can make something complicated.
 \end_layout
 
 \begin_layout Standard
-Much like the statements in 
-\begin_inset CommandInset ref
-LatexCommand vref
-reference "par:Practice"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-, wording is key.
+Much like previous statements, wording is key.
  If you can't properly state the thoughts you are trying to present, your
  presentation is going to go off key.
  You might start explaining something one way, then realize what you're
@@ -10817,7 +12234,10 @@ You could do what me and Ethan did before camp and decide who was going
 It's also important to teach each fundamental in 60 seconds.
  This does not mean the band has to be an expert in 60 seconds, but the
  initial information dump has to be done in 60 seconds (i.e., steps 1–3 from
- 
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand vref
 reference "step-by-step-strat"
@@ -10832,6 +12252,16 @@ noprefix "false"
 
 \begin_layout Subsubsection
 Giving Pushups
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Pushups
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -10885,6 +12315,16 @@ It's important that while you are fulfilling your duties as Drum Major,
 
 \begin_layout Subsection
 Stress Management
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Drum Majors ! Stress management
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -11025,6 +12465,16 @@ These are great people to delegate to.
 
 \begin_layout Section
 Fundamentals for Drum Majors
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Drum Majors ! Fundamentals
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -11143,6 +12593,16 @@ When in Fundamental Block with the drum line, the Center Snare is there
 
 \begin_layout Subsection
 Clapping
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Clapping
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -11168,7 +12628,11 @@ Note that the fingers of the dominant hand and part of the thumb are the
 \end_layout
 
 \begin_layout Standard
-Figure 
+Figure
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:clap-hands"
@@ -11239,6 +12703,16 @@ The ideal placement of hands at the moment of impact in a good clap (assuming
 
 \begin_layout Subsection
 Gock Block
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Gock block
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -11301,6 +12775,16 @@ The specific placement of the thumb here reduces the chance of striking
 
 \begin_layout Section
 The Whistle
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Whistle
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -11344,6 +12828,16 @@ It is possible to manipulate the pitch of the tone by lowering and raising
 
 \begin_layout Subsection
 Whistle Patterns
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Whistle ! Patterns
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -11401,6 +12895,16 @@ Releases the band from Attention
 \end_deeper
 \begin_layout Section
 The Salute
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Drum Majors ! Salute
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -11448,16 +12952,46 @@ If you have issues staying in sync, try gently counting out loud during
 \end_layout
 
 \begin_layout Chapter
-Color Guard
+Drum Line
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Drum line
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Chapter
-Drum Line
+Color Guard
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Color guard
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Chapter
 \start_of_appendix
 Drill Repository
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Drills
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -11704,6 +13238,16 @@ Step size
 
 \begin_layout Section
 Designed
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Drills ! Designed
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -11866,6 +13410,16 @@ F2, RR, B2
 
 \begin_layout Section
 Generated
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Drills ! Generated
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -12828,7 +14382,7 @@ noprefix "false"
 
 \end_inset
 
- lists 100 unique drills that follows the following set of rules:
+ lists 50 unique drills that follows the following set of rules:
 \end_layout
 
 \begin_layout Itemize
@@ -12910,694 +14464,351 @@ begin{multicols}{3}
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BoxR8@8:5, BM16@8:5, FM16@8:5, BM16@8:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [FM8@8:5, BM8@16:5, BoxR8@16:5, BM8@8:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [FM4@8:5, LF, BoxL16@8:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BM16@8:5, BoxL4@8:5, BoxR16@8:5, BoxR8@16:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BM16@16:5, FM8@16:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BM8@16:5, FM8@16:5, BM16@8:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BM16@16:5, FM8@16:5, BM4@8:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BoxR16@8:5, BoxL4@8:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BoxL16@16:5, FM16@16:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BoxL8@16:5, BoxL4@8:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BM8@16:5, FM8@16:5, BoxR16@16:5, BoxR8@16:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BoxR4@8:5, BoxL4@8:5, BoxR16@8:5, BM8@16:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BM16@8:5, FM8@16:5, BM16@16:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BoxL8@16:5, FM8@16:5, BoxR16@16:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BoxL16@16:5, FM16@16:5, LF, FM8@16:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [FM16@16:5, LF, BoxR16@16:5, BoxR4@8:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BM4@8:5, BoxL16@8:5, FM8@8:5, BoxL8@8:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BoxR4@8:5, BoxL16@8:5, BM4@8:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BM8@16:5, BoxL4@8:5, FM4@8:5, BoxL16@8:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BoxL8@16:5, BoxR8@8:5, BoxL16@8:5, BoxR16@16:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BoxL8@8:5, BM8@16:5, BoxL16@16:5, FM8@16:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BM4@8:5, FM4@8:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BM8@16:5, FM8@16:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BM4@8:5, FM16@8:5, BoxL8@16:5, FM8@16:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BoxR4@8:5, BM4@8:5, FM8@16:5, BM8@16:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BoxR8@16:5, BM16@16:5, FM8@8:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BoxR16@8:5, BM16@8:5, FM16@8:5, BM8@16:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BoxR16@16:5, BoxR16@16:5, BM16@8:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BoxL4@8:5, BoxR8@8:5, FM16@16:5, BM8@16:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BoxR4@8:5, FM16@8:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BM16@16:5, FM16@16:5, BM8@16:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [FM8@8:5, BM8@16:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BoxR8@8:5, BoxL8@8:5, FM8@8:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BoxR4@8:5, BM8@16:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BoxR8@16:5, BM16@16:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [FM8@8:5, BoxR8@16:5, FM8@8:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BoxR16@8:5, FM4@8:5, BM8@8:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [FM4@8:5, RF, BM16@16:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BM16@16:5, BoxL8@8:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [FM8@16:5, RF, BoxR16@16:5, BM16@8:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [FM16@8:5, BoxR8@16:5, FM16@16:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BoxL16@16:5, FM4@8:5, LF, BoxR16@8:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BM4@8:5, BoxR8@16:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BoxR16@16:5, BM16@16:5, FM16@16:5, BoxL8@8:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BM8@8:5, BoxL4@8:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BM16@16:5, FM16@16:5, BoxL8@16:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BoxR16@16:5, FM4@8:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [FM8@8:5, BM4@8:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BoxL16@16:5, BoxL8@8:5, BM16@16:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BoxL8@8:5, BoxL8@16:5, BM8@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[FM8@16:5, LF, BoxR16@16:5, BM4@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BM16@16:5, FM16@8:5, BM16@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR4@8:5, FM8@16:5, BoxR16@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[FM8@16:5, BM8@8:5, FM8@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BM16@16:5, FM16@8:5, BoxR16@16:5, BoxR4@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BM8@16:5, BoxL8@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[FM16@16:5, BM16@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR16@16:5, BM8@16:5, FM4@8:5, BM8@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxL16@8:5, FM8@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BM16@8:5, BoxL16@16:5, BoxR8@8:5, BoxR16@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxL8@16:5, FM4@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[FM8@8:5, BM16@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR8@16:5, FM16@16:5, BoxR8@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR4@8:5, FM16@8:5, BM16@8:5, BoxL8@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR16@16:5, BoxR16@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR8@16:5, BM8@16:5, BoxL4@8:5, BoxR16@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxL8@16:5, BoxR8@8:5, BM8@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[FM4@8:5, BM4@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[FM16@16:5, BoxR16@16:5, BM8@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR16@16:5, BoxR8@8:5, BoxR16@16:5, BM4@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[FM16@8:5, BM16@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[FM16@8:5, BM16@16:5, BoxL4@8:5, BM8@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR8@16:5, BoxR16@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxL4@8:5, FM16@16:5, BM16@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR16@16:5, BoxR16@16:5, BoxL8@16:5, BoxL4@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[FM8@16:5, BM16@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BM16@16:5, BoxR16@16:5, FM16@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR8@8:5, BoxR8@16:5, BoxR16@16:5, FM16@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR8@8:5, BoxL16@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR4@8:5, BoxR8@16:5, BoxL16@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[FM8@8:5, BM4@8:5, BoxR8@16:5, BoxR4@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR4@8:5, BoxL16@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BM4@8:5, BoxR4@8:5, BoxR16@8:5, BM8@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxL8@8:5, BoxR16@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxL8@16:5, BoxL8@8:5, BM8@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BM16@8:5, FM16@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR8@16:5, BoxR4@8:5, BoxL16@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxL8@16:5, BoxL16@8:5, BoxL16@8:5, FM16@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BM16@16:5, FM8@16:5, BoxL16@16:5, BoxL4@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR8@16:5, BoxL8@16:5, BoxR8@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR16@16:5, FM16@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[FM16@16:5, BM8@16:5, BoxL16@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR8@16:5, BoxR16@8:5, BoxL4@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BM16@8:5, FM16@16:5, BoxR16@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR8@16:5, BM16@8:5, BoxR8@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[FM8@16:5, BoxR8@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR8@16:5, BoxL8@8:5, BoxR8@8:5, BM8@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR16@16:5, BoxL16@16:5, FM8@16:5, BM16@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR16@8:5, FM8@16:5, BoxL16@16:5]
 \end_layout
 
 \begin_layout Plain Layout
@@ -13660,7 +14871,7 @@ noprefix "false"
 
 \end_inset
 
- lists 100 unique drills that follows the following set of rules:
+ lists 20 unique drills that follows the following set of rules:
 \end_layout
 
 \begin_layout Itemize
@@ -13720,7 +14931,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -13741,701 +14952,141 @@ begin{multicols}{3}
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BoxL12@6:5, BM12@6:5, FM6@6:5, BM6@6:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BoxR8@16:5, FM6@6:5, BoxL8@8:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [FM16@16:5, BoxR16@16:5, BoxL12@6:5, BM8@8:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BoxL16@8:5, FM6@6:5, BM16@8:5, BoxL6@6:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BM16@16:5, FM8@8:5, LF, BoxR8@16:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BoxL12@6:5, BoxL16@16:5, BM16@8:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BoxL8@8:5, BoxL6@6:5, FM6@6:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BoxR8@16:5, FM4@8:5, BoxR16@16:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BoxR8@8:5, BoxR16@16:5, BoxL12@6:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BoxL8@16:5, BoxR6@6:5, BM8@16:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BoxR8@8:5, BM16@8:5, BoxR4@8:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BoxL8@8:5, BoxR16@8:5, BoxR8@8:5, BM6@6:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BM12@6:5, FM16@16:5, BoxL12@6:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BoxL16@16:5, BoxR2@8:5, BoxL6@6:5, BoxL16@16:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [FM16@8:5, LF, BM2@8:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BoxL8@16:5, BoxR12@6:5, BoxL16@8:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BoxL12@6:5, BM16@16:5, LF, BoxR16@16:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [FM8@8:5, BM16@16:5, FM12@6:5, BM8@16:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BM8@16:5, BoxR12@6:5, BM4@8:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size footnotesize
+\size small
 [BM2@8:5, BoxR2@8:5, FM8@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BM8@8:5, FM8@8:5, BM6@6:5, BoxR6@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[FM8@16:5, BoxR2@8:5, FM8@16:5, BM4@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[FM16@16:5, BM8@8:5, BoxR16@16:5, BoxL12@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR6@6:5, BM12@6:5, BoxR12@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[FM8@16:5, BM4@8:5, FM2@8:5, BoxL16@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR12@6:5, BoxL6@6:5, BoxL6@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxL8@8:5, FM8@16:5, BoxL16@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxL8@16:5, BoxR8@16:5, BoxR2@8:5, BoxL16@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR4@8:5, FM16@8:5, BoxR8@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR8@16:5, BoxL6@6:5, BoxR8@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BM6@6:5, RF, BoxR16@16:5, BoxL16@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR8@8:5, FM4@8:5, BM6@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[FM12@6:5, BoxR2@8:5, BM16@8:5, FM16@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BM8@16:5, FM6@6:5, BM2@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BM8@16:5, BoxL12@6:5, BoxR6@6:5, FM6@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BM8@16:5, RF, BM12@6:5, FM12@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR4@8:5, BoxR6@6:5, BoxL6@6:5, FM16@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxL12@6:5, BM8@8:5, BoxL2@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR8@16:5, BoxL16@8:5, BM6@6:5, BoxL6@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[FM8@8:5, LF, FM16@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR8@8:5, FM6@6:5, BM16@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BM8@16:5, BoxL16@16:5, FM16@8:5, BoxL6@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BM8@16:5, BoxL16@16:5, FM6@6:5, BoxR16@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR8@16:5, BoxL8@8:5, FM12@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BM16@16:5, BoxL16@16:5, FM6@6:5, BM6@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR16@16:5, BoxL4@8:5, BoxL16@16:5, BoxR2@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxL16@16:5, FM12@6:5, BM6@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR6@6:5, BoxL16@8:5, BoxR12@6:5, FM8@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxL16@16:5, FM16@16:5, BoxR4@8:5, BoxL6@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxL2@8:5, BoxR16@16:5, BoxR12@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR12@6:5, FM12@6:5, BM12@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[FM4@8:5, LF, BoxR4@8:5, BoxR6@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxL4@8:5, BoxR8@16:5, BoxL16@16:5, BoxR4@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxL2@8:5, BM4@8:5, RF, FM6@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxL8@16:5, BoxL12@6:5, BoxL16@16:5, BM8@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxL16@16:5, BoxR16@8:5, FM16@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[FM6@6:5, BM16@16:5, FM16@8:5, BoxL8@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxL6@6:5, BM6@6:5, FM2@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxL12@6:5, BM12@6:5, FM16@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR6@6:5, FM6@6:5, BM2@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BM2@8:5, BoxL16@8:5, BM16@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxL12@6:5, BoxR16@8:5, BM2@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR6@6:5, FM2@8:5, BM12@6:5, FM8@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR8@16:5, BM2@8:5, FM6@6:5, BoxR12@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BM6@6:5, LF, FM16@16:5, BoxL16@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[FM6@6:5, BM16@8:5, FM2@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR2@8:5, BoxL4@8:5, BoxR12@6:5, BoxR8@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR8@16:5, BoxL6@6:5, BM16@16:5, FM16@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BM12@6:5, RF, BoxR12@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BM16@16:5, FM16@16:5, BoxL8@8:5, BoxL12@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR2@8:5, BM8@16:5, FM16@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[FM12@6:5, RF, FM16@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[FM4@8:5, LF, BM6@6:5, BoxL6@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR4@8:5, BM8@8:5, RF, BoxR16@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxL16@16:5, BM12@6:5, FM16@16:5, BM8@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR16@8:5, BM12@6:5, FM8@8:5, BoxR12@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BM8@16:5, LF, BoxR8@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BM8@16:5, LF, BoxR16@16:5, FM16@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxL8@16:5, BoxR2@8:5, BoxL16@16:5, FM4@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR6@6:5, BM6@6:5, FM8@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR16@16:5, BM12@6:5, LF, BM6@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR16@16:5, BoxR4@8:5, FM16@16:5, BoxR8@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[FM16@16:5, BM16@16:5, BoxR4@8:5, BoxL8@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR8@16:5, FM4@8:5, BM12@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[FM2@8:5, RF, BoxL6@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxL16@16:5, BoxR6@6:5, BM12@6:5, BoxL12@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR16@16:5, BoxR6@6:5, BoxR6@6:5, BoxL8@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[FM2@8:5, BM12@6:5, BoxL12@6:5, FM16@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[FM16@16:5, BM8@16:5, FM16@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[FM8@8:5, LF, BoxR16@16:5, BoxR12@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BM2@8:5, BoxL12@6:5, BM6@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxL8@16:5, BoxR12@6:5, FM2@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR8@16:5, FM8@16:5, BM8@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[FM16@16:5, BoxR12@6:5, BoxL16@8:5, FM16@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxR8@16:5, BoxL6@6:5, BoxR6@6:5, FM16@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BM8@16:5, FM2@8:5, LF, BoxR8@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[FM8@8:5, BM8@8:5, FM8@8:5, BM16@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxL12@6:5, BoxR6@6:5, FM4@8:5, BM2@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxL8@8:5, FM8@8:5, BoxL8@16:5, FM2@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size footnotesize
-[BoxL16@16:5, BoxR6@6:5, BM4@8:5]
 \end_layout
 
 \begin_layout Plain Layout
@@ -14498,7 +15149,7 @@ noprefix "false"
 
 \end_inset
 
- lists 100 unique drills that follows the following set of rules:
+ lists 20 unique drills that follows the following set of rules:
 \end_layout
 
 \begin_layout Itemize
@@ -14558,7 +15209,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -14579,701 +15230,141 @@ begin{multicols}{3}
 \begin_layout Plain Layout
 
 \family typewriter
-\size scriptsize
+\size small
 [BoxL8@16:5, BoxL6@8:5, FM12@12:5, BM12@12:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size scriptsize
+\size small
 [BoxL12@6:5, BoxL4@16:5, FM4@16:5, BoxL16@16:5, BM6@12:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size scriptsize
+\size small
 [FM16@16:5, LF, BM12@12:5, RF, BM8@16:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size scriptsize
+\size small
 [BoxL8@8:5, BoxR6@12:5, BoxL6@12:5, BoxL16@8:5, BoxL16@16:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size scriptsize
+\size small
 [FM6@12:5, BM12@12:5, FM12@6:5, RF, BM4@16:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size scriptsize
+\size small
 [FM6@12:5, BoxL12@6:5, BM2@8:5, FM4@8:5, BM16@8:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size scriptsize
+\size small
 [BoxR4@16:5, BM12@6:5, LF, BM12@6:5, BoxR4@16:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size scriptsize
+\size small
 [FM12@6:5, LF, FM8@16:5, BoxR16@16:5, BM4@16:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size scriptsize
+\size small
 [BoxL6@12:5, FM6@12:5, BoxR6@6:5, BM8@8:5, BoxL3@6:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size scriptsize
+\size small
 [BM4@8:5, FM6@6:5, RF, BoxR2@8:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size scriptsize
+\size small
 [FM16@16:5, BM6@6:5, RF, FM2@8:5, BM12@12:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size scriptsize
+\size small
 [FM16@16:5, BoxL6@12:5, BoxL8@8:5, BoxL8@16:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size scriptsize
+\size small
 [BM2@8:5, FM6@12:5, BM12@12:5, BoxL12@6:5, BoxR12@12:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size scriptsize
+\size small
 [BM16@16:5, RF, BoxR8@16:5, BoxR4@8:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size scriptsize
+\size small
 [FM16@8:5, LF, FM3@6:5, BoxR6@6:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size scriptsize
+\size small
 [BoxR12@6:5, BM12@12:5, BoxL16@8:5, FM2@8:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size scriptsize
+\size small
 [BoxR12@12:5, BoxR16@16:5, BoxR8@16:5, BoxL16@8:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size scriptsize
+\size small
 [BM6@6:5, RF, BoxR12@6:5, BoxL16@16:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size scriptsize
+\size small
 [BoxR4@8:5, BoxL4@16:5, BoxR8@8:5, FM6@12:5, BoxR8@8:5]
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-\size scriptsize
+\size small
 [BoxR16@8:5, FM3@6:5, RF, BoxL12@12:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BoxL4@16:5, BoxR4@16:5, BoxR12@12:5, BM2@8:5, BoxL8@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BM6@12:5, RF, BM8@16:5, FM6@12:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BoxR6@6:5, BoxL4@8:5, FM6@12:5, BM2@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BM4@8:5, RF, BoxL12@12:5, BoxL6@12:5, FM6@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BM3@6:5, RF, FM6@6:5, BM16@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[FM8@8:5, BoxR12@6:5, BoxR16@8:5, BoxL6@6:5, BoxR16@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BM8@8:5, LF, BM12@12:5, FM6@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BM6@12:5, BoxR6@6:5, FM3@6:5, BoxR8@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[FM2@8:5, BoxR16@16:5, BoxR12@6:5, FM16@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[FM8@8:5, BoxL8@16:5, BoxL6@12:5, BM12@6:5, FM8@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BM6@8:5, LF, BoxR6@12:5, BoxL16@8:5, BoxL8@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[FM6@6:5, BoxL6@6:5, FM12@12:5, LF, BM2@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[FM12@6:5, LF, BoxR4@8:5, FM4@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[FM3@6:5, RF, BM4@16:5, LF, BoxR8@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BoxR4@16:5, BM3@6:5, LF, BM12@12:5, BoxR6@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BoxL16@16:5, BoxL12@6:5, FM8@16:5, LF, FM12@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[FM12@12:5, BM4@8:5, LF, BoxL6@6:5, BM4@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BoxL12@12:5, BoxR6@12:5, BM12@12:5, BoxR8@16:5, BoxL8@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BoxL6@6:5, BoxL4@16:5, BoxL4@16:5, BoxR12@12:5, BM12@12:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BM6@12:5, BoxL12@6:5, FM4@16:5, BM6@12:5, FM16@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BoxL6@12:5, FM16@8:5, BM16@16:5, FM6@12:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BoxL12@12:5, BoxR12@6:5, FM3@6:5, BoxL8@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BoxL6@8:5, BoxR6@8:5, BoxL16@16:5, BoxR6@12:5, BoxL2@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BM16@8:5, LF, FM16@16:5, BM12@12:5, FM6@12:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BoxR8@16:5, FM3@6:5, BoxL3@6:5, FM6@12:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BoxR12@12:5, BoxR6@12:5, FM6@6:5, BM2@8:5, BoxL16@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BoxL3@6:5, FM6@6:5, RF, BoxL6@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[FM6@6:5, BM3@6:5, FM4@8:5, BoxL6@12:5, FM16@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BoxR16@16:5, BM4@16:5, RF, BoxR12@12:5, BoxL16@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BoxL4@8:5, BoxR12@6:5, FM2@8:5, BM4@16:5, FM12@12:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BM12@6:5, FM4@16:5, BoxL4@8:5, FM4@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BoxR8@8:5, BoxR8@8:5, BoxR4@8:5, BM16@16:5, BoxL16@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BoxL3@6:5, BM4@16:5, BoxL4@8:5, BM8@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BoxR6@8:5, FM6@6:5, LF, FM2@8:5, BM6@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BoxR16@8:5, BoxL16@16:5, BoxR6@12:5, FM6@12:5, BoxR16@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BoxR4@16:5, BM16@8:5, RF, BoxL16@8:5, BoxL8@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BM3@6:5, BoxR2@8:5, FM6@12:5, BoxL3@6:5, BM4@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BoxR16@16:5, BoxR12@6:5, BM12@12:5, BoxL16@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BoxR12@12:5, FM4@8:5, BM12@12:5, FM4@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BM6@8:5, RF, BoxR3@6:5, BM16@16:5, FM12@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[FM3@6:5, BoxR4@8:5, BoxR4@16:5, BoxL2@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BM3@6:5, FM12@12:5, BM12@12:5, LF, BM3@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BoxL3@6:5, BoxR8@16:5, BoxR6@6:5, FM6@6:5, BM12@12:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BM6@12:5, FM12@12:5, BoxL12@6:5, BoxR8@16:5, FM8@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BoxL6@8:5, BoxR12@6:5, BoxL16@16:5, BM6@8:5, BoxL8@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BoxL8@8:5, FM16@16:5, BoxR6@12:5, BoxR6@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BoxL4@16:5, BoxR6@6:5, BoxR8@16:5, BoxR6@12:5, BoxL3@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BM3@6:5, FM12@6:5, LF, FM6@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[FM3@6:5, BM12@6:5, BoxL6@12:5, BM6@6:5, BoxL6@12:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BoxL6@8:5, BoxL12@12:5, BM16@8:5, FM16@16:5, BM12@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BoxR4@16:5, BoxL12@6:5, BoxR12@12:5, BM8@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[FM3@6:5, RF, FM6@12:5, BoxL12@12:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BoxL6@12:5, BoxL6@6:5, BoxR6@12:5, FM4@8:5, BM16@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BoxR4@16:5, BoxR8@16:5, BoxL4@8:5, FM4@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BoxR12@12:5, BoxL12@6:5, BoxR3@6:5, FM12@12:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BoxL12@6:5, BoxR12@12:5, FM8@8:5, BM8@16:5, FM12@12:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BoxL2@8:5, BoxL8@16:5, BoxL12@12:5, BoxR16@16:5, BM12@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BM12@12:5, FM16@8:5, LF, BoxR6@12:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[FM6@12:5, BM16@8:5, BoxR4@8:5, BoxL16@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BoxL16@8:5, BM6@12:5, BoxL2@8:5, BoxR8@16:5, BoxR6@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BoxR6@6:5, FM6@12:5, BM3@6:5, RF, BM16@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BoxR6@12:5, BoxL4@16:5, BoxR6@6:5, BoxR3@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BM3@6:5, BoxR2@8:5, FM12@12:5, BoxR12@12:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[FM6@12:5, BM16@16:5, BoxR3@6:5, FM6@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BoxL6@12:5, BoxL8@8:5, BoxR8@16:5, BoxL12@12:5, BoxL6@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BoxR16@8:5, BoxL16@8:5, BoxL6@6:5, BoxR16@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[FM3@6:5, BM4@8:5, BoxR6@6:5, BoxR12@12:5, BoxL6@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BM16@8:5, RF, BoxR8@16:5, BoxL12@12:5, BoxR16@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BM16@16:5, LF, FM6@6:5, LF, BoxR6@12:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BM6@6:5, FM6@12:5, BoxR6@12:5, BoxR12@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BM6@12:5, LF, BM4@16:5, BoxR6@12:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BoxL12@12:5, BoxR6@12:5, BoxL2@8:5, BoxL6@12:5, BoxR16@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[FM12@12:5, BM6@12:5, FM6@12:5, BoxR4@16:5, BM12@12:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BoxL8@8:5, BM4@16:5, BoxR2@8:5, FM6@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BM3@6:5, FM8@16:5, BoxL3@6:5, BM12@6:5, BoxL8@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BoxL3@6:5, BoxL8@16:5, BoxR3@6:5, BM16@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[FM8@8:5, BM12@6:5, LF, FM6@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[FM8@16:5, BM2@8:5, BoxL6@12:5, BoxL16@8:5, BoxL12@12:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[FM12@6:5, LF, BoxL6@12:5, FM8@8:5, BM6@6:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size scriptsize
-[BoxL2@8:5, BM8@16:5, BoxL8@16:5, BoxL4@8:5, FM6@6:5]
 \end_layout
 
 \begin_layout Plain Layout
@@ -15327,6 +15418,17 @@ LatexCommand bibtex
 btprint "btPrintCited"
 bibfiles "refs"
 options "bibtotoc,IEEEtran"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset index_print
+LatexCommand printindex
+type "idx"
+name "Index"
 
 \end_inset
 
