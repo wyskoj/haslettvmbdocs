@@ -3534,7 +3534,7 @@ const defaultOptions = {
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE
   },
   defaultUrl: {
-    value: "https://urlreq.appspot.com/req?method=GET&url=https://github.com/wyskoj/haslettvmbdocs/raw/master/haslettvmb_manual.pdf",
+    value: "https://wyskoj.github.io/haslettvmbdocs/haslettvmb_manual.pdf",
     kind: OptionKind.VIEWER
   },
   defaultZoomValue: {
