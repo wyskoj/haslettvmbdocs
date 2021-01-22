@@ -1,9 +1,9 @@
 % Encoding: UTF-8
 
-@Electronic{Hollis,
+@Electronic{Hollisa,
   author = {Hollis, Ben and Bankson, Kate and Gillotti, Chris},
-  title  = {Advanced Patterns},
-  url    = {https://method-behind-the-music.com/conducting/advanced/},
+  title  = {Practice Techniques},
+  url    = {https://method-behind-the-music.com/conducting/tips/},
 }
 
 @Electronic{nhs,
@@ -155,6 +155,12 @@
   title  = {Developing the Drum Major for the Public School Band},
   url    = {https://ttu-ir.tdl.org/bitstream/handle/2346/51387/ttu_etd001_013149.pdf},
   year   = {1970},
+}
+
+@Electronic{Hollis,
+  author = {Hollis, Ben and Bankson, Kate and Gillotti, Chris},
+  title  = {Advanced Patterns},
+  url    = {https://method-behind-the-music.com/conducting/advanced/},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

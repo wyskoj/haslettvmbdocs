@@ -1038,6 +1038,13 @@ A small section of the practice football field, with the markings displayed.
 
 \begin_layout Section
 Interpreting Your Dotsheet
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Interpreting-Your-Dotsheet"
+
+\end_inset
+
+
 \begin_inset Index idx
 status open
 
@@ -1771,6 +1778,7 @@ es are yellow, trumpets are red, Drum Majors are navy, and color guard is
 The field is divided into a grid.
  Each square of the grid represents exactly 1 step.
  Solid blue lines represent a 4-step grid.
+ Light blue lines represent a 1-step grid.
  Solid black vertical lines represent yard lines.
  Horizontal dashes splitting the yard lines are hashes (see 
 \begin_inset CommandInset ref
@@ -10938,7 +10946,7 @@ Add other resources?
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Conducting
 \begin_inset Index idx
 status open
@@ -10964,7 +10972,7 @@ Conducting
  to become efficient at conducting.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Keeping the Beat
 \end_layout
 
@@ -11052,7 +11060,7 @@ If the tempo is rapid and counting sixteenths is not practical, count eighths
  instead.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Getting Started
 \end_layout
 
@@ -11107,7 +11115,7 @@ The Wiktionary entry for Ictus states that the singular pronunciation is
 Let's find out how to find this position.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Finding the Ictus
 \begin_inset Index idx
 status open
@@ -11216,7 +11224,19 @@ There are a few more important things to remember while holding the ictus
  out.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
+See 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Hollisa"
+literal "false"
+
+\end_inset
+
+ for more tips and techniques.
+\end_layout
+
+\begin_layout Subsubsection
 Adding the 4/4 Pattern
 \begin_inset CommandInset label
 LatexCommand label
@@ -11295,7 +11315,7 @@ The fourth and final beat again hits the ictus and bounces up vertically,
  ready to hit the next beat, which is the first beat in the pattern.
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Paragraph
 What parts of the arms move?
 \end_layout
 
@@ -11378,7 +11398,7 @@ The Down-In-Out-Up conducting pattern.
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 3/4 Pattern
 \begin_inset CommandInset label
 LatexCommand label
@@ -11437,7 +11457,7 @@ The third and final beat again hits the ictus and bounces up vertically,
  ready to hit the next beat, which is the first beat in the pattern.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Laban Elements & Efforts
 \begin_inset Index idx
 status open
@@ -12225,7 +12245,7 @@ Laban Efforts
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 The Star Spangled Banner
 \begin_inset CommandInset label
 LatexCommand label
@@ -12287,7 +12307,7 @@ Section (trumpet) cue
 Fermatas
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Boom-crash
 \end_layout
 
@@ -12332,7 +12352,7 @@ When do we boom crash?
 
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Paragraph
 Boom
 \end_layout
 
@@ -12347,7 +12367,7 @@ The boom is a quick and firm—but not intense—punch to the conductor's chest
  This is demonstrated in Figure .
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Paragraph
 Crash
 \end_layout
 
@@ -12379,7 +12399,7 @@ Make the damn figure!
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Trumpet cue
 \end_layout
 
@@ -12399,7 +12419,7 @@ On beat 1, place the right hand outwards, palm up, fingers together, and
  This is demonstrated in Figure .
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Fermata
 \end_layout
 
@@ -12420,7 +12440,7 @@ Cinch
 .
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Paragraph
 Hold
 \end_layout
 
@@ -12431,7 +12451,7 @@ To hold the fermata, place one or more the hands near the ictus with the
  for the last fermata.
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Paragraph
 Cinch
 \end_layout
 
@@ -12997,6 +13017,13 @@ Why should you practice teaching on someone who has no clue what marching
 
 \begin_layout Subsubsection
 The Formula for Effective Teaching
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:formula for effective teaching"
+
+\end_inset
+
+
 \begin_inset Index idx
 status open
 
@@ -13076,7 +13103,7 @@ teaching the fundamentals to someone else.
  You're making words up on the spot, making a ton of mistakes, and confusing
  the freshmen.
  Practice before camp so you know specific details you want to point out,
- mistakes you want to avoid, and precise wording you want to say.
+ mistakes you want to avoid, and precise wording you want to say .
 \end_layout
 
 \begin_layout Paragraph
@@ -14158,7 +14185,16 @@ REST,
 
 \end_inset
 
-, again to improve diction.
+ to turn it from a rounded to a harsh phoneme to allow it to travel farther
+ on the field 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Lindsay1970"
+literal "false"
+
+\end_inset
+
+.
  Therefore, 
 \begin_inset Quotes eld
 \end_inset
@@ -14238,7 +14274,7 @@ noprefix "false"
 
 \end_inset
 
- presents most all commands with inflection marks.
+ presents most all commands with inflection marks (˦ and ˨).
 \end_layout
 
 \begin_layout Standard
@@ -15000,6 +15036,195 @@ noprefix "false"
 \end_inset
 
 ).
+\end_layout
+
+\begin_layout Section
+Studying
+\end_layout
+
+\begin_layout Standard
+When you're a Drum Major, it is probably a good idea to know what you are
+ going to teach the band.
+ Therefore, it's an important idea to study necessary information before
+ band camp.
+ There are three main things you should analyze and familiarize yourself
+ with before attempting to instruct the ensemble: the charts, the scores,
+ and the fundamentals.
+ Having a firm understanding of these three facets will help you throughout
+ the week and continuing into the school year.
+ I've talked previously about teaching fundamentals and the prep work needed
+ in order to properly teach this to the band (see Subsection
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "subsec:formula for effective teaching"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+), so I will focus on the charts and scores for this section.
+\end_layout
+
+\begin_layout Subsection
+The Charts
+\end_layout
+
+\begin_layout Standard
+Studying the charts will help you become more familiar with how the band
+ should appear on the field and how the show is structured.
+ For example, if a member comes up to you not knowing where they should
+ be in a certain set, having a firm understanding of not just how to read
+ the chart, but the details and forms of this year's chart, will help you
+ help them out quicker and get them on their dot.
+ Lots of freshman have a hard time understanding how to read their dotsheet
+ (see Section
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sec:Interpreting-Your-Dotsheet"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ for specifics on this), so knowing the chart to confirm their position
+ is handy.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+During my freshman year, I was on the wrong side of the field for probably
+ 30 minutes when we first started dotting the first set until I realized
+ 
+\begin_inset Quotes eld
+\end_inset
+
+left
+\begin_inset Quotes erd
+\end_inset
+
+ meant 
+\begin_inset Quotes eld
+\end_inset
+
+left.
+\begin_inset Quotes erd
+\end_inset
+
+ The lesson to learn is this: don't assume freshmen know what they are doing;
+ you don't want to make them feel lost—but have confidence in their ability
+ to learn!
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Also, having the charts memorized will help you during rehearsal.
+ Much of the time spent at band camp—when not practicing fundamentals, rehearsin
+g music, or eating bagels and popsicles—is spent drilling the sets of the
+ show, constantly going back and forth between sets.
+ Knowing the measures and counts of each set—as well as what the band looks
+ like in each set—can help speed up rehearsal, especially when Mr.
+ Larsen says, 
+\begin_inset Quotes eld
+\end_inset
+
+go back to set 12,
+\begin_inset Quotes erd
+\end_inset
+
+ and everyone goes, 
+\begin_inset Quotes eld
+\end_inset
+
+which measure?
+\begin_inset Quotes erd
+\end_inset
+
+ You studied the charts, you know which measure it is!
+\end_layout
+
+\begin_layout Subsection
+The Scores
+\end_layout
+
+\begin_layout Standard
+Besides the visual appearance of the band on the field, the next most important
+ feature of a marching band is the music.
+ To have great music, everyone must know and be able to play their part
+ well.
+ So, what part do Drum Majors learn? Everyone's part! Knowing the scores
+ will help you on the field.
+\end_layout
+
+\begin_layout Standard
+Having a strong command of the scores will indicate to you which parts and
+ sections deserve the most attention and when.
+ For example, during 2019's 
+\emph on
+Planes, Trains, and Automobiles
+\emph default
+, different songs required different conducting and cues depending on the
+ song.
+ 
+\emph on
+Low Rider
+\emph default
+ had heavy a trombone section, so it was important to cue trombones and
+ conduct more specifically (since the trombones had the lead, or melody).
+ 
+\emph on
+Crazy Train
+\emph default
+—again with a big trombone section—had special cues for tenor drums.
+ The tenors played really interesting fills during some phrases in the song
+ so it was important to emphasize it and cue it every time.
+ Learning the scores goes hand-in-hand with learning the charts: knowing
+ the measure numbers for sections in the song will be beneficial.
+\end_layout
+
+\begin_layout Subsubsection
+How to study the scores
+\end_layout
+
+\begin_layout Standard
+An approach can be applied to analyzing and studying scores:
+\end_layout
+
+\begin_layout Enumerate
+Mark time signatures, tempos, dynamics, modulations, fermatas, etc.
+ with a highlighter.
+ Use different colors for each.
+\end_layout
+
+\begin_layout Enumerate
+Listen to recordings of the pieces and highlight the melody or focal element
+ (which can change instrument, so do this bar by bar).
+ Use a new color.
+\end_layout
+
+\begin_layout Enumerate
+Highlight areas to conduct differently or specially, including cues, crescendos,
+ decrescendos, fermatas, etc.
+ Use a new color.
+\end_layout
+
+\begin_layout Enumerate
+Translate your notations and markings into conducting styles.
+ Use Laban elements and efforts to sculpt how you'll conduct each section.
+ In the score, write down specifically how you'll execute this (exact efforts).
 \end_layout
 
 \begin_layout Chapter
@@ -17461,6 +17686,390 @@ Expert
 \end_inset
 
 
+\end_layout
+
+\begin_layout Chapter
+Tutorials
+\end_layout
+
+\begin_layout Standard
+Need to know how to do a specific thing? I might have a tutorial written
+ here on how to do that thing!
+\end_layout
+
+\begin_layout Section
+Painting ticks on the practice field
+\end_layout
+
+\begin_layout Standard
+Since the measurements of the field are known, it is possible to systemically
+ and accurately draw ticks on a plain field (only the sidelines and yard
+ lines have been drawn).
+\end_layout
+
+\begin_layout Enumerate
+Collect materials.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Several cans of invertable aerosol marking spray (
+\begin_inset Quotes eld
+\end_inset
+
+Can
+\begin_inset Quotes erd
+\end_inset
+
+), orange and white
+\end_layout
+
+\begin_layout Enumerate
+15 garden spikes (
+\begin_inset Quotes eld
+\end_inset
+
+Spike
+\begin_inset Quotes erd
+\end_inset
+
+ a.k.a.
+ tent nails, etc.)
+\end_layout
+
+\begin_layout Enumerate
+Measuring tape (
+\begin_inset Quotes eld
+\end_inset
+
+Tape
+\begin_inset Quotes erd
+\end_inset
+
+), at least 17.5 yards in length, ideally with loop large enough to attach
+ to a Spike
+\end_layout
+
+\begin_layout Enumerate
+Rope, twine, or other cable (
+\begin_inset Quotes eld
+\end_inset
+
+Rope
+\begin_inset Quotes erd
+\end_inset
+
+) ideally at least 67.5 yards in length
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:driving-spikes"
+
+\end_inset
+
+Drive a Spike into the ground at the intersection of the 50 yard line and
+ the home sideline (
+\begin_inset Quotes eld
+\end_inset
+
+
+\series bold
+A
+\series default
+
+\begin_inset Quotes erd
+\end_inset
+
+).
+ Attach the Tape to 
+\series bold
+A
+\series default
+ and drive Spikes at 90 inch intervals (7' 6
+\begin_inset Quotes erd
+\end_inset
+
+) directly south (along the 50 yard line) for a total of 8 Spikes, using
+ the Tape as measurement.
+ The final Spike should then be 17.5 yards away from the sideline.
+\end_layout
+
+\begin_layout Enumerate
+Repeat step 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:driving-spikes"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ at the left end zone (the Spike on the side line is not necessary here).
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Tie-and-secure"
+
+\end_inset
+
+Tie and secure one end of the Rope to 
+\series bold
+A
+\series default
+ and loop it around the next Spike directly south of 
+\series bold
+A
+\series default
+ (
+\begin_inset Quotes eld
+\end_inset
+
+
+\series bold
+B
+\series default
+
+\begin_inset Quotes erd
+\end_inset
+
+), then extend the Rope to the left end zone and loop it around the correspondin
+g Spike directly west of 
+\series bold
+B
+\series default
+.
+ Secure the rope and place it as low as possible to the ground.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Spray-tick-marks"
+
+\end_inset
+
+Spray tick marks at each yard line (but not the end zone) using orange Cans
+ along the Rope.
+ A tick mark is a horizontal (east to west) line, about a foot (12
+\begin_inset Quotes erd
+\end_inset
+
+) long and is centered across the yard line.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:white-for-hash"
+
+\end_inset
+
+For the line exactly 17.5 yards away from the home sideline, use a white
+ Can instead of orange to indicate the home hash.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:next-tick"
+
+\end_inset
+
+Unloop the Rope from 
+\series bold
+B
+\series default
+ and loop around the next Spike south.
+ Repeat step 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Spray-tick-marks"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:do-sixth"
+
+\end_inset
+
+Repeat step 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:next-tick"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ until the line 17.5 yards away from the home sideline is painted (use a
+ white Can on this line, see step 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:white-for-hash"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Enumerate
+Remove the Spikes from the left end zone and drive them into the ground
+ in the same positions at the right end zone.
+ 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:right-side"
+
+\end_inset
+
+Repeat steps 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Tie-and-secure"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+–
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:do-sixth"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, working with the right side of the field instead.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:go-south"
+
+\end_inset
+
+Remove Spikes from the 50 yard line, except the one on the home hash.
+ Repeat step 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:driving-spikes"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, 
+\series bold
+A
+\series default
+ is now the spike at the intersection of the 50 yard line and the home hash.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:paint-a-third"
+
+\end_inset
+
+Repeat steps 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Tie-and-secure"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+–
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:right-side"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:go-south-1"
+
+\end_inset
+
+Remove Spikes from the 50 yard line, except the one on the away hash.
+ Repeat step 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:driving-spikes"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, 
+\series bold
+A
+\series default
+ is now the spike at the intersection of the 50 yard line and the away hash.
+\end_layout
+
+\begin_layout Enumerate
+Repeat steps 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Tie-and-secure"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+–
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:right-side"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
