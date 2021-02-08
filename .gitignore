@@ -1,3 +1,7 @@
 *.log
 *.lyx~
 \#*#
+
+refs.bib.bak
+
+refs.bib.sav

@@ -140,7 +140,7 @@ Wysko et al.
 \end_layout
 
 \begin_layout Date
-January 2021
+February 2021
 \end_layout
 
 \begin_layout Standard
@@ -2080,6 +2080,14 @@ fundamental
 \begin_inset Quotes erd
 \end_inset
 
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Wiktionary2020"
+literal "false"
+
+\end_inset
+
 :
 \end_layout
 
@@ -2105,7 +2113,7 @@ The Basics
 \end_layout
 
 \begin_layout Standard
-These are the most rudimentary fundamentals that the band should absolutely
+These are the most rudimentary fundamentals that the band shall absolutely
  be comfortable with and can execute with perfection.
 \end_layout
 
@@ -7269,8 +7277,8 @@ Some instructors will suggest the thirds rule: divide the angle into thirds
 \end_layout
 
 \begin_layout Standard
-To healthily rotate the upper body, imagine pushing the should behind forwards,
- instead of pulling the forwards shoulder back.
+To healthily rotate the upper body, imagine pushing the shoulder behind
+ forwards, instead of pulling the forwards shoulder back.
 \begin_inset Note Note
 status open
 
@@ -8477,6 +8485,16 @@ Box
 \end_inset
 
 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Cheat step
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -8551,7 +8569,7 @@ If the band begins this box command from a non-stationary position (e.g.,
 
 \end_inset
 
-and begin marching forwards for 8 steps.
+ and begin marching forwards for 8 steps.
  After 8 steps, the band will Flank right, and take another 8 steps.
  The band will Flank right again and take 8 more steps.
  Finally, the band will flank right again and take 8 more steps.
@@ -8692,6 +8710,12 @@ The final edge of the box will be a forwards march.
 status open
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fn:box-final-step"
+
+\end_inset
+
 The final step of rotation is variable and is inconsistent from year to
  year.
  Most years, this rule applies, but did not during the 2020 season.
@@ -9056,6 +9080,10 @@ DBoxR16@(12:5) Diagonal Box Right 16 at an approximate 12:5 (actual step
 \noun off
 \color none
  11.314:5)
+\end_layout
+
+\begin_layout Paragraph
+Guiding in a diagonal box
 \end_layout
 
 \begin_layout Labeling
@@ -14895,6 +14923,10 @@ noprefix "false"
 \end_layout
 
 \begin_layout Section
+Using Equipment
+\end_layout
+
+\begin_layout Subsection
 \begin_inset CommandInset label
 LatexCommand label
 name "sec:box-talk"
@@ -15200,7 +15232,15 @@ How to study the scores
 \end_layout
 
 \begin_layout Standard
-An approach can be applied to analyzing and studying scores:
+An approach can be applied to analyzing and studying scores 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Koval2019"
+literal "false"
+
+\end_inset
+
+:
 \end_layout
 
 \begin_layout Enumerate
@@ -15225,6 +15265,10 @@ Highlight areas to conduct differently or specially, including cues, crescendos,
 Translate your notations and markings into conducting styles.
  Use Laban elements and efforts to sculpt how you'll conduct each section.
  In the score, write down specifically how you'll execute this (exact efforts).
+\end_layout
+
+\begin_layout Section
+Events & Meetings
 \end_layout
 
 \begin_layout Chapter
@@ -15722,16 +15766,21 @@ Or, don't and throw off the band for elimination block (since the band should
 
 \begin_layout Standard
 Generated drills were made using a custom program written by Jacob Wysko.
- The source code is available at 
-\begin_inset CommandInset href
-LatexCommand href
-name "github.com/wyskoj/DrillGen"
-target "https://github.com/wyskoj/DrillGen"
-literal "false"
+ See Appendix
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "chap:DrillGen"
+plural "false"
+caps "false"
+noprefix "false"
 
 \end_inset
 
-.
+ for more information.
 \end_layout
 
 \begin_layout Standard
@@ -17702,7 +17751,7 @@ Painting ticks on the practice field
 \end_layout
 
 \begin_layout Standard
-Since the measurements of the field are known, it is possible to systemically
+Since the measurements of the field are known, it is possible to systematically
  and accurately draw ticks on a plain field (only the sidelines and yard
  lines have been drawn).
 \end_layout
@@ -17808,7 +17857,7 @@ noprefix "false"
 
 \end_inset
 
- at the left end zone (the Spike on the side line is not necessary here).
+ at the left end zone (the Spike on the sideline is not necessary here).
 \end_layout
 
 \begin_layout Enumerate
@@ -18070,6 +18119,542 @@ noprefix "false"
 \end_inset
 
 .
+\end_layout
+
+\begin_layout Chapter
+DrillGen
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:DrillGen"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+DrillGen
+\noun default
+ is an Android app I developed in January and February of 2021.
+ You can download it from the Play Store at this link: 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://play.google.com/store/apps/details?id=org.wysko.drillgen
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+I developed it for one main reason: allowing Drum Majors and other leaders
+ to quickly gather a resource to teach the band.
+ It's often times that throughout the part of the marching season that overlaps
+ with school, fundamental block warm up can become boring and invoke disinterest
+edness in the band.
+ This is not ideal since engagement should be kept high to help maintain
+ motivation.
+ DrillGen may help this by allowing Drum Majors to quickly present new material
+ to the band.
+ This way, the same drills aren't repeated every day and the band can improve
+ their ability by working on challenging material.
+\end_layout
+
+\begin_layout Section
+How to Use DrillGen
+\end_layout
+
+\begin_layout Standard
+DrillGen is designed to be used with ease, allowing for the generation of
+ drills with as little as three clicks.
+\end_layout
+
+\begin_layout Subsection
+Screens
+\end_layout
+
+\begin_layout Subsubsection
+Generation
+\end_layout
+
+\begin_layout Standard
+The Generation screen lists every generation parameter and option, allowing
+ you fully customize the generated drills.
+\end_layout
+
+\begin_layout Description
+Fundamentals Select the types of fundamentals to be included in the generation
+ set.
+\end_layout
+
+\begin_layout Description
+Length For each drill, DrillGen picks a random number in this range to be
+ the number of fundamentals
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+That is, the number of 
+\begin_inset Quotes eld
+\end_inset
+
+segments
+\begin_inset Quotes erd
+\end_inset
+
+ of a drill (e.g., 
+\begin_inset Quotes eld
+\end_inset
+
+FM8, BoxL4, MT4
+\begin_inset Quotes erd
+\end_inset
+
+ has three).
+\end_layout
+
+\end_inset
+
+ in the drill.
+ Set the range of this slider to adjust the range.
+\end_layout
+
+\begin_layout Description
+Advanced
+\begin_inset space ~
+\end_inset
+
+maneuvers Enable/disable more challenging moves.
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Allow
+\begin_inset space ~
+\end_inset
+
+backwards
+\begin_inset space ~
+\end_inset
+
+flanks When enabled, allows DrillGen to place flanks before or after a backwards
+ march.
+\end_layout
+
+\begin_layout Description
+Allow
+\begin_inset space ~
+\end_inset
+
+backwards
+\begin_inset space ~
+\end_inset
+
+march
+\begin_inset space ~
+\end_inset
+
+after
+\begin_inset space ~
+\end_inset
+
+box When enabled, allows DrillGen to place backwards marches immediately
+ following a box.
+\end_layout
+
+\begin_layout Description
+Allow
+\begin_inset space ~
+\end_inset
+
+flanks
+\begin_inset space ~
+\end_inset
+
+into
+\begin_inset space ~
+\end_inset
+
+mark
+\begin_inset space ~
+\end_inset
+
+times When enabled, allows DrillGen to place flanks immediately following
+ a mark time.
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Step
+\begin_inset space ~
+\end_inset
+
+sizes
+\begin_inset space ~
+\end_inset
+
+&
+\begin_inset space ~
+\end_inset
+
+lengths Select which step sizes the drill can contain, and the available
+ lengths (i.e., distance traveled) for each drill.
+\end_layout
+
+\begin_layout Description
+Settings Parameters related to the setup and display of drills.
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Assume
+\begin_inset space ~
+\end_inset
+
+infinite
+\begin_inset space ~
+\end_inset
+
+field When enabled, DrillGen will not consider the possibility of the band
+ marching off the field—not something the band can do.
+ When disabled, extra settings appear configuring DrillGen to know where
+ the band currently is.
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Distance
+\begin_inset space ~
+\end_inset
+
+from
+\begin_inset space ~
+\end_inset
+
+sideline The distance—in steps—the from the sideline of the closest person.
+\end_layout
+
+\begin_layout Description
+Current
+\begin_inset space ~
+\end_inset
+
+direction The current cardinal direction of the band.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+DrillGen assumes the home sideline is an east-west line north of the away
+ sideline.
+ Therefore, 
+\begin_inset Quotes eld
+\end_inset
+
+North
+\begin_inset Quotes erd
+\end_inset
+
+ points towards the home sideline.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Flank
+\begin_inset space ~
+\end_inset
+
+to
+\begin_inset space ~
+\end_inset
+
+original
+\begin_inset space ~
+\end_inset
+
+direction
+\begin_inset space ~
+\end_inset
+
+after
+\begin_inset space ~
+\end_inset
+
+box Some years, this rule applies, some years it does not (see Footnote
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "fn:box-final-step"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ for info).
+ Setting shouldn't make a difference if 
+\begin_inset Quotes eld
+\end_inset
+
+Assume infinite field
+\begin_inset Quotes erd
+\end_inset
+
+ is enabled.
+\end_layout
+
+\begin_layout Description
+Display
+\begin_inset space ~
+\end_inset
+
+implied
+\begin_inset space ~
+\end_inset
+
+rock
+\begin_inset space ~
+\end_inset
+
+&
+\begin_inset space ~
+\end_inset
+
+rolls
+\begin_inset space ~
+\end_inset
+
+(RR) When enabled, rock & rolls will be displayed—where appropriate—in the
+ drill.
+ Note: drills may be longer than specified in the length slider if this
+ settings is enabled, since rock & rolls are calculated and added after
+ the generation phase.
+\end_layout
+
+\begin_layout Description
+Hide
+\begin_inset space ~
+\end_inset
+
+@8:5
+\begin_inset space ~
+\end_inset
+
+for
+\begin_inset space ~
+\end_inset
+
+drills
+\begin_inset space ~
+\end_inset
+
+with
+\begin_inset space ~
+\end_inset
+
+only
+\begin_inset space ~
+\end_inset
+
+8:5 When enabled, does not display 
+\begin_inset Quotes eld
+\end_inset
+
+@8:5
+\begin_inset Quotes erd
+\end_inset
+
+ on drills that only have 8:5 marching.
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Generate Final settings for generation.
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Unique
+\begin_inset space ~
+\end_inset
+
+drills When enabled, DrillGen will make sure no duplicate drills are returned.
+ If there do not exist enough drills simply because the parameters are narrow,
+ DrillGen may not be able to fulfill the generation length request.
+\end_layout
+
+\begin_layout Description
+Count Returns this number of drills.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+This screen—at the top in the action bar—allows for preset loading.
+ I've loaded DrillGen with a number of presets, from 
+\begin_inset Quotes eld
+\end_inset
+
+Beginner
+\begin_inset Quotes erd
+\end_inset
+
+ to 
+\begin_inset Quotes eld
+\end_inset
+
+Expert.
+\begin_inset Quotes erd
+\end_inset
+
+ Use these presets to quickly load in all settings for generation given
+ a certain difficulty.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Enumeration
+\end_layout
+
+\begin_layout Standard
+Following pressing 
+\begin_inset Quotes eld
+\end_inset
+
+Generate,
+\begin_inset Quotes erd
+\end_inset
+
+ the 
+\noun on
+Enumeration
+\noun default
+ screen is shown, listing each set of drills DrillGen generated.
+ Each drill is written in shorthand and is indexed.
+\end_layout
+
+\begin_layout Subsubsection
+Enunciation
+\end_layout
+
+\begin_layout Standard
+Following pressing on a drill in the 
+\begin_inset Quotes eld
+\end_inset
+
+Enumeration
+\begin_inset Quotes erd
+\end_inset
+
+ screen, the 
+\noun on
+Enunciation
+\noun default
+ screen is displayed.
+ This screen lists the fundamentals of the selected drill in plain English,
+ allowing for quick and easy reading.
+ Each fundamental—in English—is also accompanied by its shorthand representation.
+\end_layout
+
+\begin_layout Subsubsection
+History
+\end_layout
+
+\begin_layout Standard
+The 
+\noun on
+History
+\noun default
+ screen appears when pressing the History button from the main 
+\begin_inset Quotes eld
+\end_inset
+
+Generation
+\begin_inset Quotes erd
+\end_inset
+
+ screen.
+ Here, each instance of generation is displayed, along with the number of
+ drills in that generation set, including the timestamp.
+\end_layout
+
+\begin_layout Section
+Effectiveness
+\end_layout
+
+\begin_layout Standard
+DrillGen is best used when challenging the band.
+ The app allows you to generate drills at varying levels of difficulty,
+ so presenting 
+\begin_inset Quotes eld
+\end_inset
+
+medium
+\begin_inset Quotes erd
+\end_inset
+
+ up to 
+\begin_inset Quotes eld
+\end_inset
+
+expert
+\begin_inset Quotes erd
+\end_inset
+
+ drills to the band can help the band practice essential fundamentals.
+\end_layout
+
+\begin_layout Standard
+Start the session by warming up the band with a few simple drills.
+ Either come up with some on your own or generate 
+\begin_inset Quotes eld
+\end_inset
+
+beginner
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+easy
+\begin_inset Quotes erd
+\end_inset
+
+ drills in the app.
+ Ensure that the band has their attention on you and is ready to continue
+ the rehearsal focused.
+ Then begin to increase the difficulty.
+ It is best to give the band drills that challenge them, but aren't impossible
+ to complete.
+ Practicing on that fine line between too easy and too hard yields most
+ effective results and will allow the band to improve their skill most efficient
+ly.
+\end_layout
+
+\begin_layout Standard
+I would generate the day's drills with the app before the rehearsal.
+ While the app is responsive and can generate drills with any set of parameters
+ and customization options, generating them on the fly may not be ideal.
+ By generating before rehearsal, this allows you to review the to-be-presented
+ drills and become familiar with them yourself first.
+ You may find that once you get on the field and start presenting the drills,
+ the band finds it too easy or too hard—that's okay.
+ The app generates a set of drills, so try and pick a different drill in
+ the list that seems easier or harder.
 \end_layout
 
 \begin_layout Standard
