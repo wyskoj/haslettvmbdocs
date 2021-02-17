@@ -382,6 +382,11 @@ Simon Kwilinski — Clr.
  '20 — Section specific info (Clarinet)
 \end_layout
 
+\begin_layout Itemize
+Aaron Williams — Trb.
+ '21 — Section specific info (Trombone)
+\end_layout
+
 \begin_layout Standard
 \begin_inset Note Note
 status open
@@ -2348,9 +2353,34 @@ Saxophones The saxophone should be positioned horizontally, resting on the
 
 \begin_layout Labeling
 \labelwidthstring 00.00.0000
-Trumpets/Mellophones/Trombones The horn should be held vertically with the
- bell facing down, close to eye level, with hands positioned in normal playing
- position.
+Trumpets/Mellophones The horn should be held vertically with the bell facing
+ down, close to eye level, with hands positioned in normal playing position.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Trombones The left hand rests in playing position in the pistol grip position.
+ The right hand rests under the slide handle 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Russell"
+literal "false"
+
+\end_inset
+
+.
+ See Figure .
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Add trombone figure
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Labeling
