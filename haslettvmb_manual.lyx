@@ -41,7 +41,7 @@ fixltx2e
 \output_sync 1
 \bibtex_command default
 \index_command default
-\paperfontsize default
+\paperfontsize 11
 \spacing single
 \use_hyperref true
 \pdf_title "Haslett Viking Marching Band Master Handbook"
@@ -83,10 +83,10 @@ fixltx2e
 \shortcut idx
 \color #008000
 \end_index
-\leftmargin 1.5in
-\topmargin 1.5in
-\rightmargin 1.5in
-\bottommargin 1.5in
+\leftmargin 1.25in
+\topmargin 1.25in
+\rightmargin 1.25in
+\bottommargin 1.25in
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
@@ -140,7 +140,7 @@ Wysko et al.
 \end_layout
 
 \begin_layout Date
-February 2021
+May 2021
 \end_layout
 
 \begin_layout Standard
@@ -242,7 +242,15 @@ Manual of Style
 \emph on
  
 \emph default
-from Wikipedia's main styling guidelines documentation.
+from Wikipedia's main styling guidelines documentation 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "enwiki:1024862128"
+literal "false"
+
+\end_inset
+
+.
  If you are familiar with the 
 \begin_inset Quotes eld
 \end_inset
@@ -254,7 +262,7 @@ Fun with Fundamentals
  document, you are familiar with the intention of this chapter.
  This chapter aims to be a revamped, updated, formalized version with full,
  complete information for every fundamental and marching maneuver, fleshed
- with figures and diagrams for full comprehension and definition.
+ with figures and diagrams for comprehension and definition.
  This chapter should ideally be updated from year to year to adjust for
  additions or changes.
 \end_layout
@@ -295,17 +303,7 @@ The first edition of this book, the
 \noun on
 2021 Edition
 \noun default
-, was written from March 2020 to 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Add end time here
-\end_layout
-
-\end_inset
-
-.
+, was written from March 2020 to May 2021.
 \end_layout
 
 \begin_layout Standard
@@ -990,8 +988,8 @@ only on the practice field will orange ticks be available for reference
 .
  Actual performance fields (e.g., Jamie Jent Stadium, etc.) do not have orange
  ticks, although all other markings are present.
- So, it is important to use the orange ticks when learning, but you must
- be comfortable without them too!
+ So, it is important to use the orange ticks when learning, but the band
+ must be comfortable without them too!
 \end_layout
 
 \begin_layout Standard
@@ -1042,7 +1040,7 @@ A small section of the practice football field, with the markings displayed.
 \end_layout
 
 \begin_layout Section
-Interpreting Your Dotsheet
+Interpreting the Dotsheet
 \begin_inset CommandInset label
 LatexCommand label
 name "sec:Interpreting-Your-Dotsheet"
@@ -1067,9 +1065,10 @@ The
 \noun on
 Dotsheet
 \noun default
- is a personalized slip of paper that defines where you are in each set
- of the show.
- Each performer will get a unique dotsheet.
+ is a personalized slip of paper that defines where each performer is in
+ each set of the show.
+ Each performer will get a unique dotsheet, meaning no two dotsheets are
+ alike.
  This section will demonstrate the terminology, abbreviations, and some
  examples of interpreting the sheet.
 \end_layout
@@ -1089,7 +1088,7 @@ Dotsheet ! Terminology
 \end_layout
 
 \begin_layout Description
-Show The performance that you will be presenting this year!
+Show The performance that the band will be presenting this year!
 \end_layout
 
 \begin_layout Description
@@ -1101,7 +1100,7 @@ Drill A show consists of drills.
 Set A specific point in time in the show that defines where each performer
  is.
  A show can consist of many sets, usually close 20.
- You will have to know where you need to be for each set!
+ Each performer will have to know where they need to be for each set!
 \end_layout
 
 \begin_layout Description
@@ -1810,7 +1809,7 @@ At the bottom of the field a text box contains crucial information.
 \begin_inset Quotes eld
 \end_inset
 
-what you need to do in order to get to this spot on the field.
+what steps need to occur in order to get to this spot on the field.
 \begin_inset Quotes erd
 \end_inset
 
@@ -1972,6 +1971,381 @@ Move: 120
  These refer to the current set number, total number of counts into the
  song this set is aligned at, and the number of counts from the previous
  set, respectively.
+\end_layout
+
+\begin_layout Section
+Painting ticks on the practice field
+\end_layout
+
+\begin_layout Standard
+Since the measurements of the field are known, it is possible to systematically
+ and accurately draw ticks on a plain field (only the sidelines and yard
+ lines have been drawn).
+\end_layout
+
+\begin_layout Enumerate
+Collect materials.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Several cans of invertable aerosol marking spray (
+\begin_inset Quotes eld
+\end_inset
+
+Can
+\begin_inset Quotes erd
+\end_inset
+
+), orange and white
+\end_layout
+
+\begin_layout Enumerate
+15 garden spikes (
+\begin_inset Quotes eld
+\end_inset
+
+Spike
+\begin_inset Quotes erd
+\end_inset
+
+ a.k.a.
+ tent nails, etc.)
+\end_layout
+
+\begin_layout Enumerate
+Measuring tape (
+\begin_inset Quotes eld
+\end_inset
+
+Tape
+\begin_inset Quotes erd
+\end_inset
+
+), at least 17.5 yards in length, ideally with loop large enough to attach
+ to a Spike
+\end_layout
+
+\begin_layout Enumerate
+Rope, twine, or other cable (
+\begin_inset Quotes eld
+\end_inset
+
+Rope
+\begin_inset Quotes erd
+\end_inset
+
+) ideally at least 67.5 yards in length
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:driving-spikes"
+
+\end_inset
+
+Drive a Spike into the ground at the intersection of the 50 yard line and
+ the home sideline (
+\begin_inset Quotes eld
+\end_inset
+
+
+\series bold
+A
+\series default
+
+\begin_inset Quotes erd
+\end_inset
+
+).
+ Attach the Tape to 
+\series bold
+A
+\series default
+ and drive Spikes at 90 inch intervals (7' 6
+\begin_inset Quotes erd
+\end_inset
+
+) directly south (along the 50 yard line) for a total of 8 Spikes, using
+ the Tape as measurement.
+ The final Spike should then be 17.5 yards away from the sideline.
+\end_layout
+
+\begin_layout Enumerate
+Repeat step 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:driving-spikes"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ at the left end zone (the Spike on the sideline is not necessary here).
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Tie-and-secure"
+
+\end_inset
+
+Tie and secure one end of the Rope to 
+\series bold
+A
+\series default
+ and loop it around the next Spike directly south of 
+\series bold
+A
+\series default
+ (
+\begin_inset Quotes eld
+\end_inset
+
+
+\series bold
+B
+\series default
+
+\begin_inset Quotes erd
+\end_inset
+
+), then extend the Rope to the left end zone and loop it around the correspondin
+g Spike directly west of 
+\series bold
+B
+\series default
+.
+ Secure the rope and place it as low as possible to the ground.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Spray-tick-marks"
+
+\end_inset
+
+Spray tick marks at each yard line (but not the end zone) using orange Cans
+ along the Rope.
+ A tick mark is a horizontal (east to west) line, about a foot (12
+\begin_inset Quotes erd
+\end_inset
+
+) long and is centered across the yard line.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:white-for-hash"
+
+\end_inset
+
+For the line exactly 17.5 yards away from the home sideline, use a white
+ Can instead of orange to indicate the home hash.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:next-tick"
+
+\end_inset
+
+Unloop the Rope from 
+\series bold
+B
+\series default
+ and loop around the next Spike south.
+ Repeat step 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Spray-tick-marks"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:do-sixth"
+
+\end_inset
+
+Repeat step 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:next-tick"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ until the line 17.5 yards away from the home sideline is painted (use a
+ white Can on this line, see step 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:white-for-hash"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Enumerate
+Remove the Spikes from the left end zone and drive them into the ground
+ in the same positions at the right end zone.
+ 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:right-side"
+
+\end_inset
+
+Repeat steps 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Tie-and-secure"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+–
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:do-sixth"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, working with the right side of the field instead.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:go-south"
+
+\end_inset
+
+Remove Spikes from the 50 yard line, except the one on the home hash.
+ Repeat step 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:driving-spikes"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, 
+\series bold
+A
+\series default
+ is now the spike at the intersection of the 50 yard line and the home hash.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:paint-a-third"
+
+\end_inset
+
+Repeat steps 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Tie-and-secure"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+–
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:right-side"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:go-south-1"
+
+\end_inset
+
+Remove Spikes from the 50 yard line, except the one on the away hash.
+ Repeat step 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:driving-spikes"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, 
+\series bold
+A
+\series default
+ is now the spike at the intersection of the 50 yard line and the away hash.
+\end_layout
+
+\begin_layout Enumerate
+Repeat steps 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Tie-and-secure"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+–
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:right-side"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Chapter
@@ -2294,14 +2668,6 @@ status open
 \end_inset
 
 
-\begin_inset Graphics
-	filename pose_graphics/attention/attention_hands.svg
-	lyxscale 10
-	scale 10
-
-\end_inset
-
-
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -2369,8 +2735,6 @@ literal "false"
 \end_inset
 
 .
- See Figure .
- 
 \begin_inset Note Note
 status open
 
@@ -5370,11 +5734,39 @@ The way to fix this is to guide.
  By guiding, you keep your body in line with the person on your right.
  You will usually guide to the person on your right, although this depends
  on context.
-\begin_inset Note Note
-status open
+\begin_inset Foot
+status collapsed
 
 \begin_layout Plain Layout
-Explain the context.
+Situations in which you may not guide to the right: when making a left turn
+ in parade block (see Subsubsection
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "subsec:parade-block-Turns"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+); long lines are generally guided 
+\begin_inset Quotes eld
+\end_inset
+
+center
+\begin_inset Quotes erd
+\end_inset
+
+ (meaning if you are right of center, you would guide left; see the penultimate
+ set, the sunglasses, from the 2017's 
+\emph on
+Not so Little Baby Show
+\emph default
+).
 \end_layout
 
 \end_inset
@@ -7335,7 +7727,7 @@ drift
  It is simple as just practicing to overcome this habit and remain on track.
  Extra attention must be given to the feet to achieve this.
  It may be helpful to overcompensate when first learning traversing to effective
-ly remain the correct path.
+ly maintain the correct path.
 \end_layout
 
 \begin_layout Subsection
@@ -7458,24 +7850,14 @@ The band shouts when doing a hip switch:
 
 \begin_layout Quote
 TO THE REAR!
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Mandela effect?? Is this 
-\begin_inset Quotes eld
-\end_inset
-
-SWITCH THE HIP!
-\begin_inset Quotes erd
-\end_inset
-
-??
 \end_layout
 
-\end_inset
+\begin_layout Standard
+Colloquially:
+\end_layout
 
-
+\begin_layout Quote
+SWITCH THE HIP!
 \end_layout
 
 \begin_layout Standard
@@ -8623,33 +9005,6 @@ left,
  simply take left flanks instead of right flanks.
 \end_layout
 
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-A demonstration of the Box.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsubsection
 Traverse Box
 \begin_inset Index idx
@@ -9116,18 +9471,13 @@ DBoxR16@(12:5) Diagonal Box Right 16 at an approximate 12:5 (actual step
 Guiding in a diagonal box
 \end_layout
 
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Guiding the diagonals in Diagonal boxes
-\end_layout
-
-\end_inset
-
-
+\begin_layout Standard
+When marching in a diagonal box, you still have two points of reference
+ to guide to (in a normal box you guide right and forwards), but these are
+ slightly changed.
+ You now guide along the diagonals, front-left and front-right.
+ The principle is still the same: ensure that you are forming a straight
+ line along those you guide to.
 \end_layout
 
 \begin_layout Chapter
@@ -9456,6 +9806,13 @@ noprefix "false"
 
 \begin_layout Subsubsection
 Turns
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:parade-block-Turns"
+
+\end_inset
+
+
 \begin_inset Index idx
 status open
 
@@ -12397,19 +12754,6 @@ Boom-crashes are conducted on beats 1 and 2: boom on beat 1 and crash on
  beat 2.
 \end_layout
 
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-When do we boom crash?
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Paragraph
 Boom
 \end_layout
@@ -12422,7 +12766,7 @@ The boom is a quick and firm—but not intense—punch to the conductor's chest
  This punch shouldn't knock back the conductor, but is firm and not floppy.
  The fingers of the fist will rest on the upper chest, knuckles pointing
  up and left.
- This is demonstrated in Figure .
+ 
 \end_layout
 
 \begin_layout Paragraph
@@ -12443,18 +12787,6 @@ booming,
  The palm shall be face up at its final position.
  Immediately after the crash, the right hand is brought back to the third-beat
  position.
- This is demonstrated in Figure .
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Make the damn figure!
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -12526,18 +12858,6 @@ cinch
 
  the note by quickly pinching with your fingers and thumb and continue the
  motion after the circle, quickly halting.
- This is demonstrated in Figure .
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Add the figure
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Section
@@ -13570,16 +13890,28 @@ Roll-off
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Write the section!
+Performing a 
+\noun on
+Roll-off
+\noun default
+ can be performed with or without the mace.
+ 
 \end_layout
 
-\end_inset
+\begin_layout Standard
+To roll-off with the mace, raise it up in the air and hold the very bottom
+ with your left hand, and grab about a foot higher with the right hand.
+ Move your hands in alternating circles, effectively moving the dome of
+ the mace in a large circle.
+\end_layout
 
+\begin_layout Standard
+To roll-off without the mace, point your finger in the sky and make large
+ circles, making sure to have the arm bent at the elbow and moving.
+\end_layout
 
+\begin_layout Standard
+In both cases, the whistle is long blown for about 2 seconds.
 \end_layout
 
 \begin_layout Section
@@ -15072,8 +15404,8 @@ This is important for two reasons.
 
 \begin_layout Standard
 Also, just be careful about what you say.
- As Drum Major you are expected to maintain a level of dignity and appropriatene
-ss.
+ As Drum Major, you are expected to maintain a level of dignity and appropriaten
+ess.
  But, like every other Drum Major out there, you're human and want to say
  what's truly on your mind.
  Pay extra attention to what you say while you are amplified and keep remarks
@@ -15140,9 +15472,13 @@ The Charts
 Studying the charts will help you become more familiar with how the band
  should appear on the field and how the show is structured.
  For example, if a member comes up to you not knowing where they should
- be in a certain set, having a firm understanding of not just how to read
- the chart, but the details and forms of this year's chart, will help you
- help them out quicker and get them on their dot.
+ be in a certain set, having a firm understanding—of not just how to read
+ the chart, but the details and forms of 
+\emph on
+this
+\emph default
+ year's chart—will help you help them out quicker and get them on their
+ dot.
  Lots of freshman have a hard time understanding how to read their dotsheet
  (see Section
 \begin_inset space ~
@@ -15295,38 +15631,6 @@ Highlight areas to conduct differently or specially, including cues, crescendos,
 Translate your notations and markings into conducting styles.
  Use Laban elements and efforts to sculpt how you'll conduct each section.
  In the score, write down specifically how you'll execute this (exact efforts).
-\end_layout
-
-\begin_layout Section
-Events & Meetings
-\end_layout
-
-\begin_layout Chapter
-Drum Line
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Drum line
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Chapter
-Color Guard
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Color guard
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Chapter
@@ -17765,390 +18069,6 @@ Expert
 \end_inset
 
 
-\end_layout
-
-\begin_layout Chapter
-Tutorials
-\end_layout
-
-\begin_layout Standard
-Need to know how to do a specific thing? I might have a tutorial written
- here on how to do that thing!
-\end_layout
-
-\begin_layout Section
-Painting ticks on the practice field
-\end_layout
-
-\begin_layout Standard
-Since the measurements of the field are known, it is possible to systematically
- and accurately draw ticks on a plain field (only the sidelines and yard
- lines have been drawn).
-\end_layout
-
-\begin_layout Enumerate
-Collect materials.
-\end_layout
-
-\begin_deeper
-\begin_layout Enumerate
-Several cans of invertable aerosol marking spray (
-\begin_inset Quotes eld
-\end_inset
-
-Can
-\begin_inset Quotes erd
-\end_inset
-
-), orange and white
-\end_layout
-
-\begin_layout Enumerate
-15 garden spikes (
-\begin_inset Quotes eld
-\end_inset
-
-Spike
-\begin_inset Quotes erd
-\end_inset
-
- a.k.a.
- tent nails, etc.)
-\end_layout
-
-\begin_layout Enumerate
-Measuring tape (
-\begin_inset Quotes eld
-\end_inset
-
-Tape
-\begin_inset Quotes erd
-\end_inset
-
-), at least 17.5 yards in length, ideally with loop large enough to attach
- to a Spike
-\end_layout
-
-\begin_layout Enumerate
-Rope, twine, or other cable (
-\begin_inset Quotes eld
-\end_inset
-
-Rope
-\begin_inset Quotes erd
-\end_inset
-
-) ideally at least 67.5 yards in length
-\end_layout
-
-\end_deeper
-\begin_layout Enumerate
-\begin_inset CommandInset label
-LatexCommand label
-name "enu:driving-spikes"
-
-\end_inset
-
-Drive a Spike into the ground at the intersection of the 50 yard line and
- the home sideline (
-\begin_inset Quotes eld
-\end_inset
-
-
-\series bold
-A
-\series default
-
-\begin_inset Quotes erd
-\end_inset
-
-).
- Attach the Tape to 
-\series bold
-A
-\series default
- and drive Spikes at 90 inch intervals (7' 6
-\begin_inset Quotes erd
-\end_inset
-
-) directly south (along the 50 yard line) for a total of 8 Spikes, using
- the Tape as measurement.
- The final Spike should then be 17.5 yards away from the sideline.
-\end_layout
-
-\begin_layout Enumerate
-Repeat step 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "enu:driving-spikes"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- at the left end zone (the Spike on the sideline is not necessary here).
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset CommandInset label
-LatexCommand label
-name "enu:Tie-and-secure"
-
-\end_inset
-
-Tie and secure one end of the Rope to 
-\series bold
-A
-\series default
- and loop it around the next Spike directly south of 
-\series bold
-A
-\series default
- (
-\begin_inset Quotes eld
-\end_inset
-
-
-\series bold
-B
-\series default
-
-\begin_inset Quotes erd
-\end_inset
-
-), then extend the Rope to the left end zone and loop it around the correspondin
-g Spike directly west of 
-\series bold
-B
-\series default
-.
- Secure the rope and place it as low as possible to the ground.
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset CommandInset label
-LatexCommand label
-name "enu:Spray-tick-marks"
-
-\end_inset
-
-Spray tick marks at each yard line (but not the end zone) using orange Cans
- along the Rope.
- A tick mark is a horizontal (east to west) line, about a foot (12
-\begin_inset Quotes erd
-\end_inset
-
-) long and is centered across the yard line.
-\end_layout
-
-\begin_deeper
-\begin_layout Enumerate
-\begin_inset CommandInset label
-LatexCommand label
-name "enu:white-for-hash"
-
-\end_inset
-
-For the line exactly 17.5 yards away from the home sideline, use a white
- Can instead of orange to indicate the home hash.
-\end_layout
-
-\end_deeper
-\begin_layout Enumerate
-\begin_inset CommandInset label
-LatexCommand label
-name "enu:next-tick"
-
-\end_inset
-
-Unloop the Rope from 
-\series bold
-B
-\series default
- and loop around the next Spike south.
- Repeat step 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "enu:Spray-tick-marks"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset CommandInset label
-LatexCommand label
-name "enu:do-sixth"
-
-\end_inset
-
-Repeat step 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "enu:next-tick"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- until the line 17.5 yards away from the home sideline is painted (use a
- white Can on this line, see step 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "enu:white-for-hash"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Enumerate
-Remove the Spikes from the left end zone and drive them into the ground
- in the same positions at the right end zone.
- 
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset CommandInset label
-LatexCommand label
-name "enu:right-side"
-
-\end_inset
-
-Repeat steps 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "enu:Tie-and-secure"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-–
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "enu:do-sixth"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-, working with the right side of the field instead.
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset CommandInset label
-LatexCommand label
-name "enu:go-south"
-
-\end_inset
-
-Remove Spikes from the 50 yard line, except the one on the home hash.
- Repeat step 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "enu:driving-spikes"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-, 
-\series bold
-A
-\series default
- is now the spike at the intersection of the 50 yard line and the home hash.
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset CommandInset label
-LatexCommand label
-name "enu:paint-a-third"
-
-\end_inset
-
-Repeat steps 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "enu:Tie-and-secure"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-–
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "enu:right-side"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset CommandInset label
-LatexCommand label
-name "enu:go-south-1"
-
-\end_inset
-
-Remove Spikes from the 50 yard line, except the one on the away hash.
- Repeat step 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "enu:driving-spikes"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-, 
-\series bold
-A
-\series default
- is now the spike at the intersection of the 50 yard line and the away hash.
-\end_layout
-
-\begin_layout Enumerate
-Repeat steps 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "enu:Tie-and-secure"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-–
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "enu:right-side"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-.
 \end_layout
 
 \begin_layout Chapter
