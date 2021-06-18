@@ -14,11 +14,11 @@
 \end_preamble
 \use_default_options true
 \begin_modules
-lilypond
 varwidth
 todonotes
 InStar
 fixltx2e
+lilypond
 \end_modules
 \maintain_unincluded_children false
 \language english
@@ -10457,15 +10457,7 @@ Block H
 status open
 
 \begin_layout Plain Layout
-Block 
-\begin_inset Quotes eld
-\end_inset
-
-H
-\begin_inset Quotes erd
-\end_inset
-
-
+Block H
 \end_layout
 
 \end_inset
@@ -10496,6 +10488,10 @@ H
  shape, representing the first letter of the town the band hails from.
  This changes every year—so I won't provide any specifics—and is usually
  designed by Ross Brower.
+\begin_inset Formula $\mathcal{}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -19104,58 +19100,6 @@ I would generate the day's drills with the app before the rehearsal.
  the list that seems easier or harder.
 \end_layout
 
-\begin_layout Chapter
-Fundamentals Cheat Sheet
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-centerline{
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align block
-\begin_inset Graphics
-	filename graphics/cheatsheat1.pdf
-	height 100theight%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Standard
 \begin_inset Newpage newpage
 \end_inset
@@ -19216,6 +19160,13 @@ addcontentsline{toc}{chapter}{Index}
 LatexCommand printindex
 type "idx"
 name "Index"
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "index"
 
 \end_inset
 
