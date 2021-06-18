@@ -9,6 +9,7 @@
 \IfFileExists{lmodern.sty}{\usepackage{lmodern}}{}
 \usepackage{multicol}
 \usepackage{url}
+\usepackage{pgfplots}
 % \usepackage{tocbibind}
 \end_preamble
 \use_default_options true
@@ -131,6 +132,21 @@ Master Handbook
 
 \noun on
 2021 EDITION
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\size larger
+Enumeration of Styles and Repository of Information for the Haslett High
+ School Viking Marching Band
 \end_layout
 
 \begin_layout Author
@@ -140,7 +156,7 @@ Wysko et al.
 \end_layout
 
 \begin_layout Date
-May 2021
+June 2021
 \end_layout
 
 \begin_layout Standard
@@ -197,8 +213,8 @@ numberline{0.1}What is this book?}
 \end_layout
 
 \begin_layout Standard
-The book aims to be a Master Handbook, including all the information necessary
- to be a successful leader in the Haslett band program.
+The book aims to be a Master Handbook, including most all the information
+ necessary to be a successful leader in the Haslett band program.
  
 \emph on
 Don't let the size of this book scare you!
@@ -303,14 +319,11 @@ The first edition of this book, the
 \noun on
 2021 Edition
 \noun default
-, was written from March 2020 to May 2021.
+, was written from March 2020 to June 2021.
 \end_layout
 
 \begin_layout Standard
-
-\emph on
-Note: this book contains some opinions.
- If you disagree and feel you need to tell me, email me at 
+You can contact the author at 
 \begin_inset CommandInset href
 LatexCommand href
 name "jacob@wysko.org"
@@ -372,7 +385,7 @@ numberline{0.2}Credits}
 
 \begin_layout Itemize
 Jacob Wysko — D.M., A.S.
- '20 — Lead Author, Graphics Design, Score Engraving
+ '20 — Lead Author, Graphics Design
 \end_layout
 
 \begin_layout Itemize
@@ -382,7 +395,7 @@ Simon Kwilinski — Clr.
 
 \begin_layout Itemize
 Aaron Williams — Trb.
- '21 — Section specific info (Trombone)
+ '22 — Section specific info (Trombone)
 \end_layout
 
 \begin_layout Standard
@@ -595,6 +608,43 @@ Write the rule that that should follow
 The Field & Where to Be
 \end_layout
 
+\begin_layout Standard
+One of the most—if not the most—important aspects of marching is knowing
+ where to march.
+ Marching bands make great use of strategically placing performers to convey
+ a visual style, compose shapes, and maintain uniformity.
+ If the position of each performer is not explicitly defined, the band would
+ not have a defined layout.
+ Hence, it is important that each band member knows exactly where to be
+ and when to maximize visual effect.
+\end_layout
+
+\begin_layout Standard
+Most marching that happens while being a member of the band will occur on
+ a football field.
+ While the football field is marked and designed for playing football, marching
+ bands have found ways to interpret the layout and use it to their advantage
+ to design a special coordinate system.
+ Through this, each performer can exactly navigate to any defined position
+ on the field.
+ This chapter will demonstrate how to understand the field to be most familiar
+ with it—marching in other places, such as in a parade, is covered in Chapter
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "chap:Blocks"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
 \begin_layout Section
 Field Anatomy
 \begin_inset Index idx
@@ -607,13 +657,6 @@ Field
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-Most marching that happens while being a member of the band will occur on
- a football field.
- This chapter will demonstrate how to understand the field to be most familiar
- with it.
 \end_layout
 
 \begin_layout Subsection
@@ -759,6 +802,29 @@ Field ! Layout
 
 \begin_layout Standard
 The football field is 100 yards across and 52.5 yards tall.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+If you look up dimensions of an American football field, you may find measuremen
+ts listed as 
+\begin_inset Formula $100\text{\,yards}\times53\frac{1}{3}\text{\,yards}$
+\end_inset
+
+.
+ There exists variants on the dimensions—this is a 
+\begin_inset Quotes eld
+\end_inset
+
+perfect high school
+\begin_inset Quotes erd
+\end_inset
+
+ layout.
+\end_layout
+
+\end_inset
+
  It is divided by 15 yard lines starting from the left end zone and moving
  towards the right end zone.
  Each yard line has a distance of 5 yards in between.
@@ -1067,8 +1133,8 @@ Dotsheet
 \noun default
  is a personalized slip of paper that defines where each performer is in
  each set of the show.
- Each performer will get a unique dotsheet, meaning no two dotsheets are
- alike.
+ Each performer will get a unique dotsheet, meaning no two distinct dotsheets
+ are alike.
  This section will demonstrate the terminology, abbreviations, and some
  examples of interpreting the sheet.
 \end_layout
@@ -1117,7 +1183,8 @@ x/y
 
 \begin_layout Description
 Form A loose term to define a group of performers on the field.
- Forms can last throughout the whole show, or may only last for a set.
+ Forms can last anywhere from throughout the whole show to only for a single
+ set.
 \end_layout
 
 \begin_layout Subsection
@@ -1775,7 +1842,7 @@ X
  represents the section this performer belongs in (in this chart, drumline
  is gray, low brass is blue, upper woodwinds are green, saxophones and mellophon
 es are yellow, trumpets are red, Drum Majors are navy, and color guard is
- pink).
+ magenta).
 \end_layout
 
 \begin_layout Itemize
@@ -1979,8 +2046,8 @@ Painting ticks on the practice field
 
 \begin_layout Standard
 Since the measurements of the field are known, it is possible to systematically
- and accurately draw ticks on a plain field (only the sidelines and yard
- lines have been drawn).
+ and accurately draw ticks on a plain field (only the sidelines, endzones,
+ and yard lines have been drawn).
 \end_layout
 
 \begin_layout Enumerate
@@ -1989,7 +2056,7 @@ Collect materials.
 
 \begin_deeper
 \begin_layout Enumerate
-Several cans of invertable aerosol marking spray (
+Several cans of invertible aerosol marking spray (
 \begin_inset Quotes eld
 \end_inset
 
@@ -3019,6 +3086,24 @@ Fall into Attention!
 
 \begin_layout Quote
 Fall in!
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+This could be interpreted as 
+\begin_inset Quotes eld
+\end_inset
+
+fall into parade rest
+\begin_inset Quotes erd
+\end_inset
+
+ depending on context, so be sure to be clear.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3503,7 +3588,7 @@ Falling in asynchronously
 
 \begin_layout Standard
 The band shall, as quickly as possible, fall into Parade Rest when a leader
- states one the following:
+ states:
 \end_layout
 
 \begin_layout Quote
@@ -3608,6 +3693,20 @@ bold WERE! } >>
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+If a leader delivers instructions that the band cannot otherwise do (e.g.,
+ FM8 when the band is on and facing the sideline), the band is expected
+ to shout 
+\begin_inset Quotes eld
+\end_inset
+
+AS YOU WERE!
+\begin_inset Quotes erd
+\end_inset
+
+ since the band cannot march off the field.
 \end_layout
 
 \begin_layout Subsection
@@ -4105,7 +4204,7 @@ noprefix "false"
 The toes of the foot are to remain planted on the ground, from the very
  end of the toe, to just before the arch of the foot.
  The heel of the foot is to raise up and be above the ground about the diameter
- of a tennis ball (30⁰).
+ of a tennis ball (30°).
  The knee should bend outwards from its position, already unlocked and slightly
  bent.
  Everything from the waist up should remain absolutely motionless.
@@ -5629,8 +5728,8 @@ Once you have initiated a Step-Off and your left foot is in front of you,
 \end_layout
 
 \begin_layout Standard
-We march with step sizes of 22.5 inches, because 8 of these specifically
- defined steps will allow you to travel exactly 5 yards.
+We march with step sizes of 22.5 inches because 8 of these specifically defined
+ steps will allow you to travel exactly 5 yards.
  We can also march with different step sizes.
  See Subsection
 \begin_inset space ~
@@ -5735,7 +5834,7 @@ The way to fix this is to guide.
  You will usually guide to the person on your right, although this depends
  on context.
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Situations in which you may not guide to the right: when making a left turn
@@ -5762,7 +5861,7 @@ center
 \end_inset
 
  (meaning if you are right of center, you would guide left; see the penultimate
- set, the sunglasses, from the 2017's 
+ set—the sunglasses—from the 2017's 
 \emph on
 Not so Little Baby Show
 \emph default
@@ -6990,7 +7089,7 @@ When the band ends its maneuvers, they will
 Lock and Close
 \noun default
 .
- The Lock and Close will always end a maneuver and put the performers feet
+ The Lock and Close will always end a maneuver and put the performers' feet
  idle and stationary.
  It consists of two parts: the 
 \begin_inset Quotes eld
@@ -7055,6 +7154,31 @@ closes
  the feet together.
  The left foot will lock next to the right foot to close the distance between
  the feet.
+\end_layout
+
+\begin_layout Standard
+If the march distance is odd, the two maneuvers are swapped on the feet:
+ the 
+\begin_inset Quotes eld
+\end_inset
+
+lock
+\begin_inset Quotes erd
+\end_inset
+
+ occurs with the left foot and the 
+\begin_inset Quotes eld
+\end_inset
+
+close
+\begin_inset Quotes erd
+\end_inset
+
+ occurs with the right foot.
+\begin_inset VSpace defskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -7147,7 +7271,7 @@ The
 \noun on
 Backwards March
 \noun default
- allows performers to move backwards, unlike roll step which is forwards.
+ allows performers to move backwards, unlike roll step, which is forwards.
  A different technique is used for marching backwards.
 \end_layout
 
@@ -7833,11 +7957,11 @@ hout changing velocity (i.e., heading in the same direction).
  the upper body more than 90°.
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Standard
 The hip switch can be thought of as a 180° flank.
  When doing a hip switch, you will always pivot on your right foot, and
  your left foot will swing around.
- The movement, like all others, is short and snappy.
+ The movement—like all others—is short and snappy.
  After bringing the left foot around, it will either go directly into a
  roll step position or drag toes position, depending on the orientation
  the performer is about to march.
@@ -9482,6 +9606,13 @@ When marching in a diagonal box, you still have two points of reference
 
 \begin_layout Chapter
 Blocks
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:Blocks"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -9864,6 +9995,26 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
+To further prove this, we know that the radius of the quarter circle is
+ larger on the outside of the turn.
+ The equation relating circumference to radius is 
+\begin_inset Formula $C=2\pi r$
+\end_inset
+
+.
+ As 
+\begin_inset Formula $r$
+\end_inset
+
+ increases, 
+\begin_inset Formula $C$
+\end_inset
+
+ increases.
+ Hence, the march distance is larger on the outside of the turn.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 placement h
 wide false
@@ -9891,7 +10042,7 @@ name "fig:parade-block-turn"
 
 \end_inset
 
-Members on the inside of a turn in Parade Block have a shorter distance
+Marchers on the inside of a turn in Parade Block have a shorter distance
  to march compared to those further away from the epicenter (star) of the
  turn.
 \end_layout
@@ -10117,14 +10268,9 @@ stemUp d16 :32 ]
 \end_layout
 
 \begin_layout Standard
-Before Circa 2015, a different rhythm was used for the taps (we will refer
- to this rhythm as 
-\noun on
-Legacy Taps
-\noun default
-).
- The Legacy Tap rhythm is sometimes used when in different situations or
- when the Center Snare becomes fatigued from playing Taps for an extended
+Before Circa 2015, a different rhythm was used for the taps.
+ The this legacy rhythm is sometimes still used in different situations
+ or when the Center Snare becomes fatigued from playing Taps for an extended
  period of time.
 \end_layout
 
@@ -10193,6 +10339,263 @@ stemUp d4 -> r4 d4 -> r8 d16 :32 d16 :32 | d4 -> r4 r2
 
 \end_layout
 
+\begin_layout Section
+Concert Arcs
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Concert Arcs
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+While less of a 
+\begin_inset Quotes eld
+\end_inset
+
+block
+\begin_inset Quotes erd
+\end_inset
+
+ per se, 
+\noun on
+Concert Arcs
+\noun default
+ bring the band together when a formal marching layout is not required.
+ It is commonly used during rehearsals for music practice, but can also
+ be seen at events such as the 
+\emph on
+Fall Festival of Bands
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Concert Arcs consists of semicircle rows of performers that generally follow
+ score order.
+ A ladder is located at the epicenter where a Director or Drum Major conducts.
+\end_layout
+
+\begin_layout Standard
+This layout is seen in Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "fig:Concert-arcs."
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename graphics/concert_arcs.svg
+	width 70col%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Concert-arcs."
+
+\end_inset
+
+Concert arcs.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\begin_inset Quotes eld
+\end_inset
+
+Block H
+\begin_inset Quotes erd
+\end_inset
+
+ & The Banner
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Block 
+\begin_inset Quotes eld
+\end_inset
+
+H
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Star Spangled Banner ! Banner block
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For the band's pregame performance, we march onto the field in vertical
+ columns, then morph into a block 
+\begin_inset Quotes eld
+\end_inset
+
+H
+\begin_inset Quotes erd
+\end_inset
+
+ shape, representing the first letter of the town the band hails from.
+ This changes every year—so I won't provide any specifics—and is usually
+ designed by Ross Brower.
+\end_layout
+
+\begin_layout Standard
+To get the 
+\begin_inset Quotes eld
+\end_inset
+
+H
+\begin_inset Quotes erd
+\end_inset
+
+ onto the field, each performer is given a number of counts that they must
+ Mark Time/Roll Step before pushing off the sideline.
+\end_layout
+
+\begin_layout Standard
+From this block, the Banner block is formed—vertical rows that face toward
+ the home sideline.
+ Near about the 30 or 35 yard line, a ladder is placed pointing towards
+ the block and a Director conducts the Star Spangled Banner here.
+\end_layout
+
+\begin_layout Standard
+On the horns up, the band shall pivot the feet in an informal, half Left
+ Turn as to face 45° and towards the conductor.
+ On the horns down, the opposite is done—a half Right Turn.
+\end_layout
+
+\begin_layout Standard
+Once finished playing, the band performs an About Turn and marches off the
+ field towards the right endzone.
+ 
+\end_layout
+
+\begin_layout Section
+Elimination Block
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Elimination block
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+Elimination Block 
+\noun default
+is a game played at the end of the last day of band camp testing the marching
+ ability of each and every performer, elimination style.
+ It is played on the practice field in fundamental block, lead by Drum Majors,
+ Directors, and Instructors.
+\end_layout
+
+\begin_layout Standard
+The game begins with simple commands at a slow pace, then gradually increasing
+ the pace until your agility is being exercised.
+ Many performers will be eliminated by this stage.
+ Then, marching instructions are introduced, beginning with simple marches,
+ all the way to complex boxes, mark times, and all at lengths of non-powers-of-2.
+\end_layout
+
+\begin_layout Standard
+You are eliminated if an Instructor calls you out.
+ You can be eliminated from any mistake, all the way from completely missing
+ a mark time to being 1 inch off the yard line after a backwards march 24
+ at a 6:5 at ♩
+\begin_inset space ~
+\end_inset
+
+=
+\begin_inset space ~
+\end_inset
+
+150.
+\end_layout
+
+\begin_layout Standard
+Drum Majors can take use of drills in Section
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Generated-drills"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ for use in Elimination Block.
+\end_layout
+
 \begin_layout Chapter
 Drum Majors
 \begin_inset Index idx
@@ -10204,7 +10607,7 @@ Drum Majors
 
 \end_inset
 
-
+ 
 \end_layout
 
 \begin_layout Standard
@@ -10242,7 +10645,7 @@ Taking on the role of Drum Major is not an easy task; there are many aspects
 
 \emph on
 This chapter is meant to stand by side of the Performing Arts Clinic, Mace
- Day Clinic, other leadership workshops, and coaching by Dave and Mike.
+ Day Clinic, other leadership workshops, and coaching by the Directors.
  This chapter includes as much information as I can think of and include,
  but is not a substitute for a formal Drum Major clinic experience.
 \end_layout
@@ -10331,15 +10734,15 @@ The panel usually consists of the following individuals:
 \end_layout
 
 \begin_layout Itemize
-Directors (Dave Gott and Mike Larsen)
+Directors
 \end_layout
 
 \begin_layout Itemize
-Color Guard instructor (Jennifer Brooks)
+Color Guard instructor
 \end_layout
 
 \begin_layout Itemize
-Assistant principal
+Assistant Principal
 \end_layout
 
 \begin_layout Itemize
@@ -10372,7 +10775,7 @@ Delivering commands for 60 seconds
 \begin_layout Enumerate
 Teaching a drill in 60 seconds
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Due to the COVID-19 pandemic, 2020's audition was held on Zoom, and as such
@@ -10629,6 +11032,16 @@ status open
 
 \begin_layout Plain Layout
 Drum Major audition ! Process ! Conducting
+\end_layout
+
+\end_inset
+
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Star Spangled Banner ! Conducting
 \end_layout
 
 \end_inset
@@ -11402,7 +11815,15 @@ There exist prerequisites to conducting that you must be comfortable with
 
 \begin_layout Standard
 Try this example to see what I'm poorly trying to say.
- Get a metronome and set the tempo to ♩ = 100.
+ Get a metronome and set the tempo to ♩
+\begin_inset space ~
+\end_inset
+
+=
+\begin_inset space ~
+\end_inset
+
+100.
  Snap your fingers, clap, or make some audible motion, in sync with the
  metronome for about 4 bars (i.e., 16 beats).
  Then, have someone mute the metronome, but leave it running.
@@ -12806,7 +13227,7 @@ cues the trumpet fanfare in the B section of the Banner.
 On beat 1, place the right hand outwards, palm up, fingers together, and
  hold this for two beats.
  On beat 3, bring the right hand back to the third-beat position.
- This is demonstrated in Figure .
+ 
 \end_layout
 
 \begin_layout Subsubsection
@@ -13153,7 +13574,15 @@ Instead of explaining what not to do, explain what to do to improve
 \end_layout
 
 \begin_layout Enumerate
-Ask rhetorical questions instead of directing
+Ask rhetorical questions instead of directing (
+\begin_inset Quotes eld
+\end_inset
+
+Which foot do we step off with?
+\begin_inset Quotes erd
+\end_inset
+
+)
 \end_layout
 
 \end_deeper
@@ -13234,10 +13663,10 @@ literal "false"
  provides some good guidelines for correct correcting, but these procedures
  are best suited for a more professional workplace environment where staff
  have time to prepare what they are going to say.
- But when you're on the field, you need to serve up that sandwich fast (you're
- not going to create a meeting and schedule conferences with each member
- and explain to them their feedback that way) and get the feedback to them
- as soon as possible so they can learn most efficiently.
+ But when you're on the field, you need to serve up that sandwich fast and
+ get the feedback to them as soon as possible so they can learn most efficiently
+ (you're not going to create a meeting and schedule conferences with each
+ member and explain to them their feedback that way).
 \end_layout
 
 \end_inset
@@ -13268,17 +13697,17 @@ Here are a couple of examples of good feedback sandwiches:
 \begin_layout Quote
 
 \emph on
-Hey, great foot angle while marking time! Just make sure you aren't moving
- your head while you do it.
+Hey, great foot angle while marking time! Just make sure you're keeping
+ your upper body motionless while you do it.
  Your mark time is getting better, keep it up!
 \end_layout
 
 \begin_layout Quote
 
 \emph on
-Great job on the backwards march; your heels never touched the ground! But
- make sure you're careful you're not undershooting the yard line, that can
- be tricky.
+Great job on the backwards march; your heels never touched the ground! I
+ see you're undershooting the yard line; try taking bigger steps—bigger
+ than you might think you need.
  Great job keeping your upper body stable as well.
  
 \end_layout
@@ -13481,7 +13910,7 @@ teaching the fundamentals to someone else.
  You're making words up on the spot, making a ton of mistakes, and confusing
  the freshmen.
  Practice before camp so you know specific details you want to point out,
- mistakes you want to avoid, and precise wording you want to say .
+ mistakes you want to avoid, and precise wording you want to say.
 \end_layout
 
 \begin_layout Paragraph
@@ -13589,15 +14018,7 @@ everyone
 \end_layout
 
 \begin_layout Standard
-At the end of the day, follow the golden rule: 
-\emph on
-Don't be a dick.
-\end_layout
-
-\begin_layout Standard
-This may sound harsh, but I really mean it.
- You're a leader, not a boss.
- If someone is struggling at mastering a fundamental, don't give them pushups.
+If someone is struggling at mastering a fundamental, don't give them pushups.
  Instead, work with them to improve it.
  Give feedback, demonstrate examples, and employ other leaders to help the
  individual master the fundamental.
@@ -13746,6 +14167,75 @@ Delegate! Don't try to take on every single thing instructors and directors
  throw at you.
  Find the band managers, section leaders, or members without a desk plaque
  to delegate to.
+\end_layout
+
+\begin_layout Subsection
+Maintaining a Respectful Environment
+\end_layout
+
+\begin_layout Standard
+While I hope everyone in the band 
+\emph on
+already
+\emph default
+ demonstrates a high level of respect with everyone else, you should ensure
+ that everyone in the band is supporting a respectful environment.
+\end_layout
+
+\begin_layout Standard
+All members of the band shall:
+\end_layout
+
+\begin_layout Description
+Avoid
+\begin_inset space ~
+\end_inset
+
+stereotyping Resist any tendencies you may have to stereotype fellow peers,
+ whether on the basis of race, nationality, or gender.
+\end_layout
+
+\begin_layout Description
+Be
+\begin_inset space ~
+\end_inset
+
+supportive When a peer asks you for feedback, acknowledge what is well done,
+ even if you have to make some criticism.
+ You should be both encouraging and honest.
+\end_layout
+
+\begin_layout Description
+Be
+\begin_inset space ~
+\end_inset
+
+courteous Under all circumstances, avoid shouting, name-calling, eye-rolling,
+ sarcasm, and other forms of discourteous behavior.
+\end_layout
+
+\begin_layout Description
+Value
+\begin_inset space ~
+\end_inset
+
+each
+\begin_inset space ~
+\end_inset
+
+individual Accept peers' different styles, personalities, and values.
+ Avoid making personal criticisms.
+ Never exclude or shun a peer from team activities just because you don't
+ like them.
+\end_layout
+
+\begin_layout Description
+Show
+\begin_inset space ~
+\end_inset
+
+empathy If a peer is having difficulties, where it be with marching band,
+ school, or at home, be as sensitive and supportive as you can be.
 \end_layout
 
 \begin_layout Subsection
@@ -16074,6 +16564,13 @@ Drills ! Generated
 \end_inset
 
 
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Generated-drills"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -18090,7 +18587,7 @@ DrillGen
  is an Android app I developed in January and February of 2021.
  You can download it from the Play Store at this link: 
 \begin_inset Flex URL
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -18605,6 +19102,58 @@ I would generate the day's drills with the app before the rehearsal.
  the band finds it too easy or too hard—that's okay.
  The app generates a set of drills, so try and pick a different drill in
  the list that seems easier or harder.
+\end_layout
+
+\begin_layout Chapter
+Fundamentals Cheat Sheet
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centerline{
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align block
+\begin_inset Graphics
+	filename graphics/cheatsheat1.pdf
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
