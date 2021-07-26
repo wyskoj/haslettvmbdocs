@@ -157,7 +157,7 @@ Wysko et al.
 \end_layout
 
 \begin_layout Date
-June 2021
+July 2021
 \end_layout
 
 \begin_layout Standard
@@ -296,7 +296,7 @@ https://github.com/wyskoj/haslettvmbdocs
 \end_layout
 
 \begin_layout Standard
-The latest, most up to date version of this book is viewable at 
+The latest, most up-to-date version of this book is viewable at 
 \begin_inset Flex URL
 status open
 
@@ -611,8 +611,8 @@ One of the most—if not the most—important aspects of marching is knowing
  a visual style, compose shapes, and maintain uniformity.
  If the position of each performer is not explicitly defined, the band would
  not have a defined layout.
- Hence, it is important that each band member knows exactly where to be
- and when to maximize visual effect.
+ Hence, it is important that each band member knows exactly where and when
+ to be to maximize visual effect.
 \end_layout
 
 \begin_layout Standard
@@ -715,8 +715,8 @@ is closest to the home sideline, and the
 away/visitor hash 
 \series default
 is closest to the away sideline.
- There are physical, small, horizontal sections of this line where the hash
- meets the yard line (see Figure
+ There are marked, horizontal sections of this line where the hash meets
+ the yard line (see Figure
 \begin_inset space ~
 \end_inset
 
@@ -757,7 +757,7 @@ zone A physical, vertical line that runs across the entire height of the
  When facing the press box from the field, the right and left end zones
  are defined by the right and left sides of the person.
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 If the home sideline is north, then the right end zone is east and the left
@@ -770,8 +770,8 @@ If the home sideline is north, then the right end zone is east and the left
 \end_layout
 
 \begin_layout Description
-Tick A mark on the practice field, usually orange, spaced 90 inches apart
- spanning the height of each yard line.
+Tick A physical, horizontal mark on the practice field—usually orange—spaced
+ 90 inches apart spanning the height of each yard line.
  These marks are only found on the practice field for reference.
 \end_layout
 
@@ -821,8 +821,8 @@ perfect high school
 
 \end_inset
 
- It is divided by 15 yard lines starting from the left end zone and moving
- towards the right end zone.
+ It is divided by 15 yard lines horizontally starting from 5 years east
+ of the left end zone and moving towards the right end zone.
  Each yard line has a distance of 5 yards in between.
  Every other yard line is labeled by its distance from the nearest end zone
  (e.g., 10 yards, 20 yards, etc.).
@@ -854,8 +854,8 @@ back field
 \begin_inset Quotes erd
 \end_inset
 
- refers to the part of the field closest to the away sideline (typically
- between the away sideline and away hash).
+ refers to the part of the field closest to the away sideline—typically
+ between the away sideline and away hash.
  Although the term 
 \begin_inset Quotes eld
 \end_inset
@@ -869,8 +869,8 @@ front field
 \end_layout
 
 \begin_layout Standard
-The part of the field in between the left sideline and the 50 yard line
- is called 
+The part of the field between the left sideline and the 50 yard line is
+ called 
 \begin_inset Quotes eld
 \end_inset
 
@@ -878,8 +878,8 @@ field left.
 \begin_inset Quotes erd
 \end_inset
 
- The part of the field in between the right sideline and the 50 yard line
- is called 
+ The part of the field between the right sideline and the 50 yard line is
+ called 
 \begin_inset Quotes eld
 \end_inset
 
@@ -1022,7 +1022,8 @@ tick mark
 \end_inset
 
  is drawn.
- These lines represent 4 even 8:5 steps.
+ These lines represent four even 8:5 steps.
+ These are only found on the practice field.
 \end_layout
 
 \begin_layout Itemize
@@ -1048,8 +1049,8 @@ It should be noted that
 only on the practice field will orange ticks be available for reference
 \emph default
 .
- Actual performance fields (e.g., Jamie Jent Stadium, etc.) do not have orange
- ticks, although all other markings are present.
+ Actual performance fields (e.g., Jamie Jent Stadium) do not have orange ticks,
+ although all other markings are present.
  So, it is important to use the orange ticks when learning, but the band
  must be comfortable without them too!
 \end_layout
@@ -1127,7 +1128,7 @@ The
 \noun on
 Dotsheet
 \noun default
- is a personalized slip of paper that defines where each performer is in
+ is a personalized slip of paper that defines where each performer is for
  each set of the show.
  Each performer will get a unique dotsheet, meaning no two distinct dotsheets
  are alike.
@@ -1200,7 +1201,7 @@ Dotsheet ! Layout
 \begin_layout Standard
 \noindent
 \align left
-In Figure
+Figure
 \begin_inset space ~
 \end_inset
 
@@ -1214,7 +1215,7 @@ noprefix "false"
 
 \end_inset
 
- is a portion of a dotsheet from the 2018's 
+ is a portion of a dotsheet from 2018's 
 \emph on
 Pure Michigan
 \emph default
@@ -1535,7 +1536,7 @@ Set — The current set number.
 \end_layout
 
 \begin_layout Itemize
-Move — The number of beats that elapse since the last set.
+Move — The number of beats that have elapsed since the last set.
 \end_layout
 
 \begin_layout Itemize
@@ -1565,6 +1566,28 @@ The format for visitor-home notation:
  [in front of/behind] [Home sideline/Home hash/Visitor hash/Visitor Sideline]]
 \end_layout
 
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+Inside
+\begin_inset Quotes erd
+\end_inset
+
+ refers to the direction towards the 50 yard line.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Outside
+\begin_inset Quotes erd
+\end_inset
+
+ refers to the direction away from the 50 yard line.
+ Thus, this direction depends on which side of the 50 yard line the notation
+ is placed at.
+\end_layout
+
 \begin_layout Subsubsection
 Examples of Notation
 \begin_inset Index idx
@@ -1583,72 +1606,191 @@ Dotsheet ! Examples
 Here are some examples of right-left notation:
 \end_layout
 
-\begin_layout Itemize
-If the coordinate was 
+\begin_layout Description
 \begin_inset Quotes eld
 \end_inset
 
-Right: 2 steps inside of 40 yd ln
+Right:
+\begin_inset space ~
+\end_inset
+
+2
+\begin_inset space ~
+\end_inset
+
+steps
+\begin_inset space ~
+\end_inset
+
+inside
+\begin_inset space ~
+\end_inset
+
+of
+\begin_inset space ~
+\end_inset
+
+40
+\begin_inset space ~
+\end_inset
+
+yd
+\begin_inset space ~
+\end_inset
+
+ln
 \begin_inset Quotes erd
 \end_inset
 
- find the right 40 yard line, and take two 8:5 steps towards the 50 yard
+ Find the right 40 yard line, and take two 8:5 steps towards the 50 yard
  line.
  This is the X-coordinate of the set.
 \end_layout
 
-\begin_layout Itemize
-If the coordinate was 
+\begin_layout Description
 \begin_inset Quotes eld
 \end_inset
 
-Right: 3 steps outside of 25 yd ln
+Right:
+\begin_inset space ~
+\end_inset
+
+3
+\begin_inset space ~
+\end_inset
+
+steps
+\begin_inset space ~
+\end_inset
+
+outside
+\begin_inset space ~
+\end_inset
+
+of
+\begin_inset space ~
+\end_inset
+
+25
+\begin_inset space ~
+\end_inset
+
+yd
+\begin_inset space ~
+\end_inset
+
+ln
 \begin_inset Quotes erd
 \end_inset
 
- find the right 25 yard line, and take three 8:5 steps away from the 50
+ Find the right 25 yard line, and take three 8:5 steps away from the 50
  yard line.
  This is the X-coordinate of the set.
 \end_layout
 
-\begin_layout Itemize
-If the coordinate was 
+\begin_layout Description
 \begin_inset Quotes eld
 \end_inset
 
-Left: 2.5 steps inside of 35 yd ln
+Left:
+\begin_inset space ~
+\end_inset
+
+2.5
+\begin_inset space ~
+\end_inset
+
+steps
+\begin_inset space ~
+\end_inset
+
+inside
+\begin_inset space ~
+\end_inset
+
+of
+\begin_inset space ~
+\end_inset
+
+35
+\begin_inset space ~
+\end_inset
+
+yd
+\begin_inset space ~
+\end_inset
+
+ln
 \begin_inset Quotes erd
 \end_inset
 
- find the left 35 yard line, and take two and a half 8:5 steps towards the
+ Find the left 35 yard line, and take two and a half 8:5 steps towards the
  50 yard line.
  This is the X-coordinate of the set.
 \end_layout
 
-\begin_layout Itemize
-If the coordinate was 
+\begin_layout Description
 \begin_inset Quotes eld
 \end_inset
 
-Left: 3.75 steps outside of 45 yd ln
+Left:
+\begin_inset space ~
+\end_inset
+
+3.75
+\begin_inset space ~
+\end_inset
+
+steps
+\begin_inset space ~
+\end_inset
+
+outside
+\begin_inset space ~
+\end_inset
+
+of
+\begin_inset space ~
+\end_inset
+
+45
+\begin_inset space ~
+\end_inset
+
+yd
+\begin_inset space ~
+\end_inset
+
+ln
 \begin_inset Quotes erd
 \end_inset
 
- find the left 45 yard line, and take three and three-quarters 8:5 steps
+ Find the left 45 yard line, and take three and three-quarters 8:5 steps
  away the 50 yard line.
  This is the X-coordinate of the set.
 \end_layout
 
-\begin_layout Itemize
-If the coordinate was 
+\begin_layout Description
 \begin_inset Quotes eld
 \end_inset
 
-On 50 yd ln
+On
+\begin_inset space ~
+\end_inset
+
+50
+\begin_inset space ~
+\end_inset
+
+yd
+\begin_inset space ~
+\end_inset
+
+ln
 \begin_inset Quotes erd
 \end_inset
 
- find the 50 yard line.
+ Find the 50 yard line.
  That was easy!
 \end_layout
 
@@ -1656,55 +1798,119 @@ On 50 yd ln
 Here are some examples of visitor-home notation:
 \end_layout
 
-\begin_layout Itemize
-If the coordinate was 
+\begin_layout Description
 \begin_inset Quotes eld
 \end_inset
 
-5.0 stps behind Home hash
+5.0
+\begin_inset space ~
+\end_inset
+
+stps
+\begin_inset space ~
+\end_inset
+
+behind
+\begin_inset space ~
+\end_inset
+
+Home
+\begin_inset space ~
+\end_inset
+
+hash
 \begin_inset Quotes erd
 \end_inset
 
-, find the home hash, and take five steps away from the press box/tower.
+ Find the home hash, and take five steps away from the press box/tower.
  This is the Y-coordinate of the set.
 \end_layout
 
-\begin_layout Itemize
-If the coordinate was 
+\begin_layout Description
 \begin_inset Quotes eld
 \end_inset
 
-0.25 stps in frnt of Visitor hash
+0.25
+\begin_inset space ~
+\end_inset
+
+stps
+\begin_inset space ~
+\end_inset
+
+in
+\begin_inset space ~
+\end_inset
+
+frnt
+\begin_inset space ~
+\end_inset
+
+of
+\begin_inset space ~
+\end_inset
+
+Visitor
+\begin_inset space ~
+\end_inset
+
+hash
 \begin_inset Quotes erd
 \end_inset
 
-, find the visitor hash, and take a quarter step towards the press box/tower.
+ Find the visitor hash, and take a quarter step towards the press box/tower.
  This is the Y-coordinate of the set.
 \end_layout
 
-\begin_layout Itemize
-If the coordinate was 
+\begin_layout Description
 \begin_inset Quotes eld
 \end_inset
 
-2 stps behind of home sideline
+2
+\begin_inset space ~
+\end_inset
+
+stps
+\begin_inset space ~
+\end_inset
+
+behind
+\begin_inset space ~
+\end_inset
+
+of
+\begin_inset space ~
+\end_inset
+
+home
+\begin_inset space ~
+\end_inset
+
+sideline
 \begin_inset Quotes erd
 \end_inset
 
-, find the home sideline, and take two steps away from the press box/tower.
+ Find the home sideline, and take two steps away from the press box/tower.
  This is the Y-coordinate of the set.
 \end_layout
 
-\begin_layout Itemize
-If the coordinate was 
+\begin_layout Description
 \begin_inset Quotes eld
 \end_inset
 
-On visitor sideline
+On
+\begin_inset space ~
+\end_inset
+
+visitor
+\begin_inset space ~
+\end_inset
+
+sideline
 \begin_inset Quotes erd
 \end_inset
 
-, find the visitor sideline.
+ Find the visitor sideline.
  That was easy!
 \end_layout
 
@@ -1728,8 +1934,9 @@ Shows use
 Charts, 
 \noun default
 specially designed diagrams that allow leaders, Instructors, and Directors
- to understand sets in the show and how they should appear, how long they
- last, and extra special instructions.
+ to understand sets in the show.
+ They define how sets should appear, how long they last, and extra special
+ instructions.
 \end_layout
 
 \begin_layout Standard
@@ -1843,7 +2050,6 @@ es are yellow, trumpets are red, Drum Majors are navy, and color guard is
 
 \begin_layout Itemize
 The field is divided into a grid.
- Each square of the grid represents exactly 1 step.
  Solid blue lines represent a 4-step grid.
  Light blue lines represent a 1-step grid.
  Solid black vertical lines represent yard lines.
@@ -1867,7 +2073,7 @@ Black dots represent the positions of performers in the previous set.
 \end_layout
 
 \begin_layout Itemize
-At the bottom of the field a text box contains crucial information.
+The text box at the bottom of the chart contains crucial information.
  In plain English, this box describes 
 \begin_inset Quotes eld
 \end_inset
@@ -1946,7 +2152,7 @@ noprefix "false"
 \end_layout
 
 \begin_layout Itemize
-ADJ — Adjust.
+ADJ — A roll step (i.e., an adjustment).
  May or may not be an integer ratio step size.
  See Subsection
 \begin_inset space ~
@@ -1989,7 +2195,7 @@ CLOSE & HOLD — Feet stay still.
 \end_layout
 
 \begin_layout Itemize
-HORNS UP/DOWN — Horns up/downbeat.
+HORNS UP/DOWN — Horns up/down.
  See Subsection
 \begin_inset space ~
 \end_inset
@@ -2042,8 +2248,8 @@ Painting ticks on the practice field
 
 \begin_layout Standard
 Since the measurements of the field are known, it is possible to systematically
- and accurately draw ticks on a plain field (only the sidelines, endzones,
- and yard lines have been drawn).
+ and accurately draw ticks on a field when only the sidelines, endzones,
+ and yard lines have been drawn.
 \end_layout
 
 \begin_layout Enumerate
@@ -2325,7 +2531,7 @@ noprefix "false"
 
 \end_inset
 
-, 
+; 
 \series bold
 A
 \series default
@@ -2380,7 +2586,7 @@ noprefix "false"
 
 \end_inset
 
-, 
+; 
 \series bold
 A
 \series default
@@ -2546,7 +2752,7 @@ As such, the fundamentals of our marching band are the skills demonstrated
 
 \begin_layout Standard
 This chapter of the book provides an enumeration of styles; the descriptors
- and text provided in the section shall be treated as definition.
+ and text provided shall be treated as definition.
  If definition changes, the book shall change to reflect this.
 \end_layout
 
@@ -2578,7 +2784,7 @@ Attention
 \noun on
 Attention
 \noun default
- is the most rudimentary fundamental of any, since the band will be holding
+ is the most rudimentary fundamental of any since the band will be holding
  this position for the majority of the time.
  Therefore it is most absolutely necessary the band can do this perfectly.
 \end_layout
@@ -2586,11 +2792,11 @@ Attention
 \begin_layout Standard
 The goal of 
 \emph on
-holding Attention
+holding 
 \emph default
- is to allow the band to appear uniform when arranged together, whether
- it is on the practice field practicing fundamentals, on the field marching
- a show, walking at an 
+Attention is to allow the band to appear uniform when arranged together,
+ whether it is on the practice field practicing fundamentals, on the field
+ marching a show, walking at an 
 \emph on
 Attention Walk
 \emph default
@@ -2601,7 +2807,7 @@ Parade Block
 .
  When the band is not uniform, it is simply unappealing to look at; noticing
  a person swaying side to side, itching their leg with their foot, or looking
- around, can break the aesthetic of a marching band.
+ around can break the aesthetic of a marching band.
 \end_layout
 
 \begin_layout Standard
@@ -2615,15 +2821,15 @@ attention.
 
  If you are holding Attention, you are also 
 \emph on
-paying attention
+paying 
 \emph default
-! If a leader gives you a command while you are holding Attention and you
- fail to respond to the command, we've broken the purpose of Attention!
+attention! If a leader gives you a command while you are holding Attention
+ and you fail to respond to the command, we've broken the purpose of Attention!
 \end_layout
 
 \begin_layout Standard
-All commands and instructions will be performed when the band is holding
- Attention.
+All commands and instructions will be given and performed when the band
+ is holding Attention.
 \end_layout
 
 \begin_layout Subsubsection
@@ -2669,7 +2875,7 @@ noprefix "false"
 \end_layout
 
 \begin_layout Description
-Feet placed side by side, toes and heels together, toes pointing forwards.
+Feet placed side by side, toes and heels together, pointing forwards.
 \end_layout
 
 \begin_layout Description
@@ -2690,7 +2896,7 @@ Shoulders relaxed, but back, square, and even.
 
 \begin_layout Description
 Arms extended forwards, elbows pointing out and down, relaxed, forming a
- 90° angle.
+ 90° angle at the elbows.
 \end_layout
 
 \begin_layout Description
@@ -2768,21 +2974,21 @@ For each instrument:
 
 \begin_layout Labeling
 \labelwidthstring 00.00.0000
-Flute/Piccolo/Clarinet The horn should be held vertically, with the hands
+Flute/Piccolo/Clarinet The horn shall be held vertically, with the hands
  positioned in normal playing position, arms extended outwards.
- The mouthpiece should be just above eye level.
+ The mouthpiece shall be just above eye level.
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 00.00.0000
-Saxophones The saxophone should be positioned horizontally, resting on the
+Saxophones The saxophone shall be positioned horizontally, resting on the
  stomach with the help of the neck strap.
- The hands should be placed in normal playing position.
+ The hands shall be placed in normal playing position.
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 00.00.0000
-Trumpets/Mellophones The horn should be held vertically with the bell facing
+Trumpets/Mellophones The horn shall be held vertically with the bell facing
  down, close to eye level, with hands positioned in normal playing position.
 \end_layout
 
@@ -2812,14 +3018,14 @@ Add trombone figure
 
 \begin_layout Labeling
 \labelwidthstring 00.00.0000
-Baritone The baritone should be held with the right arm, holding against
- the torso, bell facing forwards.
- The left arm should be down, relaxed, but in place and holding a fist.
+Baritone The baritone shall be held with the right arm, against the torso,
+ bell facing forwards.
+ The left arm shall be down, relaxed, but in place and holding a fist.
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 00.00.0000
-Sousaphone The sousaphone should be appropriately worn, with the neck and
+Sousaphone The sousaphone shall be appropriately worn, with the neck and
  mouthpiece angled down.
 \end_layout
 
@@ -2829,7 +3035,7 @@ Snare/Tenor
 \begin_inset space ~
 \end_inset
 
-Drum The sticks should be held together in opposing directions, with the
+Drum The sticks shall be held together in opposing directions, with the
  right hand stick closest to the body.
 \end_layout
 
@@ -2839,15 +3045,15 @@ Bass
 \begin_inset space ~
 \end_inset
 
-Drum The mallets should be held against the rim of the drum on the side
- closest to the body.
+Drum The mallets shall be held against the rim of the drum on the side closest
+ to the body.
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 00.00.0000
-Flag The flag should be held vertically with the left hand near eye level,
+Flag The flag shall be held vertically with the left hand near eye level,
  grabbing the cloth of the flag and holding it to the rod.
- The right hand should hold the rod near waist level.
+ The right hand shall hold the rod near waist level.
 \end_layout
 
 \begin_layout Standard
@@ -2855,7 +3061,7 @@ Important aspects of Attention:
 \end_layout
 
 \begin_layout Itemize
-This position should be comfortable and easy to pose.
+This position should not cause you extreme discomfort.
  If you are experiencing exhaustion, relax your shoulders, unlock your knees,
  and keep your weight distribution even between both legs.
 \end_layout
@@ -2907,10 +3113,11 @@ To know if you are holding your head at the correct angle, place your hand
 \begin_inset Quotes eld
 \end_inset
 
-L shape.
+L
 \begin_inset Quotes erd
 \end_inset
 
+ shape.
  Place your index finger under the bottom of your chin and your thumb in
  between your clavicles.
  You can also imagine pointing your head to the tops of the trees.
@@ -2918,9 +3125,10 @@ L shape.
 status open
 
 \begin_layout Plain Layout
-I can't recommend using the tree method, since your distance to a tree can
- affect the angle, and you probably won't have a tree to reference when
- you are marching a show on the field.
+I can't recommend using the tree method since your distance to a tree can
+ affect the angle.
+ Also, you probably won't have a tree to reference when you are marching
+ a show on the field.
  However, if you can perfect the angle while on the the practice field and
  memorize that angle, it may just work for you.
 \end_layout
@@ -2937,7 +3145,7 @@ If you imagine your hips are a bucket of water that is 99% full, and you
 
 \begin_layout Itemize
 Imagine you are being pulled from the top of your head by a string, extending
- your spine all the way and up onto your toes.
+ your spine all the way, and bringing you up onto your toes.
  Hold this position, then 
 \emph on
 only
@@ -3072,7 +3280,7 @@ Asynchronously
 \end_layout
 
 \begin_layout Standard
-The band shall, as quickly as possible, fall into Attention when a leader
+The band shall—as quickly as possible—fall into Attention when a leader
  states one the following:
 \end_layout
 
@@ -3132,13 +3340,13 @@ Attention ! Attention Walk
 \begin_layout Standard
 When the band can't be in step due to reasons,
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 A common reason for warranting Attention Walk is due to the noise of the
  Center Snare.
  It is not always possible for them to play taps because it could interfere
- with something else (e.g., at marching invitationals, when another band is
+ with something else (e.g., at marching invitationals when another band is
  playing a song).
 \end_layout
 
@@ -3149,8 +3357,8 @@ A common reason for warranting Attention Walk is due to the noise of the
 Attention Walk.
  
 \noun default
-To attention walk, simply walk at attention.
- This means every part of the body should appear to be holding Attention
+To Attention Walk, simply walk at Attention.
+ This means every part of the body should appear to be holding Attention,
  except for the legs.
  This also means the head should remain forward with the chin up, just as
  it is in Attention.
@@ -3191,7 +3399,7 @@ Seldom does the band ever hold a
 Relaxed Attention
 \noun default
 , but when it is done, it is used for extended periods of time of holding
- attention.
+ Attention.
  Times upwards of 10–15 minutes and more warrant Relaxed Attention.
  The most prominent example of this is during Homecoming as the couples
  walk through the aisle the band forms in Jamie Jent Stadium.
@@ -3217,15 +3425,15 @@ Parade Rest
 \noun on
 Parade Rest 
 \noun default
-is the next most important fundamental to learn, since it is another basic
- pose that does not involve any movement and is often used next to Attention.
+is the next most important fundamental to learn since it is another basic
+ pose that does not involve any movement.
 \end_layout
 
 \begin_layout Standard
 The goal of Parade Rest is to allow the band to remain uniform, while also
  resting.
  It requires less work to hold than Attention.
- Parade Rest is used commonly when the band is waiting for an event to happen,
+ Parade Rest is used commonly when the band is waiting for an event to happen
  so that the band can return to Attention and continue marching.
  For example, while waiting for the clock to strike 00:00 for halftime,
  the band will hold Parade Rest to appear uniform while not specifically
@@ -3275,7 +3483,7 @@ noprefix "false"
 \end_layout
 
 \begin_layout Description
-Feet placed shoulder-width, or slightly greater, apart, toes pointing forwards.
+Feet placed shoulder-width apart, pointing forwards.
 \end_layout
 
 \begin_layout Description
@@ -3404,13 +3612,13 @@ Important aspects of Parade Rest:
 \end_layout
 
 \begin_layout Itemize
-This position should be comfortable and easy to pose.
+This position should not cause you extreme discomfort.
  If you are experiencing exhaustion, relax your shoulders, unlock your knees,
  and keep your weight distribution even between both legs.
 \end_layout
 
 \begin_layout Itemize
-The left hand should form a 
+The left hand shall form a 
 \begin_inset Quotes eld
 \end_inset
 
@@ -3424,7 +3632,7 @@ blade
 \begin_layout Itemize
 The right arm does not move.
  It does not come closer to the body.
- It should still be extended in the same manner as Attention.
+ It shall still be extended in the same manner as Attention.
  Just imagine your left arm is invisible, but still there to accompany the
  right arm.
 \end_layout
@@ -3578,11 +3786,11 @@ Transitioning
 \end_layout
 
 \begin_layout Standard
-To transition from Attention to Parade Rest, the left arm should quickly
+To transition from Attention to Parade Rest, the left arm shall quickly
  snap from its position in Attention to Parade Rest.
- The left foot should also move out the left, landing just under the armpit/shou
-lder.
- The right foot never moves! By doing this, your center of mass will move
+ The left foot shall also move out the left, landing just under the armpit/shoul
+der.
+ The right foot never moves! By doing this, the center of mass will move
  to the left.
 \end_layout
 
@@ -3600,9 +3808,7 @@ Fall into to Parade Rest!
 \end_layout
 
 \begin_layout Standard
-If a whistle is blown with a long-short pattern, the band will fall to Parade
- Rest, although this may differ depending on context.
- If a whistle is blown, then falls in pitch, then rises back to the initial
+If a whistle is blown, then falls in pitch, then rises back to the initial
  pitch, the band is expected to fall into Parade Rest.
  The band does not provide a response when falling into Parade Rest asynchronous
 ly.
@@ -3760,7 +3966,7 @@ Clarinets move down to reach playing position.
 \noun on
 Horns Down 
 \noun default
-means to move back to Attention with the horns out of the face.
+means to move back to Attention with the horns out of playing position.
 \end_layout
 
 \begin_layout Subsubsection
@@ -3772,8 +3978,8 @@ When holding the imaginary trumpet, the only part of the body that moves
  is the arms and the hands.
  The hands are placed at or above eye level, while maintaining a 90° angle
  at the elbows.
- The hands bend slightly at the wrist so that the left thumb that is resting
- on the right fist is facing towards the face.
+ The hands bend slightly at the wrist so that the left thumb—resting on
+ the right fist—is facing towards the face.
 \end_layout
 
 \begin_layout Standard
@@ -3794,7 +4000,7 @@ Clarinet The clarinet moves down (contrary to any other instrument) to reach
 \begin_layout Labeling
 \labelwidthstring 00.00.0000
 Saxophone The saxophone is lifted up vertically to a normal playing position.
- The neck strap should be adjusted to the saxophone 
+ The neck strap shall be adjusted to the saxophone 
 \begin_inset Quotes eld
 \end_inset
 
@@ -3803,7 +4009,7 @@ comes
 \end_inset
 
  to the player, and not vice versa.
- The saxophone should be pushed forwards with the right hand to not rest
+ The saxophone shall be pushed forwards with the right hand to not rest
  against the stomach.
 \end_layout
 
@@ -3811,7 +4017,7 @@ comes
 \labelwidthstring 00.00.0000
 Trumpet/Mellophone/Trombone The horn is rotated and lifted to come to a
  normal playing position.
- The angle of the horn should be ~15° above the horizon line.
+ The angle of the horn shall be ~15° above the horizon line.
 \end_layout
 
 \begin_layout Labeling
@@ -3832,8 +4038,7 @@ Snare/Tenor
 \begin_inset space ~
 \end_inset
 
-Drum The sticks are held with appropriate grasp and point 45° inwards from
- center.
+Drum The sticks are held with appropriate grasp and point 45° inwards.
 \end_layout
 
 \begin_layout Labeling
@@ -3885,7 +4090,7 @@ Horns up/down ! Commands
 \end_layout
 
 \begin_layout Standard
-The transition of moving the horn should be short and snappy.
+The transition of moving the horn shall be short and snappy.
  
 \end_layout
 
@@ -3917,13 +4122,13 @@ The timing of the syllables forms two even quarter notes, starting on beat
  4, landing on beat 1 of the next measure.
  The band will also move to horns up if three short whistles are given,
  indicating the beginning of a song.
- The band should respond with the previous response.
+ The band shall respond with the previous response.
 \end_layout
 
 \begin_layout Standard
 \align center
 \begin_inset Flex LilyPond
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -4032,9 +4237,9 @@ Horns down
 \end_layout
 
 \begin_layout Standard
-The band will transition to horns down (normal attention) from a command
+The band will transition to horns down (normal Attention) from a command
  or the end of a song.
- The band will move to horns down if the following command is given:
+ The band shall move to horns down if the following command is given:
 \end_layout
 
 \begin_layout Quote
@@ -4062,7 +4267,7 @@ The timing of the syllables forms two even quarter notes, starting on beat
 \begin_layout Standard
 \align center
 \begin_inset Flex LilyPond
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -4131,6 +4336,50 @@ lyr >>
 
 \end_layout
 
+\begin_layout Paragraph
+Slow horns up and down
+\end_layout
+
+\begin_layout Standard
+Although rare, it is possible to bring the horns up and down slowly.
+ This move is also done without a verbal command.
+ The last time this technique was performed was in 2017's 
+\emph on
+The Beatles
+\emph default
+ for the song 
+\begin_inset Quotes eld
+\end_inset
+
+Yesterday
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Conductors will place both hands together in a fist and 
+\begin_inset Quotes eld
+\end_inset
+
+pound
+\begin_inset Quotes erd
+\end_inset
+
+ an invisible table, then bring their hands up slowly to their ictus.
+ During this transition, instruments are slowly risen to the horns up position.
+ Because there is no verbal command, it is entirely conducted by visuals.
+ This introduced a drawback where anyone who couldn't see a Drum Major would
+ not have knowledge of the horns up.
+ To combat this, additional conductors were used for the beginning of the
+ song at various vantage points.
+ This way, all performers had a conductor in sight and would know when horns
+ up commenced.
+\end_layout
+
+\begin_layout Standard
+For horns down, the horns gradually lower as the hands of the conductors
+ lower.
+\end_layout
+
 \begin_layout Section
 Adding Movement
 \end_layout
@@ -4167,7 +4416,7 @@ The band can
 Mark Time 
 \noun default
 while in place to establish a maintenance of rhythm.
- It is visually appealing if the entire band is marking time synchronized.
+ It is visually appealing if the entire band is marking time while synchronized.
 \end_layout
 
 \begin_layout Subsubsection
@@ -4186,7 +4435,7 @@ Upper body
 
 \begin_layout Standard
 Marking time involves one main motion: the bending of the knee.
- This motion will happen to both legs.
+ This motion applies to both legs.
  This is demonstrated in Figure
 \begin_inset space ~
 \end_inset
@@ -4237,8 +4486,8 @@ in time,
 \begin_inset Quotes erd
 \end_inset
 
- you will alternate your feet to the beat.
- Your left foot will always raise on beats 2 & 4, and your right foot will
+ alternate your feet to the beat.
+ Your left foot will always raise on beats 2 & 4 and your right foot will
  always raise on 1 & 3.
  You can also think of this as lowering your left foot on beats 1 & 3 and
  lowering your right foot on beats 2 & 4.
@@ -4317,8 +4566,9 @@ AND!
 The band's response shall land on beat 4 of the measure.
  Once the band has lifted the left foot, this is treated like a pickup measure
  to the mark time.
- The band shall remain marking time, and on beat 4 of each measure, shout
- the measure number multiplied by 4 (or simply, the current net beat number):
+ The band shall remain marking time.
+ On beat 4 of each measure, shout the measure number multiplied by 4 (or
+ simply, the current net beat number):
 \end_layout
 
 \begin_layout Quote
@@ -4832,7 +5082,8 @@ AND!
 \end_layout
 
 \begin_layout Itemize
-On beat 1 of the next measure, the left foot is placed on the ground.
+On beat 1 of the next measure, the left foot is placed back down on the
+ ground in the same position.
 \end_layout
 
 \begin_layout Itemize
@@ -5065,6 +5316,7 @@ On beat 2, the right foot rotates about the heel to match the orientation
 \begin_layout Itemize
 On beat 3, the left foot rotates another 90° to the left, resulting in a
  net rotation of 180°.
+ By beat 3, the upper body will have rotated 90° CCW.
 \end_layout
 
 \begin_layout Itemize
@@ -5326,9 +5578,9 @@ instruction giving
  When command giving, the band immediately responds and does an action when
  a command is given.
  In instruction giving, the band is given a series of commands, given time
- to process them mentally, then the band is given a command to begin.
+ to process them mentally, then given a command to begin.
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 When I say 
@@ -5375,6 +5627,8 @@ The timing of the syllables forms four even quarter notes of a 4/4 measure,
  landing on beats 1–4.
  Depending on what the band's first move is, they will have a different
  response, but will always give back a response.
+ Most times, their response will overlap with the leader's command on beat
+ 4.
 \end_layout
 
 \begin_layout Standard
@@ -5597,7 +5851,7 @@ name "fig:lock-push"
 
 \end_inset
 
-A proper step off, where the left heel is 22.5 inches in front of its initial
+A proper Step-Off, where the left heel is 22.5 inches in front of its initial
  position.
 \end_layout
 
@@ -5751,10 +6005,10 @@ marching.
 \begin_layout Standard
 \noindent
 Once you have initiated a Step-Off and your left foot is in front of you,
- roll through the entire left foot as you pickup your right foot and place
+ roll through the entire left foot as you pick up your right foot and place
  it 22.5 inches in front of your left foot, only placing down the heel.
- Then as you roll through your entire right foot, pickup your left foot
- and place the heel 22.5 inches in front of your right foot.
+ Then as you roll through your entire right foot, pick up your left foot
+ and place the heel 22.5 inches in front of your right heel.
  Alternate feet and you are Roll Stepping! It's like walking, but rolling
  through each step at a fixed distance with no upper body movement.
 \end_layout
@@ -5796,9 +6050,9 @@ The entire upper body shall remain
 \series bold
 motionless
 \series default
- throughout the Step Off and Roll Stepping.
+ throughout the Step-Off and Roll Stepping.
  Your core will need to be engaged to maintain this stability.
- Squeeze your buttocks.
+ Squeeze your glutes.
  Imagine there is a glass of water on your head and you can't spill any
  of it.
  You should not move your upper body at all!
@@ -5812,7 +6066,7 @@ Rolling through each foot is important for maintaining stability.
 
 \begin_layout Itemize
 The height of your toes must remain as high as possible, just like in the
- step-off.
+ Step-Off.
  This will help you with the rolling action.
 \end_layout
 
@@ -5823,9 +6077,9 @@ Why should we keep our upper body still?
 \begin_layout Standard
 It is vital that your upper body remain motionless while marching because
  you are also playing an instrument while doing this! Imagine if you were
- to march a show while bouncing up and down, your tone would go up and down
- too! Multiply that by 100 people in the band and now we can't agree that
- 
+ to march a show while bouncing up and down.
+ Your tone would go up and down too! Multiply that by 100 people in the
+ band and now we can't agree that 
 \begin_inset Formula $A_{4}=440\text{Hz}$
 \end_inset
 
@@ -5851,12 +6105,12 @@ Guiding
 \noun on
 Guiding 
 \noun default
-is one of the most important fundamentals to execute, since it allows the
+is one of the most important fundamentals to execute since it allows the
  band to appear uniform.
  The idea of guiding is to keep forms straight.
- For example, when in fundamental block, you are in a row with everyone
- else in your section, and it is not going to look good if everyone is slightly
- offset from each other.
+ For example—when in fundamental block and in a row with everyone else in
+ your section—it is not going to look good if everyone is slightly offset
+ from each other.
  Instead of a straight line, we have a wavy line!
 \end_layout
 
@@ -5866,7 +6120,7 @@ The way to fix this is to guide.
  You will usually guide to the person on your right, although this depends
  on context.
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Situations in which you may not guide to the right: when making a left turn
@@ -5893,7 +6147,7 @@ center
 \end_inset
 
  (meaning if you are right of center, you would guide left; see the penultimate
- set—the sunglasses—from the 2017's 
+ set—the sunglasses—from 2017's 
 \emph on
 Not so Little Baby Show
 \emph default
@@ -5903,8 +6157,8 @@ Not so Little Baby Show
 \end_inset
 
  If you are in a form where there are also people in front of you, you will
- also guide forwards, making sure you are in line with the person to your
- right and the person in front of you.
+ also guide forwards, making sure you are in line both with the person to
+ your right and the person in front of you.
  Imagine keeping your shoulders on an imaginary axis that is perfectly in
  line with your guides.
 \end_layout
@@ -6516,7 +6770,8 @@ CLOSE
 \end_layout
 
 \begin_layout Standard
-\align center
+\noindent
+\align left
 Marching an 8:5 perpendicular to sideline for 10 yards:
 \end_layout
 
@@ -7136,11 +7391,11 @@ lock
 \begin_inset Quotes eld
 \end_inset
 
-close.
+close
 \begin_inset Quotes erd
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Itemize
@@ -7161,7 +7416,7 @@ locks
 \end_inset
 
  the foot in place.
- For example, after roll stepping, the right foot will lock down in place
+ For example—after roll stepping—the right foot will lock down in place
  where the performer will stand after marching.
  After marking time, the right foot locks down on the ground and does not
  lift back up.
@@ -7304,7 +7559,8 @@ The
 \noun on
 Backwards March
 \noun default
- allows performers to move backwards, unlike roll step, which is forwards.
+ allows performers to move backwards—unlike the Roll Step—which is only
+ forwards.
  A different technique is used for marching backwards.
 \end_layout
 
@@ -7312,13 +7568,9 @@ Backwards March
 As it was important for rolling through each step for a forwards march,
  it is important to remain on the balls of your feet for a backwards march.
  Backwards march is colloquially called 
-\begin_inset Quotes eld
-\end_inset
-
-drag toes
-\begin_inset Quotes erd
-\end_inset
-
+\noun on
+Drag Toes
+\noun default
  since that is what the technique entails.
 \end_layout
 
@@ -7328,9 +7580,9 @@ When marching backwards, always be on the balls of your feet.
 \end_layout
 
 \begin_layout Itemize
-Bend your knees slightly more than the unlocked position for attention to
+Bend your knees slightly more than the unlocked position for Attention to
  absorb some shock from dragging your toes on the ground.
- Your upper body should not move at all, just like a roll step.
+ Your upper body should not move at all—just like a roll step.
 \end_layout
 
 \begin_layout Itemize
@@ -7449,24 +7701,24 @@ The
 \noun on
 Rock and Roll 
 \noun default
-allows performers to switch from going forwards to backwards, or going from
- backwards to forwards, without stopping.
+allows performers to switch from going forwards to backwards—or going from
+ backwards to forwards—without stopping.
 \end_layout
 
 \begin_layout Itemize
-To switch to going backwards from marching forwards, at the time of the
- rock and roll, the right foot will be placed down like a normal roll step.
- However, when the foot is placed down, the weight of the body is going
- to roll through the foot and move to the ball of the foot, then the left
- foot is raised to be on the balls, effectively placing the performer in
- a perfect backwards march position.
+To switch to going backwards from marching forwards—at the time of the Rock
+ and Roll—the right foot will be placed down like a normal roll step.
+ However—when the foot is placed down—the weight of the body is going to
+ roll through the foot and move to the ball of the foot, then the left foot
+ is raised to be on the balls, effectively placing the performer in a perfect
+ backwards march position.
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 It is important to roll all the way through the right foot.
  You can imagine an imaginary pane of Plexiglas positioned vertically at
- the point where you want to rock and roll: roll all the way through the
+ the point where you want to Rock and Roll: roll all the way through the
  right foot so you can kiss the pane of glass.
 \end_layout
 
@@ -7479,19 +7731,18 @@ Once rolled through the right foot, it is necessary to not linger in this
 
 \end_deeper
 \begin_layout Itemize
-To switch to going forwards from marching backwards, at the time of the
- rock and roll, the right foot will be placed down like a normal drag toes
- step.
- However, when the foot is placed down, the weight of the body is going
- to roll through the foot and move to the heel of the foot, the the left
- foot is lowered to be on the heel, effectively placing the performer in
- a perfect roll step position.
+To switch to going forwards from marching backwards—at the time of the Rock
+ and Roll—the right foot will be placed down like a normal drag toes step.
+ However—when the foot is placed down—the weight of the body is going to
+ roll through the foot and move to the heel of the foot.
+ The left foot is lowered to be on the heel, effectively placing the performer
+ in a perfect roll step position.
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-It is important that the full weight of the body move back as far as possible,
- then begins moving forwards to gain momentum and begin a forwards march.
+It is important that the full weight of the body move back as far as possible
+ before moving forwards to gain momentum and begin a forwards march.
 \end_layout
 
 \end_deeper
@@ -7526,9 +7777,9 @@ Flankings
 \noun on
 Flankings 
 \noun default
-rotate performers from moving in one direction to another, but unlike Slow
- Turns, Flankings only need one beat to turn and happen while roll stepping,
- or when ending a roll step.
+rotate performers from moving in one direction to another.
+ Unlike Slow Turns, Flankings only need one beat to turn and happen while
+ roll stepping or when ending a Roll Step.
 \end_layout
 
 \begin_layout Subsubsection
@@ -7558,7 +7809,7 @@ and
 \end_inset
 
  of the beat).
- The upper body should rotate quickly and snappy.
+ The rotation of the upper body should be quickly and snappy.
  Typically, the Flank will be 90 degrees, but it is possible to only rotate
  partially to achieve a shorter rotation angle.
 \end_layout
@@ -7604,7 +7855,7 @@ cheat step
 
 \begin_layout Standard
 \noindent
-The band shouts when doing a hip flank:
+The band shouts when doing a Flanking:
 \end_layout
 
 \begin_layout Quote
@@ -7669,7 +7920,7 @@ The other type example is starting with a backwards march.
 \end_layout
 
 \begin_layout Standard
-It is not common for a backwards march backwards flank into a backwards
+It is not common for a backwards march backwards to flank into a backwards
  march, but can be seen (for example in Subsection
 \begin_inset space ~
 \end_inset
@@ -7728,8 +7979,8 @@ Traversing
 \noun on
 Traversing
 \noun default
- is marching one direction while having the upper body face a different
- direction, up to 90° left or right.
+ is marching one direction while the upper body faces a different direction,
+ up to 90° left or right.
  It is common to 
 \begin_inset Quotes eld
 \end_inset
@@ -7741,14 +7992,13 @@ traverse home
  to allow the band to march one direction and point the instruments towards
  the home sideline for best sound quality.
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 When the horns are not facing the audience, the sound travels in a different
- direction and an effective high-cut/low-pass is applied.
- This is sometimes taken advantage of in shows (taking the sound away for
- a while can cause tension, the putting the horns back home is release),
- but most of the time the horns are traversed home to maximize high-end.
+ direction and an effective high-cut is applied.
+ This is sometimes taken advantage of in shows, but most of the time the
+ horns are traversed home to maximize high-end.
  
 \end_layout
 
@@ -7758,7 +8008,7 @@ When the horns are not facing the audience, the sound travels in a different
 \end_layout
 
 \begin_layout Standard
-Traversing involves rotating the upper body so that it is facing one direction,
+Traversing involves rotating the upper body so that it is facing one direction
  while marching in another.
  Therefore, it is important to traverse correctly to reduce the amount of
  strain and tension caused on the spine.
@@ -7780,7 +8030,7 @@ Facing Direction
  It is possible for the facing direction to be anywhere within the range
  of –90° to +90° from the direction of the marching direction.
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 To march oblique angles, inverse the march direction (Hip Switch, explained
@@ -7813,7 +8063,7 @@ name "traversing-never-backwards-at-90"
 It should be noted that performers will never march backwards when the facing
  angle is 90° of the marching angle (they will forwards march instead).
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 A rare exception exists to this rule: performers must march backwards while
@@ -7838,7 +8088,7 @@ To rotate the body to the desired facing direction, the hips should rotate
  and the upper body will rotate another 45°, resulting in a 90° rotation
  of the upper body.
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Some instructors will suggest the thirds rule: divide the angle into thirds
@@ -7880,10 +8130,10 @@ drift
 \begin_inset Quotes erd
 \end_inset
 
- or march oblique to their intended marching path if they are traversing.
+ or march oblique to their intended marching path if they are Traversing.
  It is simple as just practicing to overcome this habit and remain on track.
  Extra attention must be given to the feet to achieve this.
- It may be helpful to overcompensate when first learning traversing to effective
+ It may be helpful to overcompensate when first learning Traversing to effective
 ly maintain the correct path.
 \end_layout
 
@@ -7985,24 +8235,24 @@ when alternating from forwards marching to backwards marching—and vice versa�
 hout changing velocity (i.e., heading in the same direction).
  An example of when this may be used is traverse marching in a circle.
  If the performer must always face towards the home sideline and march in
- a circle, they will have to hip switch on either side of the circle so
+ a circle, they will have to Hip Switch on either side of the circle so
  that they can remain marching in the correct direction without turning
  the upper body more than 90°.
 \end_layout
 
 \begin_layout Standard
-The hip switch can be thought of as a 180° flank.
- When doing a hip switch, you will always pivot on your right foot, and
+The Hip Switch can be thought of as a 180° flank.
+ When doing a Hip Switch, you will always pivot on your right foot, and
  your left foot will swing around.
  The movement—like all others—is short and snappy.
  After bringing the left foot around, it will either go directly into a
- roll step position or drag toes position, depending on the orientation
+ Roll Step position or Drag Toes position, depending on the orientation
  the performer is about to march.
 \end_layout
 
 \begin_layout Standard
 \noindent
-The band shouts when doing a hip switch:
+The band shouts when doing a Hip Switch:
 \end_layout
 
 \begin_layout Quote
@@ -8026,7 +8276,7 @@ Traversed marching in a circle
 \end_layout
 
 \begin_layout Standard
-When marching in a circle while traversed a certain direction, a hip switch
+When marching in a circle while traversed a certain direction, a Hip Switch
  is needed to ensure the performers' bodies don't over-twist and proper
  marching ensues.
  Figure
@@ -8081,7 +8331,7 @@ X
 \end_inset
 
 .
- The performer does a hip switch at the 
+ The performer does a Hip Switch at the 
 \begin_inset Quotes eld
 \end_inset
 
@@ -8190,18 +8440,7 @@ status open
 A performer's step size will not always be a perfect 8:5 (i.e., 8 steps for
  every 5 yards).
  Certain forms in the show's chart may have performers moving at a different
- speed (by changing step size, the performer's speed is inherently changed
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-Given the performer remains in normal step time (does not move to half time
- or double time) and the tempo is constant, etc.
-\end_layout
-
-\end_inset
-
-).
+ speed (by changing step size, the performer's speed is inherently changed).
  To account for this, performers will have to march with an 
 \noun on
 Adjusted Step Size
@@ -8227,7 +8466,7 @@ neat
 \begin_inset Quotes erd
 \end_inset
 
-; step sizes of 6.28:5 and 31.415:5 are perfectly valid step sizes.
+; step sizes of 6.28:5 and 31.415:5 are perfectly valid.
 \end_layout
 
 \begin_layout Subsubsection
@@ -9136,7 +9375,7 @@ Cheat step
 \end_layout
 
 \begin_layout Standard
-A good way to practice flankings and roll stepping is with a 
+A good way to practice Flankings and Roll Stepping is with a 
 \noun on
 Box
 \noun default
@@ -9192,11 +9431,11 @@ Box Right 8
 \end_inset
 
 ).
- This means that the band will take right turns, and march for 8 steps on
+ This means that the band will take right turns and march for 8 steps on
  each side before turning.
  The band will lock-push
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 If the band begins this box command from a non-stationary position (e.g.,
@@ -9208,12 +9447,12 @@ If the band begins this box command from a non-stationary position (e.g.,
 \end_inset
 
  and begin marching forwards for 8 steps.
- After 8 steps, the band will Flank right, and take another 8 steps.
- The band will Flank right again and take 8 more steps.
+ After 8 steps, the band will flank right and take another 8 steps.
+ The band will flank right again and take 8 more steps.
  Finally, the band will flank right again and take 8 more steps.
  The last step before finishing the box is a cheat step.
- The band finishes in the same direction as they started, so, the final
- step is a flank to rotate back to the initial direction.
+ The band finishes in the same direction as they started, so the final step
+ is a flank to rotate back to the initial direction.
  The cheat step helps achieve this.
 \end_layout
 
@@ -9253,7 +9492,7 @@ Boxes are good for practicing flankings and roll stepping.
 Traverse Boxes
 \noun default
 .
- Traverse boxes are just normal boxes, while also traversing in one direction
+ Traverse boxes are just normal boxes, while also Traversing in one direction
  the whole time.
 \end_layout
 
@@ -9559,13 +9798,9 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename graphics/diagonal_boxes.svg
+	filename graphics/diagonal_boxes.pdf
 	lyxscale 300
 	width 50col%
 
@@ -9591,7 +9826,7 @@ X
 \end_inset
 
  represents the start and end position.
- Like normal Boxes, Flanks are performed at the corners.
+ Like normal Boxes, flanks are performed at the corners.
 \end_layout
 
 \end_inset
@@ -10034,7 +10269,7 @@ noprefix "false"
  for more information).
  The band should march in time with the current song or cadence.
  Remember, even though we may not be on the field, this should still be
- a roll step to ensure a good playing quality.
+ a Roll Step to ensure a good playing quality.
 \end_layout
 
 \begin_layout Subsubsection
@@ -10371,9 +10606,9 @@ stemUp d16 :32 ]
 
 \begin_layout Standard
 Before Circa 2015, a different rhythm was used for the taps.
- The this legacy rhythm is sometimes still used in different situations
- or when the Center Snare becomes fatigued from playing Taps for an extended
- period of time.
+ This legacy rhythm is sometimes still used in different situations or when
+ the Center Snare becomes fatigued from playing Taps for an extended period
+ of time.
 \end_layout
 
 \begin_layout Standard
@@ -10712,12 +10947,12 @@ Maybe you're a Drum Major who was recently appointed and you're looking
 \end_layout
 
 \begin_layout Standard
-There is a lot to know to and do while being Drum Major; the role is the
- catalyst that allows the band to perform together.
+There is a lot to know and do while being Drum Major; the role is the catalyst
+ that allows the band to perform together.
  Drum Majors are not everything for a successful band; Section Leaders are
  also there to coach and lead the band.
  It's important to heed the importance of Drum Majors, but they are not
- the entirety of the leadership in the band.
+ the entirety of leadership in the band.
 \end_layout
 
 \begin_layout Standard
@@ -10793,7 +11028,15 @@ If you're in band, you're the cream of the crop! If you're a senior in band,
 \begin_layout Standard
 It is common for freshmen and sophomores to audition for Drum Major to be
  more prepared for their junior year audition, when they would be appointed
- the role.
+ the role, although not required.
+\end_layout
+
+\begin_layout Standard
+The Directors almost always take seniority as a higher precedence over performan
+ce in the audition, so don't feel bad if you audition for the role as a
+ sophomore and don't get it.
+ This also applies to Section Leader auditions as well.
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -10832,7 +11075,7 @@ Color Guard instructor
 \end_layout
 
 \begin_layout Itemize
-Assistant Principal
+Principal or Associate Principal
 \end_layout
 
 \begin_layout Itemize
@@ -10887,9 +11130,9 @@ Interview
 \end_layout
 
 \begin_layout Standard
-The Audition is typically divided by step, then by contestant.
- So, all contestants will deliver commands for 60 seconds, back to back,
- then they will teach a drill for 60 seconds, back to back, etc.
+The audition is typically divided by step, then by contestant.
+ Thus, all contestants will deliver commands for 60 seconds—back to back—then
+ they will teach a drill for 60 seconds—back to back, etc.
 \end_layout
 
 \begin_layout Subsubsection
@@ -10913,11 +11156,11 @@ For 60 seconds, deliver commands (e.g., mark time, horns up, etc.).
 \end_layout
 
 \begin_layout Standard
-During this first section of The Audition, those who are auditioning for
- section leader are lined up in several rows in the band room.
+During this first section of the audition, those who are auditioning for
+ Section Leader are lined up in several rows in the band room.
  The Drum Major contestant will give commands to this section of the band
- for 60 seconds while clapping, demonstrating their ability to confidently
- deliver accurate and suitable commands, as well as their clapping ability.
+ for 60 seconds demonstrating their ability to confidently deliver accurate
+ and suitable commands, as well as their clapping ability.
 \end_layout
 
 \begin_layout Paragraph
@@ -10971,10 +11214,10 @@ Good recovery if mistake is made
 
 \begin_deeper
 \begin_layout Itemize
-Don't fret too much if you make a mistake, just keep clapping and deliver
- the next one.
- In the real world (on the field), you are likely to make a mistake, and
- that's fine, as long as you can quickly recover and move on.
+Don't fret too much if you make a mistake.
+ Keep clapping and deliver the next command.
+ In the real world (on the field), you are likely to make a mistake; it's
+ imperative that you can quickly recover and move on.
 \end_layout
 
 \end_deeper
@@ -10985,9 +11228,10 @@ Consistent tempo
 \begin_deeper
 \begin_layout Itemize
 Being able to keep a consistent tempo throughout the duration of your deliveries
- is important since keeping tempo is vital for conducting.
- Being able to keep a consistent tempo demonstrates your ability to keep
- the beat.
+ is important.
+ Keeping tempo is vital for accurate conducting.
+ Being able to keep a consistent tempo demonstrates your ability to maintain
+ an internal rhythm.
 \end_layout
 
 \end_deeper
@@ -11011,10 +11255,9 @@ Strong claps
 
 \begin_deeper
 \begin_layout Itemize
-It's quite important that Drum Majors be able to give consistent, strong
- claps to keep a tempo.
- Being able to demonstrate that you can produce a loud, solid clap and repeat
- it for a tempo is vital.
+It's necessary that Drum Majors be able to give consistent, strong claps
+ to keep a tempo.
+ Weak claps will not travel on the field, resulting in asynchronous playing.
  See Subsection
 \begin_inset space ~
 \end_inset
@@ -11053,13 +11296,13 @@ Drum Major audition ! Process ! Teaching
 Given a drill (e.g., forwards march, left flank, etc.), analyze and study the
  drill for 30 seconds.
  Then, for 60 seconds, teach the band how to execute the drill.
- Finally, have the band execute the drill with no aid.
+ Finally, have the band execute the full length of the drill without stopping.
 \end_layout
 
 \begin_layout Standard
 During this section, the contestant will take 30 seconds and analyze the
  drill given to them.
- After this, they will teach the section leader contestants the drill and
+ After this, they will teach the Section Leader contestants the drill and
  have them perform it.
 \end_layout
 
@@ -11073,8 +11316,8 @@ Confidence and clarity in teaching
 
 \begin_deeper
 \begin_layout Itemize
-It's important to know what you are going to say to the band to make sure
- you teach it well.
+It's important to be ready to deliver clear, precise information that will
+ aid the band in learning the drill.
  Stumbling over words will only hinder your use of time.
 \end_layout
 
@@ -11096,7 +11339,7 @@ Being prepared for obstacles
 
 \begin_deeper
 \begin_layout Itemize
-Often times in the band room, there will not be enough space to complete
+You may run into a situation where there will not be enough space to complete
  the full drill.
  Being prepared for this to find a solution is important if it arises.
 \end_layout
@@ -11147,8 +11390,8 @@ Conduct the Star Spangled Banner.
 
 \begin_layout Standard
 In this section, contestants will conduct the Star Spangled Banner.
- The section leader contestants will sit in the band room and sing their
- part while the contestant stands and conducts the song.
+ The Section Leader contestants will sit in the band room and sing their
+ part while the Drum Major contestant stands and conducts the song.
  The contestant is expected to have a proper entrance and exit, following
  Drum Major fundamentals.
 \end_layout
@@ -11163,7 +11406,7 @@ Perfect 3/4 conducting
 
 \begin_deeper
 \begin_layout Itemize
-It's important to master the 3/4 conducting pattern to conduct the banner.
+It's important to master the 3/4 conducting pattern to conduct the Banner.
  Although it is not common that you will have to conduct 3/4 anywhere else,
  it is important for this section of the audition.
 \end_layout
@@ -11213,13 +11456,16 @@ noprefix "false"
 
 \end_deeper
 \begin_layout Itemize
-Facial expressions (laughs and nervous smiles can indicate timidity) 
+Facial expressions 
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 When conducting, it's important to have the correct facial expression for
  what you're conducting.
+ Laughs and nervous smiles can indicate timidity.
+ In this instance, you want to have a bold, yet relaxed face.
+ Do not show strong expressions.
 \end_layout
 
 \end_deeper
@@ -11244,15 +11490,15 @@ Answer questions from the panel.
 \end_layout
 
 \begin_layout Standard
-In this final section of The Audition, contestants will answer some questions
- from the panel, usually one question per judge.
+In this final section of the audition, contestants will answer some questions
+ from the panel—usually one question per judge.
  
 \end_layout
 
 \begin_layout Standard
-The panel is not going to ask a specific question (e.g., what is this specific
- value or date, it's not a quiz), but rather open-ended questions to gather
- your thoughts and determine how you may react in a situation.
+The panel is not going to quiz you on information, but rather ask open-ended
+ questions to gather your thoughts and determine how you may react in a
+ situation.
 \end_layout
 
 \begin_layout Standard
@@ -11270,16 +11516,16 @@ After the Audition
 \end_layout
 
 \begin_layout Standard
-The next day at 7 AM, all Drum Major contestants will meet with the directors
- to learn the outcome of The Audition.
+The next day at 7 AM, all Drum Major contestants will meet with the Directors
+ to learn the outcome of the audition.
  
 \end_layout
 
 \begin_layout Standard
 If you're chosen, congratulate the other contestants and acknowledge their
- hard work! Look forward to working with them throughout the season, and
- accept any help they provide and be sure to delegate tasks to them throughout
- the season.
+ hard work! Look forward to working with them throughout the season and
+ accept any help they provide.
+ Be sure to delegate tasks to them throughout the season.
  You'll also be working with the current Drum Majors after the school day
  to learn enough to conduct the fight song.
 \end_layout
@@ -11331,22 +11577,14 @@ One of the most important aspects of being a Drum Major of the band is
 Leadership
 \noun default
 .
- Of course, this is important, but it's also easy to just say 
-\begin_inset Quotes eld
-\end_inset
-
-it's important
-\begin_inset Quotes erd
-\end_inset
-
- and not go into detail on how to actually apply leadership to the experiences
- the band will face during the season.
+ In this section, I want go into detail on how to actually apply leadership
+ to the experiences you will face during the season.
 \end_layout
 
 \begin_layout Standard
 Leadership is all about being the driving force to make change in a group.
- Everything that you do as Drum Major that helps the band learn something
- new, get better at something, or change their attitude is leadership.
+ Everything that you do as Drum Major that helps the band learn a new fundamenta
+l, get better at marching, or change their attitude is leadership.
  It's what makes the group want to get together every day for the season
  and keep striving to get better.
 \end_layout
@@ -11512,11 +11750,10 @@ Endurance
 \end_layout
 
 \begin_layout Standard
-I could sit here and tell you how I think each word applies to good leaders,
- but that defeats a bit of the point.
- If you yourself go through the above list and think about how you could
- apply each trait to yourself, you set yourself up for success by planting
- an image in your mind of yourself as a good leader.
+I suggest you yourself go through the above list and think about how you
+ could apply each trait to yourself.
+ By doing so, you set yourself up for success by planting an image in your
+ mind of yourself as a good leader.
 \end_layout
 
 \begin_layout Standard
@@ -11527,8 +11764,8 @@ For example, I have a really tough time making decisions—especially over
 \noun on
 Decisiveness
 \noun default
- will be beneficial for the season (since you'll be faced with many problems
- and situations).
+ will be beneficial for the season, since you'll be faced with many problems
+ and situations.
 \end_layout
 
 \begin_layout Subsection
@@ -11548,7 +11785,7 @@ Spheres of influence
 \begin_layout Standard
 While being a Drum Major of the band, there are inevitably going to be some
  situations that you think you have no say or control in.
- Sometimes this is absolutely true.
+ Sometimes, this is absolutely true.
  There are things that you will have direct control over, things you have
  a say in or can influence, and things you absolutely have no say or control
  over.
@@ -11635,7 +11872,7 @@ can
 \begin_inset space ~
 \end_inset
 
-control How wisely I use my time
+control how wisely I use my time
 \end_layout
 
 \begin_layout Description
@@ -11647,7 +11884,7 @@ can
 \begin_inset space ~
 \end_inset
 
-influence How others feel about something
+influence how others feel about something
 \end_layout
 
 \begin_layout Description
@@ -11667,7 +11904,7 @@ nor
 \begin_inset space ~
 \end_inset
 
-influence How many hours I have in the day
+influence how many hours I have in the day
 \end_layout
 
 \begin_layout Standard
@@ -11692,7 +11929,7 @@ Delegation
 \end_layout
 
 \begin_layout Standard
-When you're in a leadership position, you're part of this hierarchy including
+When you're in a leadership position, you're part of a hierarchy including
  yourself and everyone else in the band.
  There are people with a higher role and people with a lower role.
 \begin_inset Foot
@@ -11711,11 +11948,11 @@ Treat everyone fairly.
 \end_inset
 
  For example, as Drum Major, you are leading all the Section Leaders, the
- band managers, as well as all band members.
+ Band Managers, as well as all band members.
 \end_layout
 
 \begin_layout Standard
-And, of course, the directors are at the top of the hierarchy.
+The directors are at the top of the hierarchy.
  They have the most say, but thinking back to the spheres of influence,
  you still have influence of those who are above you.
  
@@ -11731,26 +11968,23 @@ You will also get support from others in the band.
 \begin_layout Standard
 You will also be delegating tasks.
  If someone comes up to you and asks you do something that you know a Section
- Leader or band manager can do, you might delegate the task to them.
- I personally suck at delegating and ended up doing a lot of stuff, but
- you might find it easier.
+ Leader or Band Manager can do, you might delegate the task to them.
+ I personally suck at delegating and ended up doing a lot of stuff myself,
+ but you might find it easier.
  For example, as Drum Major, you might delegate tick painting to band managers
  so you can focus on preparing for what you're going to cover in the next
- section.
+ fundamental block.
 \end_layout
 
 \begin_layout Standard
-It's actually super important to give others who don't have the “desk plaque”
- tasks to do.
- It helps give them a sense of leadership and makes them feel responsible
- for a part of the band.
+It's vital to give tasks to others who don't have the “desk plaque”.
+ It helps give them responsibility and a role in managing the band.
 \end_layout
 
 \begin_layout Standard
-Now, this isn't to say that you should be handing all tasks you have to
- do to someone else.
- It's important to realize which tasks are important to delegate and which
- to take responsibility over.
+Now, this isn't to say that you should be handing all tasks to someone else.
+ Realize which tasks are important to delegate and which to take responsibility
+ over.
 \end_layout
 
 \begin_layout Standard
@@ -11845,7 +12079,7 @@ If you want more leadership resources, I can recommend to you Dr.
  Wisconsin.
  During the summer of 2019, Ethan and I attended a leadership workshop presented
  by him.
- He gave us a ton of useful knowledge that helped me prepare for the season.
+ He gave us a ton of useful knowledge that helped us prepare for the season.
  If you contact him looking for the resources he provides, I'm sure he'd
  be more than happy to provide you as many resources as possible to help
  you succeed.
@@ -11884,10 +12118,17 @@ Another grave aspect of being a Drum Major is
 Conducting
 \noun default
 .
- To put simply, conducting is making sure everyone is on the correct beat
- while playing and marching.
- In this section, I hope to provide a start to finish walk-through on how
- to become efficient at conducting.
+ To put it simply, conducting is the act of synchronizing performers' internal
+ tempos, indicating specific musical styles and techniques, and providing
+ cues and directions.
+ In this section, I hope to provide a start-to-finish walk-through on the
+ elements of conducting.
+\end_layout
+
+\begin_layout Standard
+Unfortunately, a book can't give you feedback on how your conducting is.
+ Make use of your time with the Directors and instructors to shape and polish
+ your conducting skills.
 \end_layout
 
 \begin_layout Subsection
@@ -11895,17 +12136,7 @@ Keeping the Beat
 \end_layout
 
 \begin_layout Standard
-There exist prerequisites to conducting that you must be comfortable with
- before you will be able to conduct.
- You must be able to count to four is a musical fashion (i.e., counting from
- one to four to a given tempo).
- This entails more than you may perceive at face value: the most important
- part of this being able to do this while not having a metronome.
-\end_layout
-
-\begin_layout Standard
-Try this example to see what I'm poorly trying to say.
- Get a metronome and set the tempo to ♩
+Get a metronome and set the tempo to ♩
 \begin_inset space ~
 \end_inset
 
@@ -11914,13 +12145,11 @@ Try this example to see what I'm poorly trying to say.
 \end_inset
 
 100.
- Snap your fingers, clap, or make some audible motion, in sync with the
- metronome for about 4 bars (i.e., 16 beats).
+ Clap in sync with the metronome for 4 bars (i.e., 16 beats).
  Then, have someone mute the metronome, but leave it running.
  Keep the beat for another 4 bars without being able to hear the metronome.
- Have the person unmute the metronome when the metronome has clicked for
- 4 bars.
- Did your 17th clap line up with the 17th click of the metronome? Uh, oh.
+ Have the person unmute the metronome when it has clicked for 4 bars.
+ Did your 33rd clap line up with the 33rd click of the metronome? Uh-oh.
  Looks like you've got some work to do.
 \end_layout
 
@@ -11928,7 +12157,8 @@ Try this example to see what I'm poorly trying to say.
 That's okay.
  Even the best and most experienced drummers can't 100% of the time keep
  a tempo for an extended period of time.
- But, there exists one simple trick that will allow you improve this ability.
+ However, there exists one simple trick that will allow you improve this
+ ability.
 \end_layout
 
 \begin_layout Quote
@@ -11938,7 +12168,7 @@ Subdivide.
 \end_layout
 
 \begin_layout Standard
-Subdividing will allow you to remain the beat in your head for much longer
+Subdividing will allow you to retain the beat in your head for much longer
  and more accurate than if you were not to.
  Here's how you do it.
 \end_layout
@@ -12022,18 +12252,7 @@ hit
 \noun on
 Ictus
 \noun default
- (/ˈɪktuːs/; IHK-toos
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-The Wiktionary entry for Ictus states that the singular pronunciation is
- /ˈɪktəs/; IHK-təs, but I've only ever learned it as defined in the prose.
-\end_layout
-
-\end_inset
-
-), a specific point in 3D space
+ (/ˈɪktuːs/; IHK-toos), a specific point in 3D space
 \noun on
 .
  
@@ -12056,7 +12275,7 @@ Conducting ! Ictus
 \end_layout
 
 \begin_layout Standard
-This method will help you find your Ictus.
+This method will help you find your ictus.
 \end_layout
 
 \begin_layout Standard
@@ -12111,6 +12330,16 @@ status open
 \end_inset
 
 
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Convert tris to quads
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -12148,9 +12377,8 @@ There are a few more important things to remember while holding the ictus
  The shoulders should be relaxed, back, and rested while the arms are parallel
  to the ground.
  The ictus shouldn't be too high or low, near chest height.
- Also, the hands do not necessarily have to be close to each other.
- They should extend forward from the shoulder and should not point in nor
- out.
+ The hands should extend forward from the shoulder and should not point
+ in nor out.
 \end_layout
 
 \begin_layout Standard
@@ -12162,7 +12390,7 @@ literal "false"
 
 \end_inset
 
- for more tips and techniques.
+ for more tips and techniques for practicing your ictus.
 \end_layout
 
 \begin_layout Subsubsection
@@ -12249,7 +12477,7 @@ What parts of the arms move?
 \end_layout
 
 \begin_layout Standard
-It's important to define what parts of the arm move, and how much they should
+It's important to define what parts of the arm move and how much they should
  move.
 \end_layout
 
@@ -12263,16 +12491,6 @@ Shoulders There should be little motion here.
 \labelwidthstring 00.00.0000
 Elbows The elbows should not bend much, again only a little with extreme
  motion.
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-If this peaks your interest, you may want to study inverse kinematics.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Labeling
@@ -12378,8 +12596,8 @@ The first beat is a simple down beat: raise the hands, then hit the ictus
 \end_layout
 
 \begin_layout Standard
-The second beat hits the ictus and bounces away from the body, again upwards
- at a 45° angle.
+The second beat hits the ictus and bounces away from the body, upwards at
+ a 45° angle.
 \end_layout
 
 \begin_layout Standard
@@ -13404,22 +13622,16 @@ Well, they will probably know something about marching through sectionals,
 
  It is your job—alongside the section leaders and veterans—to teach them
  how to be expert marchers by the end of the week of band camp.
-\end_layout
-
-\begin_layout Standard
-Therefore, it is vital to have effective teaching to ensure each member
+ Therefore, it is vital to have effective teaching to ensure each member
  of the band knows all fundamentals, including marching and playing.
 \end_layout
 
 \begin_layout Standard
-You don't have to do all the teaching; section leaders and veterans are
+You don't have to do all the teaching; Section Leaders and veterans are
  there to teach too.
  But you have to be the initiative and lead for ensuring everyone knows
  what needs to be known.
-\end_layout
-
-\begin_layout Standard
-In this section I will provide as many procedures, routines, and tips for
+ In this section I will provide as many procedures, routines, and tips for
  teaching topics to the band.
 \end_layout
 
@@ -13519,16 +13731,18 @@ The two triangles show the amount of teacher support (which is you!) and
  student responsibility.
  You read this chart by going from top to bottom.
  You'll notice that the triangles are divided into thirds.
- Each third is “I DO,” WE DO”, and “YOU DO.” And those represent how you
- will move your knowledge of the skill to the student.
+ Each third is “I DO”, WE DO”, and “YOU DO”.
+ These sections represent how you will move your knowledge of the skill
+ to the student.
  
 \end_layout
 
 \begin_layout Standard
-We start with “I DO.” You will begin by naming and demonstrating the fundamental.
- You'll talk about what the fundamental is, as well as when you will use
- this and giving some context.
- Then you can do a demonstration (often, you'll want to use a veteran or
+We start with “I DO”.
+ You will begin by naming and demonstrating the fundamental.
+ Talk about what the fundamental is, when you will use this, and give some
+ context.
+ Then, you can do a demonstration (often, you'll want to use a veteran or
  a Section Leader as the model).
  Start with the end product.
  So, if you're teaching how to stand at Attention, start by showing a proper
@@ -13537,13 +13751,13 @@ We start with “I DO.” You will begin by naming and demonstrating the fundame
 \end_layout
 
 \begin_layout Standard
-Once you've shown what it should look like, then you'll want to break it
- down step by step, piece by piece, to explain the details of the skill.
+Once you've shown what it should look like, break it down step-by-step to
+ explain the details of the skill.
  Go through and explain each part.
  If you're teaching a stationary fundamental, break it down into the parts
  of the body.
- If it involves movement, like moving to Parade Rest, you'll want to do
- this for each move.
+ If it involves movement—like moving to Parade Rest—you'll want to do this
+ for each move.
 \end_layout
 
 \begin_layout Standard
@@ -13553,11 +13767,6 @@ Once you've broken it down, let them try it.
  This is the most important step, and is also the most forgotten.
  You can feel free to keep demonstrating it to help them try it.
  
-\end_layout
-
-\begin_layout Standard
-So by now, we've talked about what you're teaching, what it looks like,
- each component of it, and now they're trying it on their own.
 \end_layout
 
 \begin_layout Standard
@@ -13716,9 +13925,8 @@ Feedback ! Feedback sandwich
 \end_layout
 
 \begin_layout Standard
-Pointing out what others are doing well is helpful, but not all that helpful
- because it does not address what is not well, and therefore needs to be
- improved.
+Pointing out what others are doing well is helpful, but does not address
+ what needs to be improved.
  Using the 
 \noun on
 Feedback Sandwich
@@ -13811,9 +14019,10 @@ There are some other factors to think about before you give feedback:
 \end_layout
 
 \begin_layout Itemize
-Is is the appropriate time and place? Give feedback immediately if you notice
- a wrong behavior in a fundamental (stepping off on the right foot) and
- delay lengthier feedback and provide it when it is appropriate to do so.
+Is it the appropriate time and place? Give feedback immediately if you notice
+ a wrong behavior in a fundamental (e.g., stepping off on the right foot)
+ and delay lengthier feedback and provide it when it is appropriate to do
+ so.
  Do you give the feedback in public or in private? Think about the situation
  and determine when it is appropriate (it's not a good idea to tell someone
  they are misbehaving in the middle of a set, unless you deem it is emergent).
@@ -13860,7 +14069,7 @@ Feedback ! Receiving sandwich
 
 \begin_layout Standard
 Chances are you may have never taught a large group before.
- Or maybe you have for a really long time and feel comfortable doing it.
+ Or, maybe you have for a really long time and feel comfortable doing it.
  Either way, you must be accepting of feedback as well.
  The band will tell you if they don't understand.
  It's up to you to interpret and parse that feedback and translate it into
@@ -13980,8 +14189,8 @@ Result
  That's why whenever you start teaching fundamentals, you want to state
  what that end goal is.
  Teaching the band a bunch of fundamentals without really telling them why
- you're teaching them them might not make a whole lot of sense in the mind
- of a freshman.
+ you're teaching them might not make a whole lot of sense in the mind of
+ a freshman.
  You might explain why we learn and practice fundamentals, how they're used
  in the show, and what the show actually is! You absolutely have to paint
  this picture in the heads of the freshmen to begin the path.
@@ -14259,7 +14468,7 @@ There will be some situations and scenarios that will be presented to you
 \begin_layout Itemize
 Delegate! Don't try to take on every single thing instructors and directors
  throw at you.
- Find the band managers, section leaders, or members without a desk plaque
+ Find the Band Managers, Section Leaders, or members without a desk plaque
  to delegate to.
 \end_layout
 
@@ -14434,9 +14643,9 @@ The mace should be slammed into the ground, on the right side of the Drum
 
 \begin_layout Itemize
 Always be in sync with your co-Drum Major.
- Switch mace movement styles at the same type.
- There should be no more than 1 yoctosecond between the impact of your and
- your co-Drum Major's mace!
+ Switch mace movement styles at the same time.
+ There should be no more than 1 yoctosecond between the impact of your mace
+ and your co-Drum Major's mace!
 \end_layout
 
 \begin_layout Itemize
@@ -14768,16 +14977,22 @@ Whistle ! Patterns
 
 \begin_layout Standard
 Playing the whistle in different patterns can send different messages.
- In this subsection I will list each pattern and its meaning(s).
+ In this subsection, I will list each pattern and its meaning(s).
 \end_layout
 
 \begin_layout Itemize
-(X) tweets
+\begin_inset Formula $n$
+\end_inset
+
+ tweets
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-X minutes remaining
+\begin_inset Formula $n$
+\end_inset
+
+ minutes remaining
 \end_layout
 
 \end_deeper
@@ -14828,6 +15043,14 @@ Long
 Emergency stop of drill
 \end_layout
 
+\begin_layout Itemize
+Initiate roll off for Fight Song
+\end_layout
+
+\begin_layout Itemize
+Halt cadence
+\end_layout
+
 \end_deeper
 \begin_layout Section
 The Salute
@@ -14867,9 +15090,6 @@ Don't do anything outside of your comfort zone.
 
 \begin_layout Itemize
 You and your co-Drum Major must always be in sync during the salute.
- Now, this does not mean that you both have to do the same thing (staggered
- movements might look cool) at the same time, but your internal tempos must
- absolutely be synchronized.
  Sudden motions must occur at the same time.
 \end_layout
 
@@ -14918,7 +15138,7 @@ Deliver Commands
 \begin_inset Quotes eld
 \end_inset
 
-LEFT TURN HO!
+LEF TURN HO!
 \begin_inset Quotes erd
 \end_inset
 
@@ -15797,11 +16017,10 @@ Again, when delivering commands, we must always be thinking about what is
 \end_layout
 
 \begin_layout Standard
-It is common for those with a deep voice (typically males) will need to
- raise their neutral speaking pitch to achieve this.
+It is common for those with a deep voice (typically males) to raise their
+ neutral speaking pitch to achieve this.
  The LO level of delivering may then rest around the common speaking pitch.
- Likewise, those with a higher voice (typically females) will need to lower
- their voice.
+ Likewise, those with a higher voice (typically females) lower their voice.
  The HI level may then rest around common speaking pitch.
 \end_layout
 
@@ -15827,7 +16046,7 @@ literal "false"
 \begin_layout Standard
 It's also important to know what you are going to say before you say it.
  This seems obvious, but is obvious when not considered.
- Cutting yourself off halfway through a delivery not only may confuse the
+ Cutting yourself off halfway through a delivery may not only confuse the
  band, but can also show that you're not confident in what you're going
  to say.
  If you accidentally start delivering the wrong command, commit to it and
@@ -16063,7 +16282,7 @@ this
 \emph default
  year's chart—will help you help them out quicker and get them on their
  dot.
- Lots of freshman have a hard time understanding how to read their dotsheet
+ Lots of freshmen have a hard time understanding how to read their dotsheet
  (see Section
 \begin_inset space ~
 \end_inset
@@ -16081,7 +16300,7 @@ noprefix "false"
  for specifics on this), so knowing the chart to confirm their position
  is handy.
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 During my freshman year, I was on the wrong side of the field for probably
@@ -16161,16 +16380,24 @@ Planes, Trains, and Automobiles
 , different songs required different conducting and cues depending on the
  song.
  
-\emph on
+\begin_inset Quotes eld
+\end_inset
+
 Low Rider
-\emph default
+\begin_inset Quotes erd
+\end_inset
+
  had heavy a trombone section, so it was important to cue trombones and
  conduct more specifically (since the trombones had the lead, or melody).
  
-\emph on
+\begin_inset Quotes eld
+\end_inset
+
 Crazy Train
-\emph default
-—again with a big trombone section—had special cues for tenor drums.
+\begin_inset Quotes erd
+\end_inset
+
+ had special cues for tenor drums.
  The tenors played really interesting fills during some phrases in the song
  so it was important to emphasize it and cue it every time.
  Learning the scores goes hand-in-hand with learning the charts: knowing
@@ -16690,7 +16917,7 @@ Or, don't and throw off the band for elimination block (since the band should
 \end_layout
 
 \begin_layout Standard
-Generated drills were made using a custom program written by Jacob Wysko.
+Generated drills were made using an Android app created by Jacob Wysko.
  See Appendix
 \begin_inset space ~
 \end_inset
@@ -16708,401 +16935,8 @@ noprefix "false"
  for more information.
 \end_layout
 
-\begin_layout Standard
-The lengths of each fundamental in each drill is dependent on the step size
- and difficulty.
- The generation rules are in Table 
-\begin_inset CommandInset ref
-LatexCommand vref
-reference "tab:lengths"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float table
-placement h
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Tabular
-<lyxtabular version="3" rows="5" columns="6">
-<features tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Step Size
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Beginner
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Easy
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Medium
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Hard
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Expert
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-8:5
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-4, 8
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-4, 8
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-4, 8, 16
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2, 4, 8, 16
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2, 4, 6, 8, 16
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-16:5
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-8, 16
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-8, 16
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-4, 8, 16
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-6:5
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-6, 12
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-3, 6, 12
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-12:5
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-6, 12
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "tab:lengths"
-
-\end_inset
-
-The allowed lengths for drills.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsection
 Beginner
-\end_layout
-
-\begin_layout Standard
-The list of drills in Table 
-\begin_inset CommandInset ref
-LatexCommand vref
-reference "tab:beginner-drills"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- lists every possible drill that follows the following set of rules:
-\end_layout
-
-\begin_layout Itemize
-Possible fundamentals: March
-\end_layout
-
-\begin_layout Itemize
-Possible step sizes: 8:5
-\end_layout
-
-\begin_layout Itemize
-No double forwards/backwards marches
-\end_layout
-
-\begin_layout Itemize
-1–2 fundamentals
-\end_layout
-
-\begin_layout Itemize
-Adheres to Table 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "tab:lengths"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -17129,7 +16963,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -17150,73 +16984,121 @@ begin{multicols}{2}
 \begin_layout Plain Layout
 
 \family typewriter
-[FM8@8:5]
+MT8
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-[FM4@8:5]
+MT4
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-[BM8@8:5]
+BM8
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-[BM4@8:5]
+BM8, MT4
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-[FM8@8:5, BM4@8:5]
+FM8
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-[BM8@8:5, FM8@8:5]
+BM4, RR, FM4
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-[BM8@8:5, FM4@8:5]
+FM4, RR, BM8
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-[FM4@8:5, BM4@8:5]
+BM4, MT4
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-[FM8@8:5, BM8@8:5]
+FM4
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-[BM4@8:5, FM4@8:5]
+FM8, MT4
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-[FM4@8:5, BM8@8:5]
+MT8, FM4
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-[BM4@8:5, FM8@8:5]
+MT4, FM8
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+MT4, BM8
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+BM8, RR, FM4
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+BM4, MT8
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+BM4
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+BM4, RR, FM8
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+FM4, RR, BM4
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+MT4, BM4
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+MT4, FM4
 \end_layout
 
 \begin_layout Plain Layout
@@ -17269,72 +17151,6 @@ Easy
 \end_layout
 
 \begin_layout Standard
-The list of drills in Table 
-\begin_inset CommandInset ref
-LatexCommand vref
-reference "tab:Easy-drills"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- lists every possible drill that follows the following set of rules:
-\end_layout
-
-\begin_layout Itemize
-Possible fundamentals: March, flank
-\end_layout
-
-\begin_layout Itemize
-Possible step sizes: 8:5
-\end_layout
-
-\begin_layout Itemize
-No flanks coming from or going into a backwards march
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-This is doable and is allowed in 
-\emph on
-Hard 
-\emph default
-and 
-\emph on
-Expert 
-\emph default
-difficulties.
-\end_layout
-
-\end_inset
-
-, no starting or ending with a flank
-\end_layout
-
-\begin_layout Itemize
-No double forwards/backwards marches
-\end_layout
-
-\begin_layout Itemize
-2–3 fundamentals
-\end_layout
-
-\begin_layout Itemize
-Adheres to Table 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "tab:lengths"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float table
 placement H
 wide false
@@ -17362,7 +17178,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -17383,193 +17199,121 @@ begin{multicols}{2}
 \begin_layout Plain Layout
 
 \family typewriter
-[BM4@8:5, FM8@8:5]
+FM4, RR, BM8
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-[FM4@8:5, LF, FM8@8:5]
+BM4, RR, FM4, MT4
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-[FM4@8:5, BM8@8:5, FM8@8:5]
+MT4, FM4, RR, BM4
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-[FM8@8:5, RF, FM8@8:5]
+FM8, MT8
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-[FM4@8:5, BM4@8:5, FM4@8:5]
+MT4, FM8, RR, BM4
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-[FM8@8:5, LF, FM4@8:5]
+FM4, RF, MT8
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-[FM8@8:5, BM4@8:5, FM8@8:5]
+BM8, MT8, FM8
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-[FM4@8:5, BM8@8:5]
+MT8, BM8
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-[FM4@8:5, BM4@8:5]
+MT4, FM4, MT8
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-[FM8@8:5, LF, FM8@8:5]
+FM8, MT8, FM4
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-[BM8@8:5, FM8@8:5]
+MT4, BM8
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-[BM8@8:5, FM4@8:5, BM4@8:5]
+BM8, MT8
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-[FM4@8:5, LF, FM4@8:5]
+FM4, MT8
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-[BM4@8:5, FM8@8:5, BM4@8:5]
+MT8, BM4
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-[FM4@8:5, RF, FM4@8:5]
+FM8, RR, BM4, MT4
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-[BM8@8:5, FM4@8:5, BM8@8:5]
+FM8, RR, BM8
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-[FM4@8:5, RF, FM8@8:5]
+MT8, FM8
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-[BM8@8:5, FM4@8:5]
+BM4, RR, FM8, MT8
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-[BM4@8:5, FM4@8:5, BM8@8:5]
+MT4, BM4
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
-[BM4@8:5, FM4@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-[FM4@8:5, BM4@8:5, FM8@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-[FM8@8:5, BM4@8:5, FM4@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-[FM8@8:5, BM8@8:5, FM8@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-[FM8@8:5, BM4@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-[FM8@8:5, BM8@8:5, FM4@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-[FM4@8:5, BM8@8:5, FM4@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-[BM4@8:5, FM4@8:5, BM4@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-[BM8@8:5, FM8@8:5, BM4@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-[BM8@8:5, FM8@8:5, BM8@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-[BM4@8:5, FM8@8:5, BM8@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-[FM8@8:5, RF, FM4@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-[FM8@8:5, BM8@8:5]
+MT4, BM8, RR, FM4
 \end_layout
 
 \begin_layout Plain Layout
@@ -17622,55 +17366,6 @@ Medium
 \end_layout
 
 \begin_layout Standard
-The list of drills in Table 
-\begin_inset CommandInset ref
-LatexCommand vref
-reference "tab:Medium-drills"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- lists 50 unique drills that follows the following set of rules:
-\end_layout
-
-\begin_layout Itemize
-Possible fundamentals: March, flank, box
-\end_layout
-
-\begin_layout Itemize
-Possible step sizes: 8:5, 16:5
-\end_layout
-
-\begin_layout Itemize
-No flanks coming from or going into a backwards march, coming out of a box,
- no starting or ending with a flank
-\end_layout
-
-\begin_layout Itemize
-No double forwards/backwards marches
-\end_layout
-
-\begin_layout Itemize
-2–4 fundamentals
-\end_layout
-
-\begin_layout Itemize
-Adheres to Table 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "tab:lengths"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float table
 wide false
 sideways false
@@ -17693,7 +17388,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -17715,350 +17410,140 @@ begin{multicols}{3}
 
 \family typewriter
 \size small
-[BoxR8@8:5, BM16@8:5, FM16@8:5, BM16@8:5]
+MT4, BoxR4@8:5, BoxL16@8:5, BoxR16@16:5
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[FM8@8:5, BM8@16:5, BoxR8@16:5, BM8@8:5]
+MT4, FM16, LF, FM16
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[FM4@8:5, LF, BoxL16@8:5]
+MT16, BoxL4
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[BM16@8:5, BoxL4@8:5, BoxR16@8:5, BoxR8@16:5]
+BoxR8@16:5, FM8@16:5, BoxL16@8:5, MT4
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[BM16@16:5, FM8@16:5]
+MT4, FM4, MT16, FM8
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[BM8@16:5, FM8@16:5, BM16@8:5]
+BoxL8@16:5, MT4
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[BM16@16:5, FM8@16:5, BM4@8:5]
+BoxL16@8:5, MT4, FM16@16:5, RR, BM8@8:5
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[BoxR16@8:5, BoxL4@8:5]
+MT8, BM16@8:5, RR, FM16@16:5
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[BoxL16@16:5, FM16@16:5]
+BoxL16@16:5, BoxR8@8:5
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[BoxL8@16:5, BoxL4@8:5]
+MT16, BoxR8@16:5, MT16, BoxR4@8:5
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[BM8@16:5, FM8@16:5, BoxR16@16:5, BoxR8@16:5]
+MT8, BoxR8@16:5, MT8
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[BoxR4@8:5, BoxL4@8:5, BoxR16@8:5, BM8@16:5]
+MT16, FM16, RR, BM4
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[BM16@8:5, FM8@16:5, BM16@16:5]
+BM16@8:5, MT16, BM16@16:5, RR, BoxR16@16:5
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[BoxL8@16:5, FM8@16:5, BoxR16@16:5]
+FM16@16:5, MT16
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[BoxL16@16:5, FM16@16:5, LF, FM8@16:5]
+BoxL16@8:5, MT8, BoxR16@8:5, FM16@16:5
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[FM16@16:5, LF, BoxR16@16:5, BoxR4@8:5]
+MT8, BM4
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[BM4@8:5, BoxL16@8:5, FM8@8:5, BoxL8@8:5]
+FM16@8:5, RF, BoxR16@16:5, FM8@8:5
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[BoxR4@8:5, BoxL16@8:5, BM4@8:5]
+BoxR16@16:5, FM16@8:5, RR, BM16@8:5, MT16
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[BM8@16:5, BoxL4@8:5, FM4@8:5, BoxL16@8:5]
+FM16, RR, BM4, MT8
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[BoxL8@16:5, BoxR8@8:5, BoxL16@8:5, BoxR16@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size small
-[BoxL8@8:5, BM8@16:5, BoxL16@16:5, FM8@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size small
-[BM4@8:5, FM4@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size small
-[BM8@16:5, FM8@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size small
-[BM4@8:5, FM16@8:5, BoxL8@16:5, FM8@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size small
-[BoxR4@8:5, BM4@8:5, FM8@16:5, BM8@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size small
-[BoxR8@16:5, BM16@16:5, FM8@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size small
-[BoxR16@8:5, BM16@8:5, FM16@8:5, BM8@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size small
-[BoxR16@16:5, BoxR16@16:5, BM16@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size small
-[BoxL4@8:5, BoxR8@8:5, FM16@16:5, BM8@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size small
-[BoxR4@8:5, FM16@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size small
-[BM16@16:5, FM16@16:5, BM8@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size small
-[FM8@8:5, BM8@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size small
-[BoxR8@8:5, BoxL8@8:5, FM8@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size small
-[BoxR4@8:5, BM8@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size small
-[BoxR8@16:5, BM16@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size small
-[FM8@8:5, BoxR8@16:5, FM8@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size small
-[BoxR16@8:5, FM4@8:5, BM8@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size small
-[FM4@8:5, RF, BM16@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size small
-[BM16@16:5, BoxL8@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size small
-[FM8@16:5, RF, BoxR16@16:5, BM16@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size small
-[FM16@8:5, BoxR8@16:5, FM16@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size small
-[BoxL16@16:5, FM4@8:5, LF, BoxR16@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size small
-[BM4@8:5, BoxR8@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size small
-[BoxR16@16:5, BM16@16:5, FM16@16:5, BoxL8@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size small
-[BM8@8:5, BoxL4@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size small
-[BM16@16:5, FM16@16:5, BoxL8@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size small
-[BoxR16@16:5, FM4@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size small
-[FM8@8:5, BM4@8:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size small
-[BoxL16@16:5, BoxL8@8:5, BM16@16:5]
-\end_layout
-
-\begin_layout Plain Layout
-
-\family typewriter
-\size small
-[BoxL8@8:5, BoxL8@16:5, BM8@8:5]
+FM4, RR, BM16
 \end_layout
 
 \begin_layout Plain Layout
@@ -18111,54 +17596,6 @@ Hard
 \end_layout
 
 \begin_layout Standard
-The list of drills in Table 
-\begin_inset CommandInset ref
-LatexCommand vref
-reference "tab:hard-drills"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- lists 20 unique drills that follows the following set of rules:
-\end_layout
-
-\begin_layout Itemize
-Possible fundamentals: March, flank, box
-\end_layout
-
-\begin_layout Itemize
-Possible step sizes: 8:5, 16:5, 6:5
-\end_layout
-
-\begin_layout Itemize
-No flanks coming out of a box, no starting or ending with a flank
-\end_layout
-
-\begin_layout Itemize
-No double forwards/backwards marches
-\end_layout
-
-\begin_layout Itemize
-3–4 fundamentals
-\end_layout
-
-\begin_layout Itemize
-Adheres to Table 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "tab:lengths"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float table
 wide false
 sideways false
@@ -18181,7 +17618,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -18203,140 +17640,140 @@ begin{multicols}{3}
 
 \family typewriter
 \size small
-[BoxL12@6:5, BM12@6:5, FM6@6:5, BM6@6:5]
+BoxL4@8:5, MT16, FM6@6:5, MT16
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[BoxR8@16:5, FM6@6:5, BoxL8@8:5]
+FM6@6:5, RR, BM6@6:5, MT8, BoxL8@8:5
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[FM16@16:5, BoxR16@16:5, BoxL12@6:5, BM8@8:5]
+BM2, RF, BoxR8
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[BoxL16@8:5, FM6@6:5, BM16@8:5, BoxL6@6:5]
+MT8, FM2@8:5, BoxR16@16:5, FM16@8:5
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[BM16@16:5, FM8@8:5, LF, BoxR8@16:5]
+FM8@16:5, MT8, BoxL12@6:5
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[BoxL12@6:5, BoxL16@16:5, BM16@8:5]
+BM16@8:5, RR, BoxL12@6:5, MT8, FM2@8:5
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[BoxL8@8:5, BoxL6@6:5, FM6@6:5]
+FM6@6:5, LF, BoxL2@8:5, BoxL16@16:5
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[BoxR8@16:5, FM4@8:5, BoxR16@16:5]
+BoxR4@8:5, BM16@8:5, RF, BM6@6:5
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[BoxR8@8:5, BoxR16@16:5, BoxL12@6:5]
+BM16@8:5, RR, BoxL6@6:5, MT4, BM16@16:5
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[BoxL8@16:5, BoxR6@6:5, BM8@16:5]
+FM16@16:5, RF, MT16, BM8@16:5
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[BoxR8@8:5, BM16@8:5, BoxR4@8:5]
+BoxL8@16:5, BM4@8:5, RR, FM4@8:5, RR, BM8@8:5
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[BoxL8@8:5, BoxR16@8:5, BoxR8@8:5, BM6@6:5]
+BoxR16@8:5, MT16, FM16@16:5
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[BM12@6:5, FM16@16:5, BoxL12@6:5]
+BM16@8:5, RR, BoxL8@16:5, MT2
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[BoxL16@16:5, BoxR2@8:5, BoxL6@6:5, BoxL16@16:5]
+BoxR16, BoxR16, MT8
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[FM16@8:5, LF, BM2@8:5]
+BoxL8@8:5, MT12, BoxR8@16:5
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[BoxL8@16:5, BoxR12@6:5, BoxL16@8:5]
+BoxL16@16:5, BM6@6:5, RR, FM4@8:5
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[BoxL12@6:5, BM16@16:5, LF, BoxR16@16:5]
+BM8, MT12, BoxL4, FM8
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[FM8@8:5, BM16@16:5, FM12@6:5, BM8@16:5]
+BoxL8@8:5, MT2, BoxR12@6:5, MT2
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[BM8@16:5, BoxR12@6:5, BM4@8:5]
+FM8@16:5, BoxL8@16:5, MT8, FM2@8:5
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[BM2@8:5, BoxR2@8:5, FM8@8:5]
+MT8, FM12@6:5, RR, BM8@16:5, RR, FM16@8:5
 \end_layout
 
 \begin_layout Plain Layout
@@ -18389,54 +17826,6 @@ Expert
 \end_layout
 
 \begin_layout Standard
-For the toughest nuts to crack!! The list of drills in Table 
-\begin_inset CommandInset ref
-LatexCommand vref
-reference "tab:expert-drills"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- lists 20 unique drills that follows the following set of rules:
-\end_layout
-
-\begin_layout Itemize
-Possible fundamentals: March, flank, box
-\end_layout
-
-\begin_layout Itemize
-Possible step sizes: 8:5, 16:5, 6:5, 12:5
-\end_layout
-
-\begin_layout Itemize
-No flanks coming out of a box, no starting or ending with a flank
-\end_layout
-
-\begin_layout Itemize
-No double forwards/backwards marches
-\end_layout
-
-\begin_layout Itemize
-4–5 fundamentals
-\end_layout
-
-\begin_layout Itemize
-Adheres to Table 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "tab:lengths"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float table
 wide false
 sideways false
@@ -18459,7 +17848,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -18481,140 +17870,140 @@ begin{multicols}{3}
 
 \family typewriter
 \size small
-[BoxL8@16:5, BoxL6@8:5, FM12@12:5, BM12@12:5]
+BoxR12@6:5, BoxL4@16:5, MT14, BoxL8@8:5
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[BoxL12@6:5, BoxL4@16:5, FM4@16:5, BoxL16@16:5, BM6@12:5]
+BM16, RR, FM8, LF, FM8
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[FM16@16:5, LF, BM12@12:5, RF, BM8@16:5]
+FM16@8:5, RR, BM16@16:5, RR, FM2@8:5, BoxL2@8:5, FM6@6:5
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[BoxL8@8:5, BoxR6@12:5, BoxL6@12:5, BoxL16@8:5, BoxL16@16:5]
+MT16, BoxL4@8:5, BoxR12@12:5, FM12@6:5, MT6
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[FM6@12:5, BM12@12:5, FM12@6:5, RF, BM4@16:5]
+FM6, LF, BoxL2, BoxR16
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[FM6@12:5, BoxL12@6:5, BM2@8:5, FM4@8:5, BM16@8:5]
+FM16@16:5, RF, MT4, FM6@8:5
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[BoxR4@16:5, BM12@6:5, LF, BM12@6:5, BoxR4@16:5]
+MT16, BoxR6, MT12, BM8, MT8
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[FM12@6:5, LF, FM8@16:5, BoxR16@16:5, BM4@16:5]
+BM12@12:5, RF, MT8, BM12@12:5, MT4
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[BoxL6@12:5, FM6@12:5, BoxR6@6:5, BM8@8:5, BoxL3@6:5]
+FM8@16:5, LF, MT8, BM16@16:5
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[BM4@8:5, FM6@6:5, RF, BoxR2@8:5]
+MT24, FM2@8:5, RF, BM12@6:5, RR, FM8@8:5
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[FM16@16:5, BM6@6:5, RF, FM2@8:5, BM12@12:5]
+BM8@16:5, LF, MT32, BoxR2@8:5, FM2@8:5
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[FM16@16:5, BoxL6@12:5, BoxL8@8:5, BoxL8@16:5]
+FM4@8:5, MT2, BM16@16:5, LF, MT32
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[BM2@8:5, FM6@12:5, BM12@12:5, BoxL12@6:5, BoxR12@12:5]
+FM16@16:5, MT24, BM4@8:5, MT14, BoxL4@8:5
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[BM16@16:5, RF, BoxR8@16:5, BoxR4@8:5]
+BM16@8:5, MT32, BoxR8@16:5, BM4@16:5, RR, BoxR4@8:5
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[FM16@8:5, LF, FM3@6:5, BoxR6@6:5]
+MT8, BM12@6:5, LF, MT16, BM4@8:5
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[BoxR12@6:5, BM12@12:5, BoxL16@8:5, FM2@8:5]
+MT4, BoxL6@6:5, BoxL2@8:5, BoxL6@8:5, MT12
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[BoxR12@12:5, BoxR16@16:5, BoxR8@16:5, BoxL16@8:5]
+FM16@8:5, RR, BM12@6:5, RR, BoxL8@8:5, MT14, BM2@8:5
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[BM6@6:5, RF, BoxR12@6:5, BoxL16@16:5]
+MT2, FM2@8:5, RR, BM12@6:5, MT8, BM2@8:5
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[BoxR4@8:5, BoxL4@16:5, BoxR8@8:5, FM6@12:5, BoxR8@8:5]
+BoxR4@16:5, FM6@12:5, BoxR4@16:5, BM4@8:5
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size small
-[BoxR16@8:5, FM3@6:5, RF, BoxL12@12:5]
+FM6@12:5, BoxL6@6:5, BoxL4@8:5, BM2@8:5
 \end_layout
 
 \begin_layout Plain Layout
@@ -18667,6 +18056,16 @@ DrillGen
 \begin_inset CommandInset label
 LatexCommand label
 name "chap:DrillGen"
+
+\end_inset
+
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Drills ! DrillGen
+\end_layout
 
 \end_inset
 
@@ -18725,8 +18124,12 @@ Generation
 \end_layout
 
 \begin_layout Standard
-The Generation screen lists every generation parameter and option, allowing
- you fully customize the generated drills.
+The 
+\noun on
+Generation
+\noun default
+ screen lists every generation parameter and option, allowing you fully
+ customize the generated drills.
 \end_layout
 
 \begin_layout Description
@@ -18763,7 +18166,6 @@ FM8, BoxL4, MT4
 \end_inset
 
  in the drill.
- Set the range of this slider to adjust the range.
 \end_layout
 
 \begin_layout Description
